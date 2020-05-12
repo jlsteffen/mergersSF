@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  12 MAY 2020 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  12 MAY 2020 16:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -485,29 +485,29 @@ e
 (./maintex.aux)
 \openout1 = `maintex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 49.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-Class revtex4 Info: Patching LaTeX tabular. on input line 48.
+Class revtex4 Info: Patching LaTeX tabular. on input line 49.
 Class revtex4 Info: Patching unrecognized longtable package. (Proceeding with f
-ingers crossed) on input line 48.
-Class revtex4 Info: cite was not loaded (OK!) on input line 48.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 48.
+ingers crossed) on input line 49.
+Class revtex4 Info: cite was not loaded (OK!) on input line 49.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 49.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -537,7 +537,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 48.
+Package hyperref Info: Link coloring ON on input line 49.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -547,9 +547,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count135
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
 
 (./maintex.out) (./maintex.out)
 \@outlinefile=\write4
@@ -560,72 +560,182 @@ LaTeX Info: Redefining \nameref on input line 48.
 Class revtex4 Warning: Assuming \noaffiliation for  Joshua L. Steffen\textsuper
 script {1}, Hai Fu\textsuperscript {1}, and MaNGA Team .
 
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 67.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 66
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 67
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 66.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 67.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+psy on input line 66.
+LaTeX Font Info:    Try loading font information for U+psy on input line 67.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
 
-No file maintex.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
-[1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./maintex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+
+ []
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 122.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+(./maintex.bbl [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}]) [2]
+<fig/Mi-z.pdf, id=153, 977.69643pt x 507.6447pt>
+File: fig/Mi-z.pdf Graphic file (type pdf)
+<use fig/Mi-z.pdf>
+Package pdftex.def Info: fig/Mi-z.pdf  used on input line 207.
+(pdftex.def)             Requested size: 513.11743pt x 266.4245pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 208.
+<fig/color-mag.pdf, id=154, 522.61967pt x 580.71765pt>
+File: fig/color-mag.pdf Graphic file (type pdf)
+<use fig/color-mag.pdf>
+Package pdftex.def Info: fig/color-mag.pdf  used on input line 216.
+(pdftex.def)             Requested size: 216.81pt x 240.91357pt.
+<fig/bpt_spax.pdf, id=155, 660.93176pt x 717.13545pt>
+File: fig/bpt_spax.pdf Graphic file (type pdf)
+<use fig/bpt_spax.pdf>
+Package pdftex.def Info: fig/bpt_spax.pdf  used on input line 225.
+(pdftex.def)             Requested size: 216.81pt x 235.24384pt.
+<fig/pair_collage.pdf, id=160, 1134.63902pt x 1572.59517pt>
+File: fig/pair_collage.pdf Graphic file (type pdf)
+<use fig/pair_collage.pdf>
+Package pdftex.def Info: fig/pair_collage.pdf  used on input line 234.
+(pdftex.def)             Requested size: 513.11743pt x 711.16469pt.
+
+
+LaTeX Warning: Float too large for page by 63.74873pt on input line 237.
+
+<fig/mag_comp.pdf, id=161, 515.61696pt x 507.6447pt>
+File: fig/mag_comp.pdf Graphic file (type pdf)
+<use fig/mag_comp.pdf>
+Package pdftex.def Info: fig/mag_comp.pdf  used on input line 243.
+(pdftex.def)             Requested size: 216.81pt x 213.45718pt.
+<fig/8083-12703.pdf, id=164, 1528.29282pt x 544.64226pt>
+File: fig/8083-12703.pdf Graphic file (type pdf)
+<use fig/8083-12703.pdf>
+Package pdftex.def Info: fig/8083-12703.pdf  used on input line 252.
+(pdftex.def)             Requested size: 513.11743pt x 182.86557pt.
+<fig/8485-3704.pdf, id=165, 1517.91028pt x 557.35228pt>
+File: fig/8485-3704.pdf Graphic file (type pdf)
+<use fig/8485-3704.pdf>
+Package pdftex.def Info: fig/8485-3704.pdf  used on input line 261.
+(pdftex.def)             Requested size: 513.11743pt x 188.40868pt.
+<fig/ssfr_mass.pdf, id=166, 996.98724pt x 1236.27496pt>
+File: fig/ssfr_mass.pdf Graphic file (type pdf)
+<use fig/ssfr_mass.pdf>
+Package pdftex.def Info: fig/ssfr_mass.pdf  used on input line 270.
+(pdftex.def)             Requested size: 513.11743pt x 636.28316pt.
+<fig/ssfr_dm.pdf, id=167, 996.98724pt x 1236.27496pt>
+File: fig/ssfr_dm.pdf Graphic file (type pdf)
+<use fig/ssfr_dm.pdf>
+Package pdftex.def Info: fig/ssfr_dm.pdf  used on input line 279.
+(pdftex.def)             Requested size: 513.11743pt x 636.28316pt.
+<fig/ssfr_sep.pdf, id=169, 996.98724pt x 1235.30258pt>
+File: fig/ssfr_sep.pdf Graphic file (type pdf)
+<use fig/ssfr_sep.pdf>
+Package pdftex.def Info: fig/ssfr_sep.pdf  used on input line 288.
+(pdftex.def)             Requested size: 513.11743pt x 635.78268pt.
+<fig/mass_gain_1.pdf, id=171, 782.14694pt x 268.85193pt>
+File: fig/mass_gain_1.pdf Graphic file (type pdf)
+<use fig/mass_gain_1.pdf>
+Package pdftex.def Info: fig/mass_gain_1.pdf  used on input line 297.
+(pdftex.def)             Requested size: 513.11743pt x 176.38031pt.
+<fig/mass_gain.pdf, id=172, 508.46524pt x 390.72084pt>
+File: fig/mass_gain.pdf Graphic file (type pdf)
+<use fig/mass_gain.pdf>
+Package pdftex.def Info: fig/mass_gain.pdf  used on input line 306.
+(pdftex.def)             Requested size: 216.81pt x 166.60564pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+[3 <./fig/Mi-z.pdf> <./fig/color-mag.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/color-mag.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] [4 <./fig/bpt_spax.pdf>] [5 <./fig/pair_collage.pdf>] [6 <./fig/mag_comp.pdf
+> <./fig/8083-12703.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/8083-12703.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [7 <./fig/8485-3704.pdf>] [8 <./fig/ssfr_mass.pdf>] [9 <./fig/ssfr_dm.pdf>]
+[10 <./fig/ssfr_sep.pdf>] [11 <./fig/mass_gain_1.pdf> <./fig/mass_gain.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/mass_gain.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] (./maintex.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
 Package rerunfilecheck Info: File `maintex.out' has not changed.
-(rerunfilecheck)             Checksum: AFB888645C21CC7640D942A15878768E;424.
+(rerunfilecheck)             Checksum: 6D5FDCB9B0E73DBA7DFDAFD083B5F246;468.
  ) 
 Here is how much of TeX's memory you used:
- 8303 strings out of 492649
- 113776 string characters out of 6129622
- 216574 words of memory out of 5000000
- 12044 multiletter control sequences out of 15000+600000
- 62214 words of font info for 96 fonts, out of 8000000 for 9000
+ 8589 strings out of 492649
+ 118889 string characters out of 6129622
+ 235558 words of memory out of 5000000
+ 12252 multiletter control sequences out of 15000+600000
+ 72400 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,29p,231b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,9n,29p,1121b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on maintex.pdf (1 page, 29493 bytes).
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on maintex.pdf (11 pages, 3856469 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 866 PDF objects out of 1000 (max. 8388607)
+ 348 compressed objects within 4 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
