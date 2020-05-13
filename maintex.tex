@@ -110,8 +110,13 @@ Because of the survey's flat stellar mass distribution and uniform spatial cover
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Emission Lines}\label{sec:analysis}
+\section{Analysis}\label{sec:analysis}
+\subsection{Emission Lines}
+We use our own {\sc IDL} based spectral fitting code, {\sc SPFIT}, to model the spectra from the MaNGA datacubes. {\sc SPFIT} simultaneously fits emission lines and the stellar continuum with the Levenberg-Marquardt nonlinear least-squares minimization algorithm \citep{Fu:2018}. Emission line are parameterized as a Gauss-Hermite series and the stellar continuum is the sum of simple stellar populations (SSPs) convolved with the line-of-sight velocity distribution (LOSVD). The algorithm provides us with measurements of emission line fluxes, equivalent widths, velocities, and velocity dispersions of 19 emission lines and measurements of stellar masses, ages, [Fe/H], and kinematics of the stellar populations. 
 
+\subsection{Stellar Masses}
+
+\subsection{Star Formation Rates}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Pair Sample}\label{sec:pair}

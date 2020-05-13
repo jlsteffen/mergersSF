@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2020 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  13 MAY 2020 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -610,100 +610,107 @@ Package hyperref Warning: Ignoring empty anchor on input line 85.
 Package hyperref Warning: Ignoring empty anchor on input line 85.
 
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./maintex.bbl) [2]
-<fig/Mi-z.pdf, id=167, 977.69643pt x 507.6447pt>
+(./maintex.bbl) [2] [3]
+<fig/Mi-z.pdf, id=179, 977.69643pt x 507.6447pt>
 File: fig/Mi-z.pdf Graphic file (type pdf)
 <use fig/Mi-z.pdf>
-Package pdftex.def Info: fig/Mi-z.pdf  used on input line 166.
+Package pdftex.def Info: fig/Mi-z.pdf  used on input line 171.
 (pdftex.def)             Requested size: 513.11743pt x 266.4245pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 167.
-<fig/color-mag.pdf, id=168, 522.61967pt x 580.71765pt>
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 172.
+<fig/color-mag.pdf, id=180, 522.61967pt x 580.71765pt>
 File: fig/color-mag.pdf Graphic file (type pdf)
 <use fig/color-mag.pdf>
-Package pdftex.def Info: fig/color-mag.pdf  used on input line 175.
+Package pdftex.def Info: fig/color-mag.pdf  used on input line 180.
 (pdftex.def)             Requested size: 216.81pt x 240.91357pt.
-<fig/bpt_spax.pdf, id=169, 660.93176pt x 717.13545pt>
+<fig/bpt_spax.pdf, id=181, 660.93176pt x 717.13545pt>
 File: fig/bpt_spax.pdf Graphic file (type pdf)
 <use fig/bpt_spax.pdf>
-Package pdftex.def Info: fig/bpt_spax.pdf  used on input line 184.
+Package pdftex.def Info: fig/bpt_spax.pdf  used on input line 189.
 (pdftex.def)             Requested size: 216.81pt x 235.24384pt.
-<fig/pair_collage.pdf, id=174, 1134.63902pt x 1572.59517pt>
+<fig/pair_collage.pdf, id=186, 1134.63902pt x 1572.59517pt>
 File: fig/pair_collage.pdf Graphic file (type pdf)
 <use fig/pair_collage.pdf>
-Package pdftex.def Info: fig/pair_collage.pdf  used on input line 193.
+Package pdftex.def Info: fig/pair_collage.pdf  used on input line 198.
 (pdftex.def)             Requested size: 513.11743pt x 711.16469pt.
 
 
-LaTeX Warning: Float too large for page by 63.74873pt on input line 196.
+LaTeX Warning: Float too large for page by 63.74873pt on input line 201.
 
-<fig/mag_comp.pdf, id=175, 515.61696pt x 507.6447pt>
+<fig/mag_comp.pdf, id=187, 515.61696pt x 507.6447pt>
 File: fig/mag_comp.pdf Graphic file (type pdf)
 <use fig/mag_comp.pdf>
-Package pdftex.def Info: fig/mag_comp.pdf  used on input line 202.
+Package pdftex.def Info: fig/mag_comp.pdf  used on input line 207.
 (pdftex.def)             Requested size: 216.81pt x 213.45718pt.
-<fig/8083-12703.pdf, id=178, 1528.29282pt x 544.64226pt>
+<fig/8083-12703.pdf, id=190, 1528.29282pt x 544.64226pt>
 File: fig/8083-12703.pdf Graphic file (type pdf)
 <use fig/8083-12703.pdf>
-Package pdftex.def Info: fig/8083-12703.pdf  used on input line 211.
+Package pdftex.def Info: fig/8083-12703.pdf  used on input line 216.
 (pdftex.def)             Requested size: 513.11743pt x 182.86557pt.
-<fig/8485-3704.pdf, id=179, 1517.91028pt x 557.35228pt>
+<fig/8485-3704.pdf, id=191, 1517.91028pt x 557.35228pt>
 File: fig/8485-3704.pdf Graphic file (type pdf)
 <use fig/8485-3704.pdf>
-Package pdftex.def Info: fig/8485-3704.pdf  used on input line 220.
+Package pdftex.def Info: fig/8485-3704.pdf  used on input line 225.
 (pdftex.def)             Requested size: 513.11743pt x 188.40868pt.
-<fig/ssfr_mass.pdf, id=180, 996.98724pt x 1236.27496pt>
+<fig/ssfr_mass.pdf, id=192, 996.98724pt x 1236.27496pt>
 File: fig/ssfr_mass.pdf Graphic file (type pdf)
 <use fig/ssfr_mass.pdf>
-Package pdftex.def Info: fig/ssfr_mass.pdf  used on input line 229.
+Package pdftex.def Info: fig/ssfr_mass.pdf  used on input line 234.
 (pdftex.def)             Requested size: 513.11743pt x 636.28316pt.
-<fig/ssfr_dm.pdf, id=181, 996.98724pt x 1236.27496pt>
+<fig/ssfr_dm.pdf, id=193, 996.98724pt x 1236.27496pt>
 File: fig/ssfr_dm.pdf Graphic file (type pdf)
 <use fig/ssfr_dm.pdf>
-Package pdftex.def Info: fig/ssfr_dm.pdf  used on input line 238.
+Package pdftex.def Info: fig/ssfr_dm.pdf  used on input line 243.
 (pdftex.def)             Requested size: 513.11743pt x 636.28316pt.
-<fig/ssfr_sep.pdf, id=183, 996.98724pt x 1235.30258pt>
+<fig/ssfr_sep.pdf, id=195, 996.98724pt x 1235.30258pt>
 File: fig/ssfr_sep.pdf Graphic file (type pdf)
 <use fig/ssfr_sep.pdf>
-Package pdftex.def Info: fig/ssfr_sep.pdf  used on input line 247.
+Package pdftex.def Info: fig/ssfr_sep.pdf  used on input line 252.
 (pdftex.def)             Requested size: 513.11743pt x 635.78268pt.
-<fig/mass_gain_1.pdf, id=185, 782.14694pt x 268.85193pt>
+<fig/mass_gain_1.pdf, id=197, 782.14694pt x 268.85193pt>
 File: fig/mass_gain_1.pdf Graphic file (type pdf)
 <use fig/mass_gain_1.pdf>
-Package pdftex.def Info: fig/mass_gain_1.pdf  used on input line 256.
+Package pdftex.def Info: fig/mass_gain_1.pdf  used on input line 261.
 (pdftex.def)             Requested size: 513.11743pt x 176.38031pt.
-<fig/mass_gain.pdf, id=186, 508.46524pt x 390.72084pt>
+<fig/mass_gain.pdf, id=198, 508.46524pt x 390.72084pt>
 File: fig/mass_gain.pdf Graphic file (type pdf)
 <use fig/mass_gain.pdf>
-Package pdftex.def Info: fig/mass_gain.pdf  used on input line 265.
+Package pdftex.def Info: fig/mass_gain.pdf  used on input line 270.
 (pdftex.def)             Requested size: 216.81pt x 166.60564pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
-[3 <./fig/Mi-z.pdf> <./fig/color-mag.pdf
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
+[4 <./fig/Mi-z.pdf> <./fig/color-mag.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/color-mag.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
->] [4 <./fig/bpt_spax.pdf>] [5 <./fig/pair_collage.pdf>] [6 <./fig/mag_comp.pdf
+>] [5 <./fig/bpt_spax.pdf>] [6 <./fig/pair_collage.pdf>] [7 <./fig/mag_comp.pdf
 > <./fig/8083-12703.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/8083-12703.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
->] [7 <./fig/8485-3704.pdf>] [8 <./fig/ssfr_mass.pdf>] [9 <./fig/ssfr_dm.pdf>]
-[10 <./fig/ssfr_sep.pdf>] [11 <./fig/mass_gain_1.pdf> <./fig/mass_gain.pdf
+>] [8 <./fig/8485-3704.pdf>] [9 <./fig/ssfr_mass.pdf>] [10 <./fig/ssfr_dm.pdf>]
+[11 <./fig/ssfr_sep.pdf>] [12 <./fig/mass_gain_1.pdf> <./fig/mass_gain.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/mass_gain.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >] (./maintex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
-Package rerunfilecheck Info: File `maintex.out' has not changed.
-(rerunfilecheck)             Checksum: 6D5FDCB9B0E73DBA7DFDAFD083B5F246;468.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
+
+
+Package rerunfilecheck Warning: File `maintex.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `maintex.out':
+(rerunfilecheck)             Before: 888A1F4879E48282CCDDF9A81AB164D2;526
+(rerunfilecheck)             After:  1A931FA8D95BE039EE25855CD4E58EAC;660.
  ) 
 Here is how much of TeX's memory you used:
- 8573 strings out of 492649
- 118553 string characters out of 6129622
- 285702 words of memory out of 5000000
- 12240 multiletter control sequences out of 15000+600000
+ 8579 strings out of 492649
+ 118630 string characters out of 6129622
+ 293008 words of memory out of 5000000
+ 12242 multiletter control sequences out of 15000+600000
  72400 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,29p,3710b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -719,10 +726,10 @@ exmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/f
 onts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on maintex.pdf (11 pages, 3881388 bytes).
+Output written on maintex.pdf (12 pages, 3883592 bytes).
 PDF statistics:
- 887 PDF objects out of 1000 (max. 8388607)
- 366 compressed objects within 4 object streams
- 65 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 900 PDF objects out of 1000 (max. 8388607)
+ 378 compressed objects within 4 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
