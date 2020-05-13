@@ -58,7 +58,7 @@ MaNGA Team
 \altaffiltext{1}{Department of Physics \& Astronomy, The University of Iowa, 203 Van Allen Hall, Iowa City, IA 52242}
 
 \begin{abstract}
-
+We study the spatial profile of the star formation rate (SFR) in a sample of XXX interacting galaxies within the MaNGA (Mapping Nearby Galaxies at Apache Point Observatory) survey. We find that the specific star formation rate (sSFR) is centrally enhanced in the centers of the interacting galaxies by $\sim$XXX and in their disks by $\sim$XXX. We further investigate how these profiles behave as a function of stellar mass, mass ratio, and projected separation. We find that the sSFR profiles are unaffected by the stellar masses of the interacting galaxies; however, they are affected by the mass ratio between the galaxies where the galaxies with the smallest mass ratio feature the largest enhancement. We also find that, in pairs with large mass ratios (XX$-$XX), the less massive galaxy of the pair has slightly higher levels of sSFR enhancement, $\sim$0.1 dex. We also find that the level of sSFR enhancement increases with closer projected separations; however, the closest pairs, $\le$5 kpc, show no signs of sSFR enhancement/suppression. We suspect that these close pairs are merging galaxies which have passed their first pericenter, but haven't had enough time pass for the merger-induced gas inflows to trigger new star formation. We also set a simple model for the future mass growth of the interacting galaxies due to the merger-induced star formation. We predict that the paired galaxies in our sample will see a mass growth rate which is XX$\times$ higher than secular mass growth. 
 \end{abstract}
 
 \keywords{galaxies: active --- galaxies: nuclei --- galaxies: interactions}
@@ -67,87 +67,46 @@ MaNGA Team
 \section{Introduction}\label{sec:intro}
 
 %%%Galaxy Evolution%%%
-%{\it In $\Lambda$CDM, galaxy evolution is a hierarchical, bottom-up process. Galaxies are created in a process where large dark matter halos are formed out of the merging of smaller dark matter pockets and galaxies form within the dark matter halos \citep{White:1978}. The subsequent merging of dark matter halos leads to a scenario where a large central galaxy is surrounded by a cluster of smaller satellite galaxies within a single dark matter halo. The satellite galaxies lose kinetic energy through dynamical friction \citep{Chandrasekhar:1943} and will eventually merge with the central galaxy. The dynamical timescale for a merger event is on the order of 1 Gyr, which means that present day galaxies could have undergone multiple merger events during their lifetimes.
-
-%This means that the massive galaxies in the universe today are the product of the merging of several smaller galaxies. In fact, cosmological hydrodynamical simulations have shown that repeated merger events may be responsible for as much as $\sim$60\% of stellar mass in massive galaxies like M87 (e.g. \citet{Rodriguez-Gomez:2016}; \citet{Pillepich:2018}). 
-
-%This bottom-up process is still ongoing and can be seen in the Local Group with the Milky Way's collection of satellite galaxies. The Milky Way has an ongoing minor merger with its closest companion, the Canis Major dwarf galaxy \citep{Martin:2004} and is on track to merge with the Andromeda galaxy. }\\
-
-%%%%%
-In the $\Lambda$CDM model, galaxy evolution is a hierarchical process. Over the lifetime of the universe, smaller galaxies have iteratively merged with each other to form more massive galaxies. In fact, cosmological hydrodynamical simulations have shown that repeated merger events may be responsible for as much as $\sim$60\% of stellar mass in massive galaxies like M87 (e.g. \citet{Rodriguez-Gomez:2016}; \citet{Pillepich:2018}). \\
-%%%%%
+In the $\Lambda$CDM model, galaxy evolution is a hierarchical process. Over the lifetime of the universe, smaller galaxies have iteratively merged with each other to form more massive galaxies. In fact, cosmological hydrodynamical simulations have shown that repeated merger events may be responsible for as much as $\sim$60\% of stellar mass in massive galaxies like M87 (e.g. \citet{Rodriguez-Gomez:2016}; \citet{Pillepich:2018}). 
 
 %%%Simulations%%%
-%{\it Interacting galaxies were originally known as peculiar galaxies, named for their unusual shapes and morphologies. These peculiar galaxies were often seen to have nearby, neighboring galaxies and, because of this, it was suspected that the unusual features such as tails, bridges, or warped disks were the product of the gravitational tidal forces between the galaxies \citep{Zwicky:1959}. 
-
-%\citet{Toomre:1972} investigated the idea using N-body simulations to model galaxy interactions. They used concentric rings of stars which were gravitationally bound to a central, massive nucleus. In their work, \citet{Toomre:1972} were able to demonstrate how the tidal tails found in peculiar galaxies could be the result of galaxy interactions. This confirmed the idea that peculiar galaxies are the result of galaxies interactions. 
-
-%Since the N-body simulations from \citet{Toomre:1972}, more advanced simulations have been made which model the gas-dynamics within the interacting galaxies. These N-body plus gas-dynamics simulations showed how the tidal torques acting on the galaxy disks cause the formation of barred structures \citep{Barnes:1991}. As the bars are formed, the gases within the disk lose their angular momentum and get funneled into the center of the galaxy. The inflowing gases impact upon the gases already present in the galactic center and trigger a burst of new star formation \citep{Barnes:1996, Mihos:1996}. 
-
-%The inflows bring in metal-poor gases from the disk, diluting the nuclear metal content of galaxy's center \citep{Rupke:2010, Perez:2011, Scudder:2012}. The inflows can also trigger supermassive black hole (SMBH) accretion \citep{Capelo:2017}.
-
-%Another common feature of peculiar galaxies is that they tend to have much bluer B$-$V color than other galaxy types \citep{Larson:1978}. The galaxies within the "Blue Cloud" on the color-magnitude diagram (CMD) are often associated with having active star formation. \citet{Larson:1978} identified that the galaxies showing deviations in color from normal galaxies are the galaxies which displayed features like tidal tails. This indicated that the violent disturbances subjected to interacting galaxies could trigger a large burst of star formation.} \\
-
-%%%%%
 The internal dynamics of these interacting galaxies were first modeled in the seminal work, \citet{Toomre:1972}. Since then, hydrodynamical simulations have expanded upon the N-body simulations of \citet{Toomre:1972} by modeling gas-dynamics within the galaxies. These simulations show how barred structures develop within the disks of the interacting galaxies due to the tidal torques between them \citep{Barnes:1991}. As the bars form, the gases within the galaxy's disk lose angular momentum and get funneled into the centers of the galaxies. 
 
-When the gas-inflows impact upon the gases in the nucleus of galaxy a burst of new star formation in triggered \citep{Barnes:1996, Mihos:1996}. These gas inflows will also bring metal-poor gases from the disk into the center of the galaxy which can dilute the central metallicity \citep{Rupke:2010, Perez:2011, Scudder:2012}. The gas-inflows may also be able to make it into very center of the galaxy and trigger supermassive black hole (SMBH) accretion \citep{Capelo:2017}. \\
-%%%%%
+When the gas-inflows impact upon the gases in the nucleus of galaxy a burst of new star formation in triggered \citep{Barnes:1996, Mihos:1996}. These gas inflows will also bring metal-poor gases from the disk into the center of the galaxy which can dilute the central metallicity \citep{Rupke:2010, Perez:2011, Scudder:2012}. The gas-inflows may also be able to make it into very center of the galaxy and trigger supermassive black hole (SMBH) accretion \citep{Capelo:2017}. 
 
 %%%Observations%%%
-%{\it Interacting galaxies have been studied extensively with large spectroscopic surveys. It has been shown that interacting galaxies feature higher levels of star formation than isolated galaxies in the surveys; CfA2  \citep{Barton:2000, Woods:2006}, 2dF \citep{Lambas:2003}, AEGIS \citep{Lin:2007}, SDSS \citep{Ellison:2008}, COSMOS \citep{Kartaltepe:2007,Xu:2012}, PRIMUS \citep{Wong:2011}, and GAMA \citep{Robotham:2014}.
-
-%The levels of star formation enhancement was shown to increase with closer projected separations \citep{Ellison:2008, Scudder:2012, Patton:2013}. These works indicate that the merger event ignites a burst of star formation after the passage of the first pericenter and that the burst of star formations begins to fade as the galaxies separate. \citet{Patton:2013} showed that this burst of star formation lingers as far out as projected separations of 150 kpc. The level of enhancement is also tied to the mass ratio, $|\Delta {\rm log}\,M|$, between the galaxies where major mergers, $\left( | \Delta {\rm log}\,M | \le 0.6\right)$, have larger rates of enhancement in comparison to minor mergers, $\left(0.6 < |\Delta {\rm log}\,M| \le 1.0\right)$ \citep{Ellison:2008}. 
-
-%These single-fiber spectroscopic studies have been also used to study the nuclear metal content of the galaxy pairs. The galaxy pairs show weak levels of metallicity dilution in their centers, $\Delta$log(O/H) $\sim -0.05$ dex \citep{Ellison:2008, Scudder:2012}. The central metallicity dilution helps confirm the idea that the merger induced star formation is triggered by gas flows from the metal-poor galactic disks.} \\
-
-%%%%%
 Centrally enhanced star formation has also been observed in large spectroscopic surveys including; CfA2  \citep{Barton:2000, Woods:2006}, 2dF \citep{Lambas:2003}, AEGIS \citep{Lin:2007}, SDSS \citep{Ellison:2008}, COSMOS \citep{Kartaltepe:2007,Xu:2012}, PRIMUS \citep{Wong:2011}, and GAMA \citep{Robotham:2014}.
 
-This star formation enhancement increases with closer projected separations between the two galaxies \citep{Ellison:2008, Scudder:2012} but has still shown to be detectable at wide projected separations of 150 kpc \citep{Patton:2013}. The level of the star formation enhancement also increases with smaller stellar mass ratios, $|\Delta log {\it M} |$, between the two galaxies \citep{Ellison:2008}. \\
-%%%%%
+This star formation enhancement increases with closer projected separations between the two galaxies \citep{Ellison:2008, Scudder:2012} but has still shown to be detectable at wide projected separations of 150 kpc \citep{Patton:2013}. The level of the star formation enhancement also increases with smaller stellar mass ratios, $|\Delta log {\it M} |$, between the two galaxies \citep{Ellison:2008}. 
 
 %%%Integral Field Spectroscopy%%%
-%{\it The advent of large integral field spectroscopic (IFS) surveys has opened a new door in studying nearby galaxies. Previous single-fiber spectroscopic studies limit the degree to which we can study galaxy parameters like star formation or metallicity since these surveys are limited to covering only the centers of galaxies. IFS surveys allocate an entire bundle of fiber-optic cables, called integral field units (IFUs), to individual galaxies, giving us spectroscopy across the whole disk of the galaxies. The current set of IFS surveys include the Calar Alto Legacy Integral Field Area (CALIFA) survey which is based in Spain and covered $\sim$600 galaxies \citep{Sanchez:2012}, the Sydney-AOO Multi-object Integral field spectrograph (SAMI) survey which is based in Australia which plans to cover 3000 galaxies \citep{Croom:2012}, and the Mapping Nearby Galaxies at Apache Point Observatory (MaNGA) survey which is based in New Mexico and plans to cover 10,000 galaxies \citep{Bundy:2015}. In this work we will be using the MaNGA survey since it is the largest IFS survey to date.
+With the recent large integral field spectroscopic (IFS) surveys, interacting galaxies can be studied in unprecedented spatial detail. Where previous spectroscopic surveys were limited to the nucleus of the interacting galaxies, the new IFS surveys will be able to study both the nuclei and the disks of the interacting galaxies. 
 
-%Because of these new IFS surveys, parameters like star formation and gas-phase metallicity can be studied spatially in detail. These IFS surveys have also been used to study the distribution of star formation in interacting galaxies. \citet{Barrera-Ballesteros:2015} utilized the spatial resolution of the CALIFA survey in galaxy pairs by varying the aperture sizes from which SFR is extracted from. They found that the SFR is enhanced in the centers of galaxy pairs by a factor of 2$-$3$\times$ and that SFR is moderately suppressed by $\sim$0.74$\times$ in their disks. \citet{Barrera-Ballesteros:2015} also found that, in contrast to previous single fiber studies, that the metallicity found in the centers of galaxy pairs are not significantly different from their controls. 
+The IFS surveys, CALIFA\footnote{Calar Alto Legacy Integral Field Area} and MaNGA\footnote{Mapping Nearby Galaxies at Apache Point Observatory}, have already been used to study the SFR of interacting galaxies in merging galaxies. The SFR was found to be centrally enhanced by a factor of 2$-$3$\times$ \citep{Barrera-Ballesteros:2015, Pan:2019}, which is in agreement with previous single-fiber spectroscopic surveys. These surveys also studied the SFR in the disk of the paired galaxies; however, there is a discrepancy between the results. \citet{Barrera-Ballesteros:2015} found a suppression to the SFR of $\sim$0.74$\times$ while \citet{Pan:2019} found an enhancement of 1.22$-$1.58$\times$. 
 
-%\citet{Pan:2019} used the MaNGA survey to study the radial profiles of specific star-formation rate (sSFR; where sSFR is the SFR of a region divided by the stellar mass of the region) in interacting galaxies. The galaxy pairs featured strong central enhancement of sSFR ($\sim$0.35 dex), but also weak enhancement of sSFR in their disks ($\sim$0.1$-$0.2 dex). \citet{Pan:2019} also studied the sSFR profiles across different merger stages. Galaxies pairs only showed signs of sSFR enhancement after the first pericenter, i.e. only pairs with visual morphological disturbances showed sSFR enhancement.
+{\it can I mention Barrera-Ballesteros+15 and Pan+19 together like this since the BB uses ewha as a proxy for SFR and Pan uses sSFR?}
 
-%The MaNGA survey has also been used to study the radial profiles of post merger galaxies (galaxy mergers which have coalesced but still show some tidal features). The post mergers featured a central enhancement to SFR surface density of $\sim$ 2.5$\times$ and show a weak metallicity dilution of $\sim$$-$0.04 dex across their disks \citep{Thorp:2019}. } \\
-
-%%%%%
-With the recent large integral field spectroscopic (IFS) surveys, interacting galaxies can be studied in unprecedented spatial detail. Where previous spectroscopic surveys where limited to the nucleus of the interacting galaxies, the new IFS surveys will be able to study both the nuclei and the disks of the interacting galaxies. 
-
-\citet{Barrera-Ballesteros:2015} studied star formation in interacting galaxies with the CALIFA\footnote{Calar Alto Legacy Integral Field Area} survey using variable aperture sizes from which the star formation rate (SFR) is extracted from. \\
-%%%%%
+The MaNGA survey has also been used to study the radial profiles of SFR in post merger galaxies, which are the galaxies which have recently coalesced. The post merger galaxies showed a central enhancement to the SFR surface density of 2.5$\times$ and an enhancement in their disks of 1.26$\times$ \citep{Thorp:2019}.
 
 %%%Purpose%%%
-%{\it In our previous work, \citet{Fu:2018}, we built a sample of galaxies pairs where both galaxies were found within the field of view of a single MaNGA IFU. We confirmed the theoretical expectation that the MaNGA pair fraction will increase with higher stellar masses and wider physical spatial coverage. We found that $\sim$5.7\% of the MaNGA galaxies have close spectroscopic companions. In \citet{Fu:2018} we further analyzed the presence of AGN in galaxy pairs and found that AGN duty cycle is preserved in individual galaxies; however, the population of binary AGN is increased. 
+In our previous work, \citet{Fu:2018}, we built a sample of paired galaxies in the MaNGA survey where both components of the pair were contained within field of view of a single IFU. We found that approximately 5.7\% of the MaNGA galaxies have a companion galaxies contained with the IFU. In this work, we will use a version of this sample updated for the recent MaNGA Data Release 16 (DR16) and further supplement this with a sample of companion galaxies identified outside the field of view of the IFUs. 
 
-%In this work we will expand upon our pair sample from \citet{Fu:2018} with the most recent MaNGA Data Release, DR16, and supplement the sample with MaNGA galaxies which have companions identified outside of their IFUs. The galaxy pairs within the fields of view of a single IFU will allow us to study the closest galaxy pairs while the expanded sample of galaxy pairs identified outside of the MaNGA IFUs will allow us to expand the separation coverage of the sample. 
-
-%With the expanded pair sample, we will study radial profile of star formation in the galaxy pairs. First we will address whether or not galaxy pairs experience enhanced star formation from the merger event. Second, we will study if the star formation enhancement is confined to the centers of the paired galaxies or if the enhancement extends into their disks. Afterwords, we will address how other parameters pertaining to the galaxy pairs can affect the merger induced star formation. 
-
-%\begin{enumerate}
-
-%\item Does the total stellar mass of a galaxy affect the level of enhancement to the specific star-formation rate? That is to say, are low mass galaxies enhanced at the same level as high mass galaxies?
-
-%\item Does the stellar mass ratio between the interacting galaxy and its companion affect the rate of enhancement to the specific star-formation rate? We will see if galaxy mergers with roughly the same stellar mass are more efficient at inducing star-formation in comparison to massive galaxies absorbing dwarf galaxies. 
-
-%\item Does the projected separation between the companion galaxies affect the rate of enhancement to the specific star-formation rate. We would expect the companions with the closest separations to have the highest rate of enhancement since they are the most likely to have recently undergone their first pericenter. We can also see how separated a set of companions can be and still show enhancement to their star-formation. 
-
-%\item Does the merger induced star formation contribute a significant amount of new stellar mass growth to the galaxies?
-
-%\end{enumerate}
-
-%By answering these questions we hope to gain insight on the relevance of individual galaxy merger events in the context of galaxy evolution at low redshift. }\\
+In this work we will expand upon the previous works by studying how the spatial profile of SFR behaves as a function of the stellar mass of the paired galaxy, the mass ratio between the galaxy pairs, and the projected separation between the galaxies. We will also model how the merger-induced star formation will affect the future mass growth of the interacting galaxies. 
 
 % Organization
 This paper is organized as follows; in Section \ref{sec:data} we will discuss the detail of the MaNGA survey, in Section \ref{sec:analysis} we will discuss how we extract emission lines from the MaNGA survey and how we calculate the star formation from them, in Section \ref{sec:pair} we discuss the construction of our pair sample, in Section \ref{sec:control} we discuss the construction of our control sample, in Section \ref{sec:radial} we build the radial profiles for the pair and control galaxies, in Section \ref{sec:results} we discuss the results of the survey, in Section \ref{sec:discussion} we discuss our results in the context of other surveys, and in Section \ref{sec:sum} we summarize and conclude the work. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Data}\label{sec:data}
+
+MaNGA is an a IFS survey based at Apache Point Observatory (APO) which used the SDSS 2.5 meter telescope along with two dual-channel BOSS spectrographs. MaNGA captures spectra through 17 integral field units (IFUs) with variable numbers of fibers; 19, 37, 61, 91, and 127 fibers covering 12.5\arcsec, 17.5\arcsec, 22.5\arcsec, 27.5\arcsec, and 32.5\arcsec on the sky respectively. MaNGA is an optical survey with a spectral coverage of 3600$-$10,300 \AA with a resolution of R $\sim$ 2000 and a median spectra coverage of 2.5\arcsec FWHM \citep{Bundy:2015}. 
+
+MaNGA targets galaxies from a subset of 41,154 galaxies with from the NASA-Sloan Atlas (NSA) with a redshift range of 0.01 $<$ z $<$ 0.15 and a luminosity range of -17.7 $<$ $\mathcal{M_{\rm i}}$ $<$ -24.0, where $\mathcal{M_{\rm i}}$ is the rest frame i-band magnitude within the NSA survey's elliptical Petrosian apertures. MaNGA plans to cover 10,000 galaxies with a flat stellar mass distribution at two spatial coverages, 1.5 \reff\ and 2.5 \reff\ (where \reff\ is the radius which contains 50\% of the galaxy's total light). In this work we use the data from the internal data release, MPL-8, which covers 6142 unique galaxies. 
+
+The MaNGA sample is split into three subsamples; the Primary Sample, Secondary Sample, and Color-Enhanced Sample. The Primary sample contains the galaxies which are covered out to 1.5 \reff\ and makes up 47\% of the survey. The Secondary contains the galaxies which are covered out to 2.5 \reff\ and makes up 37\% of the survey. The Color-Enhanced sample is designed to select rarer galaxy types with a spatial coverage of 2.5 \reff\ and makes up 16\% of the survey. 
+
+Because of the survey's flat stellar mass distribution and uniform spatial coverage, these samples have a unique ``banana" shaped distribution in redshift and luminosity, see Figure \ref{fig:Mi-z}. Because the Secondary and Color-Enhanced samples use a wider spatial coverage than the Primary sample, the Secondary and Color-Enhanced Samples will posses galaxies of higher redshifts than galaxies at the same stellar masses in the Primary sample. 
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -206,7 +165,7 @@ J.S. and H.F. acknowledge support from the National Science Foundation (NSF) gra
 \centering
 \includegraphics[width=\linewidth]{fig/Mi-z.pdf}
 \caption[The luminosity - redshift distribution and mass - redshift distribution of the MaNGA sample.]{On the left is the luminosity - redshift distribution of the MaNGA sample. The figure illustrates the unique distribution of the MaNGA sample. On the right, I replace the luminosity with stellar mass from the NSA catalog.}
-\label{fig:Mi_z}
+\label{fig:Mi-z}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
