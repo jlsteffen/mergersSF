@@ -40,6 +40,7 @@
 \newcommand{\ewha}{EW(H$\alpha$)}
 \newcommand{\logm}{log({\it M}/M$_{\odot}$)}
 %\newcommand{\arcsec}{\prime\prime}
+\newcommand{\simard}{Simard+11}
 
 % citations
 \defcitealias{Fu18}{Paper I} 
@@ -107,20 +108,74 @@ The MaNGA sample is split into three subsamples; the Primary Sample, Secondary S
 
 Because of the survey's flat stellar mass distribution and uniform spatial coverage, these samples have a unique ``banana" shaped distribution in redshift and luminosity, see Figure \ref{fig:Mi-z}. Because the Secondary and Color-Enhanced samples use a wider spatial coverage than the Primary sample, the Secondary and Color-Enhanced Samples will posses galaxies of higher redshifts than galaxies at the same stellar masses in the Primary sample. 
 
-
+%%% NSA and Simard+11
+We further use photometric data from the NSA catalog and \citet{Simard:2011} (from now on \simard). We use the r-band elliptical Petrosian apertures from the NSA catalog and the r-band elliptical S\'ersic apertures from \simard\ to quantify the geometry of the outside-IFU and inside-IFU samples respectively. We further use the total stellar masses extracted from these apertures to quantify the total stellar masses of the galaxies, the NSA catalog contains their own calculation for stellar mass and we use the stellar mass calculation from \citet{Mendel:2014} for the \simard\ apertures.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Analysis}\label{sec:analysis}
 \subsection{Emission Lines}
+
+%%% SPFIT
 We use our own {\sc IDL} based spectral fitting code, {\sc SPFIT}, to model the spectra from the MaNGA datacubes. {\sc SPFIT} simultaneously fits emission lines and the stellar continuum with the Levenberg-Marquardt nonlinear least-squares minimization algorithm \citep{Fu:2018}. Emission line are parameterized as a Gauss-Hermite series and the stellar continuum is the sum of simple stellar populations (SSPs) convolved with the line-of-sight velocity distribution (LOSVD). The algorithm provides us with measurements of emission line fluxes, equivalent widths, velocities, and velocity dispersions of 19 emission lines and measurements of stellar masses, ages, [Fe/H], and kinematics of the stellar populations. 
 
-\subsection{Stellar Masses}
+%%% Reddening
+We use the extinction curve from \citet{Cardelli:1989} with updated coefficients from \citet{ODonnell:1994}. The extinction in parameterized as R$_V$ $\equiv$ A$_V$/E(B$-$V) $=$ 3.1 where we estimate the value of the V-band extinction, A$_V$, by comparing the H$\alpha$/H$\beta$ to the expected value of 2.85 for case-B recombination. We apply the extinction correction to all of the extracted emission lines.
 
 \subsection{Star Formation Rates}
+We classify galaxies as star forming using both the color-magnitude diagram (CMD) and the BPT diagram \citep{Baldwin:1981}. We show the CMD in Figure \ref{fig:cmd} along with demarcation lines which separate the blue cloud, red sequence, and green valley. We established the demarcation lines by collapsing the CMD to a color histogram for each of the three regions and then varied the slopes between the regions until we found the slopes which best fit the data. These demarcation lines are;
+
+\begin{equation}\label{eq:blue}
+NUV-r = 3.1682 - 0.16 (M_i+18)
+\end{equation}
+\begin{equation}\label{eq:red}
+NUV-r = 4.7866 - 0.04 (M_i+18)
+\end{equation}
+
+Where NUV$-$r is the color and M$_i$ is the i-band magnitude. 
+
+The BPT diagnostic uses emission line ratios to separate ionization sources, star formation and active galactic nuclei (AGN). The two ionization sources can be separated by either the theoretical maximum starburst line from \citet{Kewley:2001} or the analytically fitted line from \citet{Kauffmann:2003}, given below in Equations \ref{eq:kewley} and \ref{eq:kauffmann} respectively.
+
+\begin{equation}\label{eq:kewley}
+\rm{log\Big(\frac{[O\,\textsc{iii}]\lambda 5007}{H\beta}\Big) = \frac{0.61}{log([N\,\textsc{ii}]\lambda 6584 / H\alpha) - 0.47} + 1.19}
+\end{equation}
+\begin{equation}\label{eq:kauffmann}
+\rm{log\Big(\frac{[O\,\textsc{iii}]\lambda 5007}{H\beta}\Big) = \frac{0.61}{log([N\,\textsc{ii}]\lambda 6584 / H\alpha) - 0.05} + 1.3}
+\end{equation}
+
+Where \OIII$\lambda$5007, H$\beta$, \NII$\lambda$6584, and H$\alpha$ are emission line fluxes extracted from the spectra within the inner 2 arcseconds of the galaxies. It has also been shown that hot low mass evolved stars (HOLMES) in retired galaxies can mimic HII regions and AGN on the BPT diagram \citep{Stasinska:2008}. We apply an H$\alpha$ equivalent width (EW) cut of \ewha\ $>$ 3\angstrom to remove these retired galaxies \citet{Cid-Fernandes:2011}. In this work, we define star forming galaxies as those which are on the blue cloud in the CMD and which is below the \citet{Kewley:2001} on the BPT diagram.
+
+We measure the SFR from the H$\alpha$ luminosity, L$_{H\alpha}$. The H$\alpha$ luminosity is calculated from the flux of the H$\alpha$ emission line. We use the SFR formula, Equation \ref{eq:sfr}, from \citet{Murphy:2011} which uses a Kroupa IMF, Solar metallicity, a constant SFR at an age of 100 Myr, and Case-B recombination. 
+
+\begin{equation}\label{eq:sfr}
+\frac{\rm{SFR}}{M_{\odot} \, \rm{yr^{-1}}} = \frac{L_{H\alpha}}{1.86 \times 10^{41}\, \rm{erg\,s}^{-1}}
+\end{equation}
+
+We normalize the SFR by the local stellar mass (the stellar mass contained with a given spaxel), calculated from SPFIT, giving us the specific star formation rate (sSFR). 
+
+\begin{equation}
+sSFR = \frac{SFR}{M^*}
+\end{equation}
+
+This will allow us to compare the SFR in high mass regions, like the centers of the galaxies, to the SFR lower mass regions, like the disk of the galaxies.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Pair Sample}\label{sec:pair}
 
+\subsection{Inside-IFU Sample}\label{sec:inside}
+In our previous work, \citet{Fu:2018}, we showed that $\sim$5.7\% of the MaNGA observations have at least one companion galaxy within the field of view of the IFU. In this work we use a refined pair identification process which is also expanded for the most recent internal data release, MPL-8.
+
+We use SDSS photometric objects to create a catalog of objects within the fields of view of the MaNGA IFUs. The extract their spectra from the MaNGA datacubes through a 1\arcsec aperture and fit the spectra with {\sc SPFIT}. The spectra is then sorted into different categories; ``good" galaxy spectra, broad-line AGN, foreground star, foreground/background galaxies, or poor S/N objects. The ``good" galaxy spectra are the objects whose spectra is well modeled by {\sc SPFIT} at the target galaxy's redshift, whether it is the target galaxies itself or a nearby companion galaxy. This means that the companion galaxy can be within $\pm$3000 km s$^{-1}$ of the MaNGA target. We found 6573 ``good" objects, 57 broad-line AGN, 836 foreground stars, 319 foreground/background galaxies, and 1546 objects with poor S/N. 
+
+From the 6573 galaxies with good spectra, 404 of the MaNGA IFUs have multiple objects within the IFU and within a relative velocity of $\Delta$v $<$ 500 km s$^{-1}$. 124 of the galaxies are star forming galaxies (SFGs). Finally, 87 SFGs are covered by \simard\ and \citet{Mendel:2014}. 
+
+Some of the galaxies in our sample have multiple companions. From the whole set of 404 IFUs, there are 327 pairs, 67 triplets, 7 quadruplets, and 1 quintuplet.  
+
+
+\subsection{Outside-IFU Sample}\label{sec:outside}
+
+The second pairs sample is the outside-IFU pairs sample. This sample includes MaNGA galaxies which have companion galaxies found outside the field of view of its IFU. We identify these external pair from the NSA catalog. We select galaxies which are within a projected separation, r$_p$ $<$ 50 kpc, and within a relative velocity, $\Delta$v $<$ 500 km s$^{-1}$. 
+
+The NSA catalog contains 641,409 galaxies from which we find 509 galaxies which are paired to MaNGA targets. 169 of the MaNGA target in these pairs are SFGs. Eight of these galaxies also had a companion galaxy within the IFU, so they are removed from the outside-IFU sample and left to the inside-IFU sample. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Control Sample}\label{sec:control}
@@ -179,7 +234,7 @@ J.S. and H.F. acknowledge support from the National Science Foundation (NSF) gra
 \centering
 \includegraphics[width=3in]{fig/color-mag.pdf}
 \caption[Color-magnitude distribution of the MaNGA galaxies]{Color-magnitude diagram for MaNGA galaxies ({\it colored circles}). The color of the symbol reflects the local density around each data point in this color-magnitude plane, as indicated by the color bar on the top. The MaNGA galaxies with close companions are marked with {\it grey diamonds}. From top to bottom, the dashed lines divide the sample into red sequence, green valley, and blue cloud. The star-forming galaxy sample used in this paper are the galaxies below the lower dividing line.}
-\label{fig:CMD}
+\label{fig:cmd}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
