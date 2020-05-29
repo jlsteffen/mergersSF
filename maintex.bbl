@@ -23,6 +23,10 @@
 \bibitem[{{Barton} {et~al.}(2000){Barton}, {Geller}, \& {Kenyon}}]{Barton:2000}
 {Barton}, E.~J., {Geller}, M.~J., \& {Kenyon}, S.~J. 2000, \apj, 530, 660
 
+\bibitem[{{Boylan-Kolchin} {et~al.}(2008){Boylan-Kolchin}, {Ma}, \&
+  {Quataert}}]{Boylan-Kolchin:2008}
+{Boylan-Kolchin}, M., {Ma}, C.-P., \& {Quataert}, E. 2008, \mnras, 383, 93
+
 \bibitem[{{Bundy} {et~al.}(2015){Bundy}, {Bershady}, {Law}, {Yan}, {Drory},
   {MacDonald}, {Wake}, {Cherinka}, {S{\'a}nchez-Gallego}, {Weijmans}, {Thomas},
   {Tremonti}, {Masters}, {Coccato}, {Diamond-Stanic}, {Arag{\'o}n-Salamanca},
@@ -100,6 +104,14 @@
   {Hunt}, {Hao}, {Koda}, {Roussel}, {Skibba}, \& {Smith}}]{Murphy:2011}
 {Murphy}, E.~J., {Condon}, J.~J., {Schinnerer}, E., {et~al.} 2011, \apj, 737,
   67
+
+\bibitem[{{Noeske} {et~al.}(2007){Noeske}, {Weiner}, {Faber}, {Papovich},
+  {Koo}, {Somerville}, {Bundy}, {Conselice}, {Newman}, {Schiminovich}, {Le
+  Floc'h}, {Coil}, {Rieke}, {Lotz}, {Primack}, {Barmby}, {Cooper}, {Davis},
+  {Ellis}, {Fazio}, {Guhathakurta}, {Huang}, {Kassin}, {Martin}, {Phillips},
+  {Rich}, {Small}, {Willmer}, \& {Wilson}}]{Noeske:2007}
+{Noeske}, K.~G., {Weiner}, B.~J., {Faber}, S.~M., {et~al.} 2007, \apjl, 660,
+  L43
 
 \bibitem[{{O'Donnell}(1994)}]{ODonnell:1994}
 {O'Donnell}, J.~E. 1994, \apj, 422, 158
