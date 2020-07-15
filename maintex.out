@@ -1,16 +1,18 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Data}{}% 2
-\BOOKMARK [1][-]{section.3}{Analysis}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Emission Lines}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{Star Formation Rates}{section.3}% 5
-\BOOKMARK [1][-]{section.4}{Pair Sample}{}% 6
-\BOOKMARK [2][-]{subsection.4.1}{Inside-IFU Sample}{section.4}% 7
-\BOOKMARK [2][-]{subsection.4.2}{Outside-IFU Sample}{section.4}% 8
-\BOOKMARK [1][-]{section.5}{Control Sample}{}% 9
-\BOOKMARK [1][-]{section.6}{Radial Profiles}{}% 10
-\BOOKMARK [1][-]{section.7}{Results}{}% 11
-\BOOKMARK [2][-]{subsection.7.1}{Stellar Mass}{section.7}% 12
-\BOOKMARK [2][-]{subsection.7.2}{Mass Ratio}{section.7}% 13
-\BOOKMARK [2][-]{subsection.7.3}{Projected Separation}{section.7}% 14
-\BOOKMARK [2][-]{subsection.7.4}{Future Mass Growth}{section.7}% 15
-\BOOKMARK [1][-]{section.8}{Discussion and Summary}{}% 16
+\BOOKMARK [1][-]{section.2}{Data and Sample}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Inside-IFU Sample}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Outside-IFU Sample}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Control Sample}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Radial Profiles of Star Formation}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Emission Line Extraction}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Star Formation Rate}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Geometry}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.4}{Mass-Binned Difference Profiles}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.5}{Tailored-Controls Difference Profiles}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Results}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Stellar Mass}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Future Mass Growth}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Discussion and Summary}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Mass Ratio}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.2}{Projected Separation}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.3}{Comparison with Previous Works}{section.5}% 18

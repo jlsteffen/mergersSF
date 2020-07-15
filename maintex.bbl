@@ -41,6 +41,11 @@
   {Xiao}, \& {Zhang}}]{Bundy:2015}
 {Bundy}, K., {Bershady}, M.~A., {Law}, D.~R., {et~al.} 2015, \apj, 798, 7
 
+\bibitem[{{Bustamante} {et~al.}(2020){Bustamante}, {Ellison}, {Patton}, \&
+  {Sparre}}]{Bustamante:2020}
+{Bustamante}, S., {Ellison}, S.~L., {Patton}, D.~R., \& {Sparre}, M. 2020,
+  \mnras, 494, 3469
+
 \bibitem[{{Capelo} {et~al.}(2017){Capelo}, {Dotti}, {Volonteri}, {Mayer},
   {Bellovary}, \& {Shen}}]{Capelo:2017}
 {Capelo}, P.~R., {Dotti}, M., {Volonteri}, M., {et~al.} 2017, \mnras, 469, 4437
@@ -53,6 +58,12 @@
   {Mateus}, \& {Vale Asari}}]{Cid-Fernandes:2011}
 {Cid Fernandes}, R., {Stasi{\'n}ska}, G., {Mateus}, A., \& {Vale Asari}, N.
   2011, \mnras, 413, 1687
+
+\bibitem[{{Drory} {et~al.}(2015){Drory}, {MacDonald}, {Bershady}, {Bundy},
+  {Gunn}, {Law}, {Smith}, {Stoll}, {Tremonti}, {Wake}, {Yan}, {Weijmans},
+  {Byler}, {Cherinka}, {Cope}, {Eigenbrot}, {Harding}, {Holder}, {Huehnerhoff},
+  {Jaehnig}, {Jansen}, {Klaene}, {Paat}, {Percival}, \& {Sayres}}]{Drory:2015}
+{Drory}, N., {MacDonald}, N., {Bershady}, M.~A., {et~al.} 2015, \aj, 149, 77
 
 \bibitem[{{Ellison} {et~al.}(2008){Ellison}, {Patton}, {Simard}, \&
   {McConnachie}}]{Ellison:2008}
@@ -89,6 +100,11 @@
   {Coldwell}}]{Lambas:2003}
 {Lambas}, D.~G., {Tissera}, P.~B., {Alonso}, M.~S., \& {Coldwell}, G. 2003,
   \mnras, 346, 1189
+
+\bibitem[{{Law} {et~al.}(2015){Law}, {Yan}, {Bershady}, {Bundy}, {Cherinka},
+  {Drory}, {MacDonald}, {S{\'a}nchez-Gallego}, {Wake}, {Weijmans}, {Blanton},
+  {Klaene}, {Moran}, {Sanchez}, \& {Zhang}}]{Law:2015}
+{Law}, D.~R., {Yan}, R., {Bershady}, M.~A., {et~al.} 2015, \aj, 150, 19
 
 \bibitem[{{Lin} {et~al.}(2007){Lin}, {Koo}, {Weiner}, {Chiueh}, {Coil}, {Lotz},
   {Conselice}, {Willner}, {Smith}, {Guhathakurta}, {Huang}, {Le Floc'h},
@@ -181,6 +197,13 @@
 
 \bibitem[{{Toomre} \& {Toomre}(1972)}]{Toomre:1972}
 {Toomre}, A., \& {Toomre}, J. 1972, \apj, 178, 623
+
+\bibitem[{{Wake} {et~al.}(2017){Wake}, {Bundy}, {Diamond-Stanic}, {Yan},
+  {Blanton}, {Bershady}, {S{\'a}nchez-Gallego}, {Drory}, {Jones}, {Kauffmann},
+  {Law}, {Li}, {MacDonald}, {Masters}, {Thomas}, {Tinker}, {Weijmans}, \&
+  {Brownstein}}]{Wake:2017}
+{Wake}, D.~A., {Bundy}, K., {Diamond-Stanic}, A.~M., {et~al.} 2017, \aj, 154,
+  86
 
 \bibitem[{{Wong} {et~al.}(2011){Wong}, {Blanton}, {Burles}, {Coil}, {Cool},
   {Eisenstein}, {Moustakas}, {Zhu}, \& {Arnouts}}]{Wong:2011}
