@@ -1,6 +1,59 @@
 \begin{thebibliography}{}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
+\bibitem[{{Ahumada} {et~al.}(2020){Ahumada}, {Prieto}, {Almeida}, {Anders},
+  {Anderson}, {Andrews}, {Anguiano}, {Arcodia}, {Armengaud}, {Aubert}, {Avila},
+  {Avila-Reese}, {Badenes}, {Balland }, {Barger}, {Barrera-Ballesteros},
+  {Basu}, {Bautista}, {Beaton}, {Beers}, {Benavides}, {Bender}, {Bernardi},
+  {Bershady}, {Beutler}, {Bidin}, {Bird}, {Bizyaev}, {Blanc}, {Blanton},
+  {Boquien}, {Borissova}, {Bovy}, {Brand t}, {Brinkmann}, {Brownstein},
+  {Bundy}, {Bureau}, {Burgasser}, {Burtin}, {Cano-D{\'\i}az}, {Capasso},
+  {Cappellari}, {Carrera}, {Chabanier}, {Chaplin}, {Chapman}, {Cherinka},
+  {Chiappini}, {Doohyun Choi}, {Chojnowski}, {Chung}, {Clerc}, {Coffey},
+  {Comerford}, {Comparat}, {da Costa}, {Cousinou}, {Covey}, {Crane}, {Cunha},
+  {Ilha}, {Dai}, {Damsted}, {Darling}, {Davidson}, {Davies}, {Dawson}, {De},
+  {de la Macorra}, {De Lee}, {Queiroz}, {Deconto Machado}, {de la Torre},
+  {Dell'Agli}, {du Mas des Bourboux}, {Diamond-Stanic}, {Dillon}, {Donor},
+  {Drory}, {Duckworth}, {Dwelly}, {Ebelke}, {Eftekharzadeh}, {Davis Eigenbrot},
+  {Elsworth}, {Eracleous}, {Erfanianfar}, {Escoffier}, {Fan}, {Farr},
+  {Fern{\'a}ndez-Trincado}, {Feuillet}, {Finoguenov}, {Fofie},
+  {Fraser-McKelvie}, {Frinchaboy}, {Fromenteau}, {Fu}, {Galbany}, {Garcia},
+  {Garc{\'\i}a-Hern{\'a}ndez}, {Oehmichen}, {Ge}, {Maia}, {Geisler}, {Gelfand
+  }, {Goddy}, {Gonzalez-Perez}, {Grabowski}, {Green}, {Grier}, {Guo}, {Guy},
+  {Harding}, {Hasselquist}, {Hawken}, {Hayes}, {Hearty}, {Hekker}, {Hogg},
+  {Holtzman}, {Horta}, {Hou}, {Hsieh}, {Huber}, {Hunt}, {Chitham}, {Imig},
+  {Jaber}, {Angel}, {Johnson}, {Jones}, {J{\"o}nsson}, {Jullo}, {Kim},
+  {Kinemuchi}, {Kirkpatrick}, {Kite}, {Klaene}, {Kneib}, {Kollmeier}, {Kong},
+  {Kounkel}, {Krishnarao}, {Lacerna}, {Lan}, {Lane}, {Law}, {Le Goff}, {Leung},
+  {Lewis}, {Li}, {Lian}, {Lin}, {Long}, {Longa-Pe{\~n}a}, {Lundgren}, {Lyke},
+  {Ted Mackereth}, {MacLeod}, {Majewski}, {Manchado}, {Maraston}, {Martini},
+  {Masseron}, {Masters}, {Mathur}, {McDermid}, {Merloni}, {Merrifield},
+  {M{\'e}sz{\'a}ros}, {Miglio}, {Minniti}, {Minsley}, {Miyaji}, {Mohammad},
+  {Mosser}, {Mueller}, {Muna}, {Mu{\~n}oz-Guti{\'e}rrez}, {Myers}, {Nadathur},
+  {Nair}, {Nandra}, {do Nascimento}, {Nevin}, {Newman}, {Nidever}, {Nitschelm},
+  {Noterdaeme}, {O'Connell}, {Olmstead}, {Oravetz}, {Oravetz}, {Osorio},
+  {Pace}, {Padilla}, {Palanque-Delabrouille}, {Palicio}, {Pan}, {Pan},
+  {Parker}, {Paviot}, {Peirani}, {Ram{\'r}ez}, {Penny}, {Percival},
+  {Perez-Fournon}, {P{\'e}rez-R{\`a}fols}, {Petitjean}, {Pieri},
+  {Pinsonneault}, {Poovelil}, {Povick}, {Prakash}, {Price-Whelan}, {Raddick},
+  {Raichoor}, {Ray}, {Rembold}, {Rezaie}, {Riffel}, {Riffel}, {Rix}, {Robin},
+  {Roman-Lopes}, {Rom{\'a}n-Z{\'u}{\~n}iga}, {Rose}, {Ross}, {Rossi}, {Rowland
+  s}, {Rubin}, {Salvato}, {S{\'a}nchez}, {S{\'a}nchez-Menguiano},
+  {S{\'a}nchez-Gallego}, {Sayres}, {Schaefer}, {Schiavon}, {Schimoia},
+  {Schlafly}, {Schlegel}, {Schneider}, {Schultheis}, {Schwope}, {Seo},
+  {Serenelli}, {Shafieloo}, {Shamsi}, {Shao}, {Shen}, {Shetrone}, {Shirley},
+  {Aguirre}, {Simon}, {Skrutskie}, {Slosar}, {Smethurst}, {Sobeck}, {Sodi},
+  {Souto}, {Stark}, {Stassun}, {Steinmetz}, {Stello}, {Stermer},
+  {Storchi-Bergmann}, {Streblyanska}, {Stringfellow}, {Stutz}, {Su{\'a}rez},
+  {Sun}, {Taghizadeh-Popp}, {Talbot}, {Tayar}, {Thakar}, {Theriault}, {Thomas},
+  {Thomas}, {Tinker}, {Tojeiro}, {Toledo}, {Tremonti}, {Troup}, {Tuttle},
+  {Unda-Sanzana}, {Valentini}, {Vargas-Gonz{\'a}lez}, {Vargas-Maga{\~n}a},
+  {V{\'a}zquez-Mata}, {Vivek}, {Wake}, {Wang}, {Weaver}, {Weijmans}, {Wild},
+  {Wilson}, {Wilson}, {Wolthuis}, {Wood-Vasey}, {Yan}, {Yang}, {Y{\`e}che},
+  {Zamora}, {Zarrouk}, {Zasowski}, {Zhang}, {Zhao}, {Zhao}, {Zheng}, {Zheng},
+  {Zhu}, \& {Zou}}]{Ahumada:2020}
+{Ahumada}, R., {Prieto}, C.~A., {Almeida}, A., {et~al.} 2020, \apjs, 249, 3
+
 \bibitem[{{Baldwin} {et~al.}(1981){Baldwin}, {Phillips}, \&
   {Terlevich}}]{Baldwin:1981}
 {Baldwin}, J.~A., {Phillips}, M.~M., \& {Terlevich}, R. 1981, \pasp, 93, 5
