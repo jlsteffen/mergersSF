@@ -1,6 +1,67 @@
 \begin{thebibliography}{}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
+\bibitem[{{Abolfathi} {et~al.}(2018){Abolfathi}, {Aguado}, {Aguilar}, {Allende
+  Prieto}, {Almeida}, {Ananna}, {Anders}, {Anderson}, {Andrews}, {Anguiano},
+  {Arag{\'o}n-Salamanca}, {Argudo-Fern{\'a}ndez}, {Armengaud}, {Ata},
+  {Aubourg}, {Avila-Reese}, {Badenes}, {Bailey}, {Balland}, {Barger},
+  {Barrera-Ballesteros}, {Bartosz}, {Bastien}, {Bates}, {Baumgarten},
+  {Bautista}, {Beaton}, {Beers}, {Belfiore}, {Bender}, {Bernardi}, {Bershady},
+  {Beutler}, {Bird}, {Bizyaev}, {Blanc}, {Blanton}, {Blomqvist}, {Bolton},
+  {Boquien}, {Borissova}, {Bovy}, {Bradna Diaz}, {Brandt}, {Brinkmann},
+  {Brownstein}, {Bundy}, {Burgasser}, {Burtin}, {Busca}, {Ca{\~n}as},
+  {Cano-D{\'\i}az}, {Cappellari}, {Carrera}, {Casey}, {Cervantes Sodi}, {Chen},
+  {Cherinka}, {Chiappini}, {Choi}, {Chojnowski}, {Chuang}, {Chung}, {Clerc},
+  {Cohen}, {Comerford}, {Comparat}, {Correa do Nascimento}, {da Costa},
+  {Cousinou}, {Covey}, {Crane}, {Cruz-Gonzalez}, {Cunha}, {da Silva Ilha},
+  {Damke}, {Darling}, {Davidson}, {Dawson}, {de Icaza Lizaola}, {de la
+  Macorra}, {de la Torre}, {De Lee}, {de Sainte Agathe}, {Deconto Machado},
+  {Dell'Agli}, {Delubac}, {Diamond-Stanic}, {Donor}, {Downes}, {Drory}, {du Mas
+  des Bourboux}, {Duckworth}, {Dwelly}, {Dyer}, {Ebelke}, {Davis Eigenbrot},
+  {Eisenstein}, {Elsworth}, {Emsellem}, {Eracleous}, {Erfanianfar},
+  {Escoffier}, {Fan}, {Fern{\'a}ndez Alvar}, {Fernandez-Trincado}, {Fernand o
+  Cirolini}, {Feuillet}, {Finoguenov}, {Fleming}, {Font-Ribera}, {Freischlad},
+  {Frinchaboy}, {Fu}, {G{\'o}mez Maqueo Chew}, {Galbany}, {Garc{\'\i}a
+  P{\'e}rez}, {Garcia-Dias}, {Garc{\'\i}a-Hern{\'a}ndez}, {Garma Oehmichen},
+  {Gaulme}, {Gelfand }, {Gil-Mar{\'\i}n}, {Gillespie}, {Goddard}, {Gonz{\'a}lez
+  Hern{\'a}ndez}, {Gonzalez-Perez}, {Grabowski}, {Green}, {Grier}, {Gueguen},
+  {Guo}, {Guy}, {Hagen}, {Hall}, {Harding}, {Hasselquist}, {Hawley}, {Hayes},
+  {Hearty}, {Hekker}, {Hernand ez}, {Hernandez Toledo}, {Hogg},
+  {Holley-Bockelmann}, {Holtzman}, {Hou}, {Hsieh}, {Hunt}, {Hutchinson},
+  {Hwang}, {Jimenez Angel}, {Johnson}, {Jones}, {J{\"o}nsson}, {Jullo}, {Khan},
+  {Kinemuchi}, {Kirkby}, {Kirkpatrick}, {Kitaura}, {Knapp}, {Kneib},
+  {Kollmeier}, {Lacerna}, {Lane}, {Lang}, {Law}, {Le Goff}, {Lee}, {Li}, {Li},
+  {Lian}, {Liang}, {Lima}, {Lin}, {Long}, {Lucatello}, {Lundgren}, {Mackereth},
+  {MacLeod}, {Mahadevan}, {Maia}, {Majewski}, {Manchado}, {Maraston},
+  {Mariappan}, {Marques-Chaves}, {Masseron}, {Masters}, {McDermid}, {McGreer},
+  {Melendez}, {Meneses-Goytia}, {Merloni}, {Merrifield}, {Meszaros}, {Meza},
+  {Minchev}, {Minniti}, {Mueller}, {Muller-Sanchez}, {Muna}, {Mu{\~n}oz},
+  {Myers}, {Nair}, {Nand ra}, {Ness}, {Newman}, {Nichol}, {Nidever},
+  {Nitschelm}, {Noterdaeme}, {O'Connell}, {Oelkers}, {Oravetz}, {Oravetz},
+  {Ort{\'\i}z}, {Osorio}, {Pace}, {Padilla}, {Palanque-Delabrouille},
+  {Palicio}, {Pan}, {Pan}, {Parikh}, {P{\^a}ris}, {Park}, {Peirani},
+  {Pellejero-Ibanez}, {Penny}, {Percival}, {Perez-Fournon}, {Petitjean},
+  {Pieri}, {Pinsonneault}, {Pisani}, {Prada}, {Prakash}, {Queiroz}, {Raddick},
+  {Raichoor}, {Barboza Rembold}, {Richstein}, {Riffel}, {Riffel}, {Rix},
+  {Robin}, {Rodr{\'\i}guez Torres}, {Rom{\'a}n-Z{\'u}{\~n}iga}, {Ross},
+  {Rossi}, {Ruan}, {Ruggeri}, {Ruiz}, {Salvato}, {S{\'a}nchez}, {S{\'a}nchez},
+  {Sanchez Almeida}, {S{\'a}nchez-Gallego}, {Santana Rojas}, {Santiago},
+  {Schiavon}, {Schimoia}, {Schlafly}, {Schlegel}, {Schneider}, {Schuster},
+  {Schwope}, {Seo}, {Serenelli}, {Shen}, {Shen}, {Shetrone}, {Shull}, {Silva
+  Aguirre}, {Simon}, {Skrutskie}, {Slosar}, {Smethurst}, {Smith}, {Sobeck},
+  {Somers}, {Souter}, {Souto}, {Spindler}, {Stark}, {Stassun}, {Steinmetz},
+  {Stello}, {Storchi-Bergmann}, {Streblyanska}, {Stringfellow}, {Su{\'a}rez},
+  {Sun}, {Szigeti}, {Taghizadeh-Popp}, {Talbot}, {Tang}, {Tao}, {Tayar},
+  {Tembe}, {Teske}, {Thakar}, {Thomas}, {Tissera}, {Tojeiro}, {Tremonti},
+  {Troup}, {Urry}, {Valenzuela}, {van den Bosch}, {Vargas-Gonz{\'a}lez},
+  {Vargas-Maga{\~n}a}, {Vazquez}, {Villanova}, {Vogt}, {Wake}, {Wang},
+  {Weaver}, {Weijmans}, {Weinberg}, {Westfall}, {Whelan}, {Wilcots}, {Wild},
+  {Williams}, {Wilson}, {Wood-Vasey}, {Wylezalek}, {Xiao}, {Yan}, {Yang},
+  {Ybarra}, {Y{\`e}che}, {Zakamska}, {Zamora}, {Zarrouk}, {Zasowski}, {Zhang},
+  {Zhao}, {Zhao}, {Zheng}, {Zheng}, {Zhou}, {Zhu}, {Zinn}, \&
+  {Zou}}]{Abolfathi:2018}
+{Abolfathi}, B., {Aguado}, D.~S., {Aguilar}, G., {et~al.} 2018, \apjs, 235, 42
+
 \bibitem[{{Ahumada} {et~al.}(2020){Ahumada}, {Prieto}, {Almeida}, {Anders},
   {Anderson}, {Andrews}, {Anguiano}, {Arcodia}, {Armengaud}, {Aubert}, {Avila},
   {Avila-Reese}, {Badenes}, {Balland }, {Barger}, {Barrera-Ballesteros},
@@ -137,12 +198,6 @@
   {Sasaki}, \& {Taniguchi}}]{Kartaltepe:2007}
 {Kartaltepe}, J.~S., {Sanders}, D.~B., {Scoville}, N.~Z., {et~al.} 2007, \apjs,
   172, 320
-
-\bibitem[{{Kauffmann} {et~al.}(2003){Kauffmann}, {Heckman}, {Tremonti},
-  {Brinchmann}, {Charlot}, {White}, {Ridgway}, {Brinkmann}, {Fukugita}, {Hall},
-  {Ivezi{\'c}}, {Richards}, \& {Schneider}}]{Kauffmann:2003}
-{Kauffmann}, G., {Heckman}, T.~M., {Tremonti}, C., {et~al.} 2003, \mnras, 346,
-  1055
 
 \bibitem[{{Kewley} {et~al.}(2001){Kewley}, {Dopita}, {Sutherland}, {Heisler},
   \& {Trevena}}]{Kewley:2001}

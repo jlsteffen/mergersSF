@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 JUL 2020 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  28 JUL 2020 14:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -555,173 +555,169 @@ LaTeX Info: Redefining \nameref on input line 50.
 \@outlinefile=\write4
 \openout4 = `maintex.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 62.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 64.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 62
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 64
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 62.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 64.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 62.
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 62.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+psy on input line 62.
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 
 
 Class revtex4 Warning: Assuming \noaffiliation for  Joshua L. Steffen\textsuper
 script {1}, Hai Fu\textsuperscript {1}, and MaNGA Team .
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
 
-Package hyperref Warning: Ignoring empty anchor on input line 87.
+Package hyperref Warning: Ignoring empty anchor on input line 89.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 87.
+Package hyperref Warning: Ignoring empty anchor on input line 89.
 
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<fig/color-mag.pdf, id=180, 522.61967pt x 580.71765pt>
+<fig/color-mag.pdf, id=186, 522.61967pt x 577.0094pt>
 File: fig/color-mag.pdf Graphic file (type pdf)
 <use fig/color-mag.pdf>
-Package pdftex.def Info: fig/color-mag.pdf  used on input line 108.
-(pdftex.def)             Requested size: 245.26653pt x 272.52972pt.
+Package pdftex.def Info: fig/color-mag.pdf  used on input line 110.
+(pdftex.def)             Requested size: 245.26653pt x 270.78944pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 109.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 111.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 118.
 
-[2 <./fig/color-mag.pdf>] [3]
-<fig/ssfr_comb.pdf, id=317, 1251.81116pt x 433.34648pt>
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [2 <./fig/color-mag.pdf>] [3]
+<fig/ssfr_comb.pdf, id=309, 1251.81116pt x 433.34648pt>
 File: fig/ssfr_comb.pdf Graphic file (type pdf)
 <use fig/ssfr_comb.pdf>
-Package pdftex.def Info: fig/ssfr_comb.pdf  used on input line 226.
+Package pdftex.def Info: fig/ssfr_comb.pdf  used on input line 219.
 (pdftex.def)             Requested size: 513.11743pt x 177.63353pt.
- [4]
-Underfull \hbox (badness 1668) in paragraph at lines 262--263
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+[4]
+Underfull \hbox (badness 1668) in paragraph at lines 265--266
 \T1/ptm/m/n/10 galax-ies are af-fected by merger events, we ex-tract the
  []
 
-<fig/ssfr_mass.pdf, id=363, 996.98724pt x 516.70978pt>
+<fig/ssfr_mass.pdf, id=362, 996.98724pt x 516.70978pt>
 File: fig/ssfr_mass.pdf Graphic file (type pdf)
 <use fig/ssfr_mass.pdf>
-Package pdftex.def Info: fig/ssfr_mass.pdf  used on input line 271.
+Package pdftex.def Info: fig/ssfr_mass.pdf  used on input line 270.
 (pdftex.def)             Requested size: 513.11743pt x 265.939pt.
 
-Underfull \hbox (badness 1360) in paragraph at lines 281--282
+Underfull \hbox (badness 1360) in paragraph at lines 280--281
 []\T1/ptm/m/n/10 The $\OT1/cmr/m/n/10 ^^A$\T1/ptm/m/n/10 log(sSFR) pro-file fol
 -low-ing the sec-ond method
  []
 
 [5 <./fig/ssfr_comb.pdf>]
-<fig/mass_gain.pdf, id=423, 546.85867pt x 515.7374pt>
+<fig/mass_gain.pdf, id=422, 546.85867pt x 515.7374pt>
 File: fig/mass_gain.pdf Graphic file (type pdf)
 <use fig/mass_gain.pdf>
-Package pdftex.def Info: fig/mass_gain.pdf  used on input line 312.
+Package pdftex.def Info: fig/mass_gain.pdf  used on input line 311.
 (pdftex.def)             Requested size: 216.81pt x 204.47343pt.
-<fig/ssfr_partial.pdf, id=424, 996.98724pt x 960.92062pt>
+<fig/ssfr_partial.pdf, id=423, 996.98724pt x 960.92062pt>
 File: fig/ssfr_partial.pdf Graphic file (type pdf)
 <use fig/ssfr_partial.pdf>
-Package pdftex.def Info: fig/ssfr_partial.pdf  used on input line 321.
+Package pdftex.def Info: fig/ssfr_partial.pdf  used on input line 320.
 (pdftex.def)             Requested size: 513.11743pt x 494.5644pt.
  [6 <./fig/ssfr_mass.pdf> <./fig/mass_gain.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/mass_gain.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >] [7 <./fig/ssfr_partial.pdf>]
-<fig/nuc_sep.pdf, id=591, 423.94064pt x 404.44162pt>
+<fig/nuc_sep.pdf, id=590, 423.94064pt x 404.44162pt>
 File: fig/nuc_sep.pdf Graphic file (type pdf)
 <use fig/nuc_sep.pdf>
-Package pdftex.def Info: fig/nuc_sep.pdf  used on input line 366.
+Package pdftex.def Info: fig/nuc_sep.pdf  used on input line 365.
 (pdftex.def)             Requested size: 216.81pt x 206.83641pt.
-<fig/prof_comp.pdf, id=600, 423.57779pt x 404.44162pt>
+<fig/prof_comp.pdf, id=599, 423.57779pt x 404.44162pt>
 File: fig/prof_comp.pdf Graphic file (type pdf)
 <use fig/prof_comp.pdf>
-Package pdftex.def Info: fig/prof_comp.pdf  used on input line 375.
+Package pdftex.def Info: fig/prof_comp.pdf  used on input line 374.
 (pdftex.def)             Requested size: 216.81pt x 207.02155pt.
  [8 <./fig/nuc_sep.pdf> <./fig/prof_comp.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/prof_comp.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
-
- []
-
-
-Underfull \hbox (badness 1226) in paragraph at lines 406--407
+Underfull \hbox (badness 1226) in paragraph at lines 405--406
  []\T1/ptm/m/n/10 The paired galax-ies will ex-pe-ri-ence a faster mass
  []
 
 [9] (./maintex.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 431.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 431.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 430.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 430.
  [10] (./maintex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 431.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 431.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 430.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 430.
 Package rerunfilecheck Info: File `maintex.out' has not changed.
-(rerunfilecheck)             Checksum: 7002B52084244D7C2EAB6B54D1F627CD;1168.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
+(rerunfilecheck)             Checksum: F3AE4AF97D5F652383B36A9CFBFEBCFF;1214.
  ) 
 Here is how much of TeX's memory you used:
- 8644 strings out of 492649
- 119619 string characters out of 6129622
- 270947 words of memory out of 5000000
- 12283 multiletter control sequences out of 15000+600000
- 82171 words of font info for 112 fonts, out of 8000000 for 9000
+ 8675 strings out of 492649
+ 120054 string characters out of 6129622
+ 278341 words of memory out of 5000000
+ 12310 multiletter control sequences out of 15000+600000
+ 82792 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,29p,3724b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.8} has been referenced but does not exist,
- replaced by a fixed one
-
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texm
-f-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/font
-s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on maintex.pdf (10 pages, 445703 bytes).
+ 41i,7n,29p,4293b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on maintex.pdf (10 pages, 456822 bytes).
 PDF statistics:
- 817 PDF objects out of 1000 (max. 8388607)
- 508 compressed objects within 6 object streams
- 96 named destinations out of 1000 (max. 500000)
- 180 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 819 PDF objects out of 1000 (max. 8388607)
+ 509 compressed objects within 6 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
