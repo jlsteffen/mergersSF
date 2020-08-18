@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  6 AUG 2020 18:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  18 AUG 2020 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -622,43 +622,47 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 118.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [2 <./fig/color-mag.pdf>] [3]
-<fig/ssfr_comb.pdf, id=306, 1251.81116pt x 433.34648pt>
+Underfull \hbox (badness 2158) in paragraph at lines 224--225
+[]\T1/ptm/m/n/10 It has been shown that hot low mass evolved stars
+ []
+
+<fig/ssfr_comb.pdf, id=301, 1251.81116pt x 433.34648pt>
 File: fig/ssfr_comb.pdf Graphic file (type pdf)
 <use fig/ssfr_comb.pdf>
-Package pdftex.def Info: fig/ssfr_comb.pdf  used on input line 234.
+Package pdftex.def Info: fig/ssfr_comb.pdf  used on input line 232.
 (pdftex.def)             Requested size: 513.11743pt x 177.63353pt.
- [4] [5 <./fig/ssfr_comb.pdf>]
-<fig/ssfr_mass.pdf, id=411, 996.98724pt x 516.70978pt>
+[4] [5 <./fig/ssfr_comb.pdf>]
+<fig/ssfr_mass.pdf, id=403, 996.98724pt x 516.70978pt>
 File: fig/ssfr_mass.pdf Graphic file (type pdf)
 <use fig/ssfr_mass.pdf>
-Package pdftex.def Info: fig/ssfr_mass.pdf  used on input line 303.
+Package pdftex.def Info: fig/ssfr_mass.pdf  used on input line 301.
 (pdftex.def)             Requested size: 513.11743pt x 265.939pt.
-<fig/mass_gain.pdf, id=415, 546.85867pt x 515.7374pt>
+<fig/mass_gain.pdf, id=407, 546.85867pt x 515.7374pt>
 File: fig/mass_gain.pdf Graphic file (type pdf)
 <use fig/mass_gain.pdf>
-Package pdftex.def Info: fig/mass_gain.pdf  used on input line 336.
+Package pdftex.def Info: fig/mass_gain.pdf  used on input line 334.
 (pdftex.def)             Requested size: 216.81pt x 204.47343pt.
-<fig/ssfr_partial.pdf, id=416, 996.98724pt x 960.92062pt>
+<fig/ssfr_partial.pdf, id=408, 996.98724pt x 960.92062pt>
 File: fig/ssfr_partial.pdf Graphic file (type pdf)
 <use fig/ssfr_partial.pdf>
-Package pdftex.def Info: fig/ssfr_partial.pdf  used on input line 345.
+Package pdftex.def Info: fig/ssfr_partial.pdf  used on input line 343.
 (pdftex.def)             Requested size: 513.11743pt x 494.5644pt.
- [6] [7 <./fig/ssfr_mass.pdf> <./fig/mass_gain.pdf
+ [6]
+<fig/nuc_sep.pdf, id=436, 423.94064pt x 404.44162pt>
+File: fig/nuc_sep.pdf Graphic file (type pdf)
+<use fig/nuc_sep.pdf>
+Package pdftex.def Info: fig/nuc_sep.pdf  used on input line 386.
+(pdftex.def)             Requested size: 216.81pt x 206.83641pt.
+<fig/prof_comp.pdf, id=445, 423.57779pt x 404.44162pt>
+File: fig/prof_comp.pdf Graphic file (type pdf)
+<use fig/prof_comp.pdf>
+Package pdftex.def Info: fig/prof_comp.pdf  used on input line 395.
+(pdftex.def)             Requested size: 216.81pt x 207.02155pt.
+ [7 <./fig/ssfr_mass.pdf> <./fig/mass_gain.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/mass_gain.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
->]
-<fig/nuc_sep.pdf, id=532, 423.94064pt x 404.44162pt>
-File: fig/nuc_sep.pdf Graphic file (type pdf)
-<use fig/nuc_sep.pdf>
-Package pdftex.def Info: fig/nuc_sep.pdf  used on input line 390.
-(pdftex.def)             Requested size: 216.81pt x 206.83641pt.
-<fig/prof_comp.pdf, id=541, 423.57779pt x 404.44162pt>
-File: fig/prof_comp.pdf Graphic file (type pdf)
-<use fig/prof_comp.pdf>
-Package pdftex.def Info: fig/prof_comp.pdf  used on input line 399.
-(pdftex.def)             Requested size: 216.81pt x 207.02155pt.
- [8 <./fig/ssfr_partial.pdf>]
+>] [8 <./fig/ssfr_partial.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed) on input line 408.
 
@@ -672,28 +676,23 @@ Class revtex4 Warning: Deferred float stuck during \clearpage processing.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/prof_comp.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
->]
-Underfull \hbox (badness 1226) in paragraph at lines 430--431
- []\T1/ptm/m/n/10 The paired galax-ies will ex-pe-ri-ence a faster mass
- []
-
-(./maintex.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 455.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 455.
+>] (./maintex.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 451.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 451.
  [10] (./maintex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 455.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 455.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 451.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 451.
 Package rerunfilecheck Info: File `maintex.out' has not changed.
 (rerunfilecheck)             Checksum: 4C252CE9D50230E867F1D5048527E3D2;1353.
  ) 
 Here is how much of TeX's memory you used:
- 8682 strings out of 492649
- 120165 string characters out of 6129622
- 292300 words of memory out of 5000000
- 12312 multiletter control sequences out of 15000+600000
- 85640 words of font info for 116 fonts, out of 8000000 for 9000
+ 8678 strings out of 492649
+ 120115 string characters out of 6129622
+ 281892 words of memory out of 5000000
+ 12309 multiletter control sequences out of 15000+600000
+ 77364 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,29p,4293b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,29p,4293b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -708,10 +707,10 @@ xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist
 1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on maintex.pdf (10 pages, 462714 bytes).
+Output written on maintex.pdf (10 pages, 461158 bytes).
 PDF statistics:
- 826 PDF objects out of 1000 (max. 8388607)
- 505 compressed objects within 6 object streams
- 99 named destinations out of 1000 (max. 500000)
+ 824 PDF objects out of 1000 (max. 8388607)
+ 503 compressed objects within 6 object streams
+ 98 named destinations out of 1000 (max. 500000)
  196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
