@@ -199,11 +199,6 @@
 {Kartaltepe}, J.~S., {Sanders}, D.~B., {Scoville}, N.~Z., {et~al.} 2007, \apjs,
   172, 320
 
-\bibitem[{{Kewley} {et~al.}(2001){Kewley}, {Dopita}, {Sutherland}, {Heisler},
-  \& {Trevena}}]{Kewley:2001}
-{Kewley}, L.~J., {Dopita}, M.~A., {Sutherland}, R.~S., {Heisler}, C.~A., \&
-  {Trevena}, J. 2001, \apj, 556, 121
-
 \bibitem[{{Lambas} {et~al.}(2003){Lambas}, {Tissera}, {Alonso}, \&
   {Coldwell}}]{Lambas:2003}
 {Lambas}, D.~G., {Tissera}, P.~B., {Alonso}, M.~S., \& {Coldwell}, G. 2003,
@@ -213,6 +208,11 @@
   {Drory}, {MacDonald}, {S{\'a}nchez-Gallego}, {Wake}, {Weijmans}, {Blanton},
   {Klaene}, {Moran}, {Sanchez}, \& {Zhang}}]{Law:2015}
 {Law}, D.~R., {Yan}, R., {Bershady}, M.~A., {et~al.} 2015, \aj, 150, 19
+
+\bibitem[{{Li} {et~al.}(2008){Li}, {Kauffmann}, {Heckman}, {Jing}, \&
+  {White}}]{Li:2008}
+{Li}, C., {Kauffmann}, G., {Heckman}, T.~M., {Jing}, Y.~P., \& {White}, S.
+  D.~M. 2008, \mnras, 385, 1903
 
 \bibitem[{{Lin} {et~al.}(2007){Lin}, {Koo}, {Weiner}, {Chiueh}, {Coil}, {Lotz},
   {Conselice}, {Willner}, {Smith}, {Guhathakurta}, {Huang}, {Le Floc'h},
