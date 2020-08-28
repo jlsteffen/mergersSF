@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  19 AUG 2020 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  28 AUG 2020 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -610,7 +610,7 @@ Package hyperref Warning: Ignoring empty anchor on input line 89.
 Package hyperref Warning: Ignoring empty anchor on input line 89.
 
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<fig/color-mag.pdf, id=191, 522.61967pt x 577.0094pt>
+<fig/color-mag.pdf, id=194, 522.61967pt x 577.0094pt>
 File: fig/color-mag.pdf Graphic file (type pdf)
 <use fig/color-mag.pdf>
 Package pdftex.def Info: fig/color-mag.pdf  used on input line 110.
@@ -626,7 +626,7 @@ Underfull \hbox (badness 2158) in paragraph at lines 224--225
 []\T1/ptm/m/n/10 It has been shown that hot low mass evolved stars
  []
 
-<fig/ssfr_comb.pdf, id=298, 1251.81116pt x 433.34648pt>
+<fig/ssfr_comb.pdf, id=300, 1251.81116pt x 433.34648pt>
 File: fig/ssfr_comb.pdf Graphic file (type pdf)
 <use fig/ssfr_comb.pdf>
 Package pdftex.def Info: fig/ssfr_comb.pdf  used on input line 232.
@@ -657,17 +657,17 @@ File: fig/nuc_sep.pdf Graphic file (type pdf)
 <use fig/nuc_sep.pdf>
 Package pdftex.def Info: fig/nuc_sep.pdf  used on input line 390.
 (pdftex.def)             Requested size: 216.81pt x 206.83641pt.
-<fig/prof_comp.pdf, id=531, 423.57779pt x 404.44162pt>
+<fig/prof_comp.pdf, id=533, 423.57779pt x 404.44162pt>
 File: fig/prof_comp.pdf Graphic file (type pdf)
 <use fig/prof_comp.pdf>
 Package pdftex.def Info: fig/prof_comp.pdf  used on input line 399.
 (pdftex.def)             Requested size: 216.81pt x 207.02155pt.
  [8 <./fig/ssfr_partial.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 406.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 408.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 406.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 408.
 
 
 Class revtex4 Warning: Deferred float stuck during \clearpage processing.
@@ -686,13 +686,13 @@ Package rerunfilecheck Info: File `maintex.out' has not changed.
 (rerunfilecheck)             Checksum: 4C252CE9D50230E867F1D5048527E3D2;1353.
  ) 
 Here is how much of TeX's memory you used:
- 8680 strings out of 492649
- 120113 string characters out of 6129622
- 298970 words of memory out of 5000000
- 12310 multiletter control sequences out of 15000+600000
+ 8679 strings out of 492649
+ 120105 string characters out of 6129622
+ 296794 words of memory out of 5000000
+ 12309 multiletter control sequences out of 15000+600000
  77364 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,29p,4293b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,29p,4293b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -707,10 +707,10 @@ xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist
 1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on maintex.pdf (10 pages, 463513 bytes).
+Output written on maintex.pdf (10 pages, 464187 bytes).
 PDF statistics:
- 827 PDF objects out of 1000 (max. 8388607)
- 506 compressed objects within 6 object streams
+ 839 PDF objects out of 1000 (max. 8388607)
+ 516 compressed objects within 6 object streams
  99 named destinations out of 1000 (max. 500000)
  196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
