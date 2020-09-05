@@ -134,9 +134,6 @@
 {Barrera-Ballesteros}, J.~K., {S{\'a}nchez}, S.~F., {Garc{\'\i}a-Lorenzo}, B.,
   {et~al.} 2015, \aap, 579, A45
 
-\bibitem[{{Barton} {et~al.}(2000){Barton}, {Geller}, \& {Kenyon}}]{Barton:2000}
-{Barton}, E.~J., {Geller}, M.~J., \& {Kenyon}, S.~J. 2000, \apj, 530, 660
-
 \bibitem[{{Boylan-Kolchin} {et~al.}(2008){Boylan-Kolchin}, {Ma}, \&
   {Quataert}}]{Boylan-Kolchin:2008}
 {Boylan-Kolchin}, M., {Ma}, C.-P., \& {Quataert}, E. 2008, \mnras, 383, 93
@@ -193,16 +190,8 @@
 {Giovanelli}, R., {Haynes}, M.~P., {Salzer}, J.~J., {et~al.} 1994, \aj, 107,
   2036
 
-\bibitem[{{Kartaltepe} {et~al.}(2007){Kartaltepe}, {Sanders}, {Scoville},
-  {Calzetti}, {Capak}, {Koekemoer}, {Mobasher}, {Murayama}, {Salvato},
-  {Sasaki}, \& {Taniguchi}}]{Kartaltepe:2007}
-{Kartaltepe}, J.~S., {Sanders}, D.~B., {Scoville}, N.~Z., {et~al.} 2007, \apjs,
-  172, 320
-
-\bibitem[{{Lambas} {et~al.}(2003){Lambas}, {Tissera}, {Alonso}, \&
-  {Coldwell}}]{Lambas:2003}
-{Lambas}, D.~G., {Tissera}, P.~B., {Alonso}, M.~S., \& {Coldwell}, G. 2003,
-  \mnras, 346, 1189
+\bibitem[{{Larson} \& {Tinsley}(1978)}]{Larson:1978}
+{Larson}, R.~B., \& {Tinsley}, B.~M. 1978, \apj, 219, 46
 
 \bibitem[{{Law} {et~al.}(2015){Law}, {Yan}, {Bershady}, {Bundy}, {Cherinka},
   {Drory}, {MacDonald}, {S{\'a}nchez-Gallego}, {Wake}, {Weijmans}, {Blanton},
@@ -213,16 +202,6 @@
   {White}}]{Li:2008}
 {Li}, C., {Kauffmann}, G., {Heckman}, T.~M., {Jing}, Y.~P., \& {White}, S.
   D.~M. 2008, \mnras, 385, 1903
-
-\bibitem[{{Lin} {et~al.}(2007){Lin}, {Koo}, {Weiner}, {Chiueh}, {Coil}, {Lotz},
-  {Conselice}, {Willner}, {Smith}, {Guhathakurta}, {Huang}, {Le Floc'h},
-  {Noeske}, {Willmer}, {Cooper}, \& {Phillips}}]{Lin:2007}
-{Lin}, L., {Koo}, D.~C., {Weiner}, B.~J., {et~al.} 2007, \apjl, 660, L51
-
-\bibitem[{{Mendel} {et~al.}(2014){Mendel}, {Simard}, {Palmer}, {Ellison}, \&
-  {Patton}}]{Mendel:2014}
-{Mendel}, J.~T., {Simard}, L., {Palmer}, M., {Ellison}, S.~L., \& {Patton},
-  D.~R. 2014, \apjs, 210, 3
 
 \bibitem[{{Mihos} \& {Hernquist}(1996)}]{Mihos:1996}
 {Mihos}, J.~C., \& {Hernquist}, L. 1996, \apj, 464, 641
@@ -264,15 +243,6 @@
   \& {Vogelsberger}}]{Pillepich:2018}
 {Pillepich}, A., {Nelson}, D., {Hernquist}, L., {et~al.} 2018, \mnras, 475, 648
 
-\bibitem[{{Robotham} {et~al.}(2014){Robotham}, {Driver}, {Davies}, {Hopkins},
-  {Baldry}, {Agius}, {Bauer}, {Bland-Hawthorn}, {Brough}, {Brown}, {Cluver},
-  {De Propris}, {Drinkwater}, {Holwerda}, {Kelvin}, {Lara-Lopez}, {Liske},
-  {L{\'o}pez-S{\'a}nchez}, {Loveday}, {Mahajan}, {McNaught-Roberts}, {Moffett},
-  {Norberg}, {Obreschkow}, {Owers}, {Penny}, {Pimbblet}, {Prescott}, {Taylor},
-  {van Kampen}, \& {Wilkins}}]{Robotham:2014}
-{Robotham}, A.~S.~G., {Driver}, S.~P., {Davies}, L.~J.~M., {et~al.} 2014,
-  \mnras, 444, 3986
-
 \bibitem[{{Rodriguez-Gomez} {et~al.}(2016){Rodriguez-Gomez}, {Pillepich},
   {Sales}, {Genel}, {Vogelsberger}, {Zhu}, {Wellons}, {Nelson}, {Torrey},
   {Springel}, {Ma}, \& {Hernquist}}]{Rodriguez-Gomez:2016}
@@ -312,16 +282,5 @@
   {Brownstein}}]{Wake:2017}
 {Wake}, D.~A., {Bundy}, K., {Diamond-Stanic}, A.~M., {et~al.} 2017, \aj, 154,
   86
-
-\bibitem[{{Wong} {et~al.}(2011){Wong}, {Blanton}, {Burles}, {Coil}, {Cool},
-  {Eisenstein}, {Moustakas}, {Zhu}, \& {Arnouts}}]{Wong:2011}
-{Wong}, K.~C., {Blanton}, M.~R., {Burles}, S.~M., {et~al.} 2011, \apj, 728, 119
-
-\bibitem[{{Woods} {et~al.}(2006){Woods}, {Geller}, \& {Barton}}]{Woods:2006}
-{Woods}, D.~F., {Geller}, M.~J., \& {Barton}, E.~J. 2006, \aj, 132, 197
-
-\bibitem[{{Xu} {et~al.}(2012){Xu}, {Zhao}, {Scoville}, {Capak}, {Drory}, \&
-  {Gao}}]{Xu:2012}
-{Xu}, C.~K., {Zhao}, Y., {Scoville}, N., {et~al.} 2012, \apj, 747, 85
 
 \end{thebibliography}
