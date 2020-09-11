@@ -195,7 +195,7 @@ This will allow us to compare regions to high mass surface density to regions of
 
 We check the results of the radial profiles of this sSFR against the radial profiles of \ewha\ and find that they are in good agreement. \ewha\ is an observable while our measurement of the sSFR is dependent on both the H$\alpha$ luminosity and {\sc spfit}'s calculation of the stellar mass, so this check helps confirm the quality of our sSFR measurement.
 
-%It has been shown that hot low mass evolved stars (HOLMES) in retired galaxies can mimic H\,{\sc ii} regions and AGN on the BPT diagram \citep{Stasinska:2008}. To mask retired spaxels, we implement a H$\alpha$ equivalent width (EW) cut of \ewha\ $>$ 3\AA\ \citep{Cid-Fernandes:2011}. 
+It has been shown that hot low mass evolved stars (HOLMES) in retired galaxies can mimic H\,{\sc ii} regions and AGN on the BPT diagram \citep{Stasinska:2008}. To mask retired spaxels, we implement a H$\alpha$ equivalent width (EW) cut of \ewha\ $>$ 3\AA\ \citep{Cid-Fernandes:2011}. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Radial Profiles}\label{sec:radial}
@@ -237,7 +237,7 @@ We use our catalog of photometric objects and the \citet{Simard:2011} catalog to
 
 \subsection{Star Formation Enhancement}
 
-With individual log(sSFR) profiles built for each MaNGA galaxy, we now use two different methods to compare the profiles of paired galaxies against the profiles of control galaxies. The first method, in Section \ref{sec:mass-bin}, paired galaxies are compared to control galaxies within evenly spaced stellar mass-bins. In the second method, in Section \ref{sec:tailored}, paired galaxies are compared to a subset 20 control galaxies which have a similar stellar mass and redshift. 
+With individual log(sSFR) profiles built for each MaNGA galaxy, we now use two different methods to compare the profiles of paired galaxies against the profiles of control galaxies. The first method, in Section \ref{sec:mass-bin}, paired galaxies are compared to control galaxies within evenly spaced stellar mass-bins. In the second method, in Section \ref{sec:tailored}, paired galaxies are compared to a subset of 20 control galaxies which have a similar stellar mass and redshift. 
 
 \subsubsection{Mass-Binned Difference Profiles}\label{sec:mass-bin}
 
@@ -245,27 +245,56 @@ In the first method, paired and control galaxies are grouped into five evenly sp
 
 Once the stacked profiles are made, we take the difference between the stacked profiles of the paired galaxies and the control galaxies, pair - control, in log space (this means that the profiles really represents a ratio between the pairs and controls in linear space). This gives us difference profile, $\Delta$log(sSFR), which shows us where the sSFR is enhanced or suppressed (shown in the right hand panel of Figure \ref{fig:ssfr_prof}). 
 
+The dashed regions of the profiles in Figure \ref{fig:ssfr_prof} represent regions which have been ``trimmed" due to a low percent of data coverage in the region. A radial bin is trimmed if less than 70\% of the galaxies in that bin have data. There are a few reasons why galaxy's profile may not have data points at a given radial bin. First, the MaNGA IFU may not cover the radius range; only $\sim$37\% of MaNGA galaxies are covered out to 2.5 $R$/\reff. This radial coverage limitation primarily affect the lower mass galaxies in the \logm\ $=$ 9.0$-$9.5. Second, foreground and background objects have been masked out which can create gaps in the data of an individual galaxies profile. This case does not significantly affect the stacked profiles here since the masked out regions will be spread out across the whole radius range. Third, retired regions within galaxies have been masked out with the \ewha\ $\ge$ 3\AA\ cut. It is well known that high mass galaxies tend to be passive (as seen in our CMD diagram in Figure \ref{fig:cmd}). As a consequence, the highest mass galaxies in our sample (\logm\ $=$ 11.0$-$11.5) have much of their profiles trimmed due to absence of star forming spaxels. 
+
 This method has the benefit of a high S/N control profile since each mass bin will have hundreds of control galaxies while the median control profiles of the second method will only have 20 controls. On the other hand, this method only controls for a single galaxy parameter, stellar mass. Further the profiles can only be studied as a function of stellar mass so we are unable to study the profiles as a function of projected separation or mass ratio. 
 
-We show the mass-binned profiles in Figure \ref{fig:ssfr_prof}. Between the median profiles of the control galaxies and paired galaxies, we can see that the paired profiles are flatted in their centers in comparison to the control profiles. The paired profiles are centrally enhanced by $\sim$0.25 $\pm$ 0.1 dex. This enhancement linearly falls to zero around 1.0 \reff. In the disks the profiles feature a weak suppression to the sSFR of 0.05$-$0.1 dex. 
+Between the median profiles of the control galaxies and paired galaxies, we can see that the paired profiles are flattened in their centers in comparison to the control profiles. The paired profiles are centrally enhanced by $\sim$0.25 $\pm$ 0.1 dex. This enhancement linearly falls to zero around 1.0 $R$/\reff. In the disks the profiles feature a weak suppression to the sSFR of 0.05$-$0.1 dex. 
 
-The sSFR enhancement show no dependence on the stellar mass, the profiles of the different mass bins fall within $\sim$0.2 dex of median profile. This means that low mass galaxies are enhanced at the same level as high mass galaxies. It is also notable that while this method of pair-control comparison is not rigorous as the next method, the central star formation enhancement is clearly present.
+The sSFR in the pair sample shows no dependence on their stellar mass. The profiles from all of the mass ranges fall within $\sim$0.2 of the median profile. This means that low mass galaxies are enhanced at the same level as high mass galaxies. It is also notable that while this method of pair-control comparison is not rigorous as the next method, the central star formation enhancement is clearly present at all stellar masses.
+
+The higher rate of star formation within interacting galaxies will mean that the stellar mass in the interacting galaxies will grow at a faster rate compared to secular mass growth. The fractional mass growth rate is simply the difference between the sSFR profiles of the paired and control galaxies (pairs - controls) multiplied by at timescale. We chose a timescale of 1 Gyr as an order of magnitude estimate of the interaction event \citep{Boylan-Kolchin:2008}, though the actual timescale of the merger induced starburst is likely somewhat shorter ($\sim$0.4 Gyr; \citet{Feng:2019}). 
+
+Since the $\Delta$log(sSFR) is independent of galaxy mass, the fractional mass change will depend on the stellar mass of the paired galaxy. Low mass galaxies, \logm\ $=$ 9.0$-$9.5, experience a fractional mass change of $\Delta M_{\rm merger}$/$M_{\rm total}$ $=$ 0.06 (6\%) while massive galaxies, \logm\ $=$ 11.0$-$11.5, experience a fractional mass change of $\Delta M_{\rm merger}$/$M_{\rm total}$ $=$ 0.005 (0.5\%). This show that the merger induced mass growth is greatest in low mass galaxies. Further, the merger induced mass growth is restricted to the centers of the paired galaxies which will result in galaxies which have more prominent bulges in their centers. 
 
 \subsubsection{Tailored-Controls Difference Profiles}\label{sec:tailored}
 
-In the second method, we match each paired galaxy to a set of 20 control galaxies of a similar stellar mass and redshift, as mentioned in Section \ref{sec:control}. We take the individual averaged profiles of the selected control galaxies and take the median value of the profiles at each radius bin giving us a stacked profile of control galaxies. The error of the profile is the standard error of the mean of the individual profiles. We also take into account the error associated with the random selection of controls using a bootstrapping method to quantify the variation in the values of the stacked profiles over 1000 iterations. We estimate that this random selection contributes an error of about 0.1 dex.
+In the second method, we match each paired galaxy to a set of 20 control galaxies of similar stellar masses and redshifts, as described in Section \ref{sec:control}. We take the individual azimuthally averaged profiles of the selected control galaxies and take the median value of the profiles at each radius bin to produce the average profile of the control galaxies. 
 
-Once the stacked profile of the control galaxies is made, we take the difference between the paired galaxy's profile and the stacked control profile in log space. We do this process for each of the 220 paired galaxies. 
+% Is this necessary
+%The error of the profile is the standard error of the mean of the individual profiles. We also take into account the error associated with the random selection of controls using a bootstrapping method to quantify the variation in the values of the stacked profiles over 1000 iterations. We estimate that this random selection contributes an error of about 0.1 dex.
 
-The difference profiles at this stage have now been controlled for stellar mass, redshift, and galaxy size. We can freely stack these profiles to study the global properties of the merging galaxies. We take all of the $\Delta$log(sSFR) profiles and take the median value within each radius bin to create a stacked profile of the individual difference profiles. We split the individual difference profiles into five evenly spaced stellar mass bins between \logm\ $=$ 9.0$-$11.5 and stack the difference profiles within each mass bin. This gives us five difference profiles covering five different stellar mass ranges shown in the left hand panel of Figure \ref{fig:ssfr_mass}. 
+Once the average profile of the control galaxies is made, we take the difference between the paired galaxy's profile and the average control profile in log space. We do this process for each of the 220 paired galaxies. 
+
+The difference profiles at this stage have now been controlled for stellar mass and redshift. We can freely stack these difference profiles to study their dependence on other parameter like the mass ratio and projected separation. We split the individual difference profiles into five evenly spaced stellar mass bins between \logm\ $=$ 9.0$-$11.5 and stack the difference profiles within each mass bin. This gives us five difference profiles covering five different stellar mass ranges shown in the left hand panel of Figure \ref{fig:ssfr_mass}. The errors of the stacked profiles are the standard error of the mean of the difference profiles within each bin.
 
 The difference profiles are shown to be centrally enhanced by $\sim$0.25 $\pm$ 0.1 dex. The enhancement falls to zero around 1.0 \reff\ and is slightly suppressed in their disks by $\sim$0.1 dex. While all of the other paired galaxies show a sSFR suppression in their disks, the profiles of the pairs in the stellar mass range of \logm\ $=$ 9.0$-$9.5 show an enhancement in their disks of $\sim$0.1$-$0.2 $\pm$ 0.1 dex. 
 
-The profiles are largely consistent with the results of the previous mass binning method. The profiles of this method have less scatter, which may be due to how the paired are more closely matched in stellar mass and redshift. This method also has the added benefit that the profiles can be separated by other parameters instead of just the stellar mass. 
+The profiles are largely consistent with the results of the previous mass binning method. The profiles of this method have less scatter as a result of how the paired are more closely matched in stellar mass and redshift. This method also has the added benefit that the profiles can be separated by parameters other than stellar mass. We will discuss how these profiles behave as a function of the mass ratio and projected separation in the following sections. 
 
-We can also inspect the star formation enhancement within individual paired galaxies. We extract the $\Delta$log(sSFR) from the individual difference profiles. We extract the value of $\Delta$log(sSFR) from the inner 0.5 R/\reff\ of the paired galaxies and take the mean value of the $\Delta$log(sSFR) within the aperture. We depict the central $\Delta$log(sSFR) as a function of stellar mass in the right hand panel of Figure \ref{fig:ssfr_mass}. The mass independence can be clearly seen here as the paired galaxies within each stellar mass bin fall within 0.1 dex of the 0.2 dex $\Delta$log(sSFR) median. 
+We can also inspect the star formation enhancement within individual paired galaxies. We extract the $\Delta$log(sSFR) from the individual difference profiles. We extract the value of $\Delta$log(sSFR) from the inner 0.5 $R$/\reff\ of the paired galaxies and take the mean value of the $\Delta$log(sSFR) within the aperture. We depict the central $\Delta$log(sSFR) as a function of stellar mass in the right hand panel of Figure \ref{fig:ssfr_mass}. The mass independence can be clearly seen here as the paired galaxies within each stellar mass bin fall within 0.1 dex of the 0.2 dex $\Delta$log(sSFR) median. 
 
 Between the two different pair-control comparison methods, we conclude that the $\Delta$log(sSFR) is independent of the paired galaxies' stellar mass. Low mass galaxies are having their sSFR enhanced at a similar rate as high mass galaxies. 
+
+%\subsection{Future Mass Growth}
+
+%The higher rate of star formation within interacting galaxies will mean that the stellar mass in the interacting galaxies will grow at a faster rate compared to secular mass growth. The question is whether or not the advanced mass growth rate is significant. 
+
+%To estimate the enhanced mass growth rate due to merger induced star formation, we will assume a constant star formation rate over a given timescale, $\tau$. A specific star formation rate is already a representation of the fractional mass growth every year, so the merger induced mass growth is simply;
+
+%\begin{equation}
+%\frac{\Delta M_{merger}}{M_{total}} = \left({\rm sSFR}_{\rm pair} - {\rm sSFR}_{\rm control}\right) * \tau
+%\end{equation}
+
+%For this estimation we use a timescale of 1 Gyr, which is the order of the typical timescale between the passage of the first and second pericenters in dark-matter simulations \citep{Boylan-Kolchin:2008}. The actual timescale for star formation enhancement is likely shorter; however, we will use the 1 Gyr value as an order of magnitude estimate. 
+
+%To get the difference in sSFR between the pairs and controls, we fit a gaussian to the difference profiles split by stellar mass. We then add the modeled difference profile to the stacked control profile in the same mass range in log space. We then take the difference between the profiles in linear space and multiply the difference by the 1 Gyr timescale. 
+
+%We show the mass growth rate profile for each of the four mass ranges in Figure \ref{fig:mass_gain_sum}. The mass growth rate is largely restricted to the centers of the galaxies and falls to zero around 1.0 R/\reff, following profile of the $\Delta$log(sSFR). The mass growth rate is strongly dependent on the stellar mass of the paired galaxies. 
+
+%The fractional mass change is greatest in the less massive galaxies, $\Delta$M$_{merger}$/M$_{total}$ $=$ 0.06 (6\%), while it is less substantial is the more massive galaxies, $\Delta$M$_{merger}$/M$_{total}$ $=$ 0.005 (0.5\%). This is unsurprising as the $\Delta$log(sSFR) profiles were independent of the galaxies' total stellar mass. 
+
+%In the context of galaxy evolution, where less massive galaxies merge to form larger galaxies, the merger induced star formation contributes a significant amount of stellar mass on top of the stellar mass contribution from the mixing of the two galaxies. Further, the merger induced mass growth is restricted to the centers of the paired galaxies which will result in galaxies which have more prominent bulges in their centers.  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
@@ -309,37 +338,15 @@ Between the three parameters, stellar mass, mass ratio, and projected separation
 
 Between the splitting the $\Delta$log(sSFR) profile by stellar mass, mass ratio, and projected separation, we see that the general shape of the profile within the inner 1.0 R/\reff\ is unchanged. The profile is peaked in the center of the paired galaxies and linearly (in log space) to zero around 1.0 R/\reff. Different projected separations and mass ratios may elevate or suppress the level of the enhancement in the profile's center; however, the shape of the profile is largely unchanged.
 
-\subsection{Future Mass Growth}
-
-The higher rate of star formation within interacting galaxies will mean that the stellar mass in the interacting galaxies will grow at a faster rate compared to secular mass growth. The question is whether or not the advanced mass growth rate is significant. 
-
-To estimate the enhanced mass growth rate due to merger induced star formation, we will assume a constant star formation rate over a given timescale, $\tau$. A specific star formation rate is already a representation of the fractional mass growth every year, so the merger induced mass growth is simply;
-
-\begin{equation}
-\frac{\Delta M_{merger}}{M_{total}} = \left({\rm sSFR}_{\rm pair} - {\rm sSFR}_{\rm control}\right) * \tau
-\end{equation}
-
-For this estimation we use a timescale of 1 Gyr, which is the order of the typical timescale between the passage of the first and second pericenters in dark-matter simulations \citep{Boylan-Kolchin:2008}. The actual timescale for star formation enhancement is likely shorter; however, we will use the 1 Gyr value as an order of magnitude estimate. 
-
-To get the difference in sSFR between the pairs and controls, we fit a gaussian to the difference profiles split by stellar mass. We then add the modeled difference profile to the stacked control profile in the same mass range in log space. We then take the difference between the profiles in linear space and multiply the difference by the 1 Gyr timescale. 
-
-We show the mass growth rate profile for each of the four mass ranges in Figure \ref{fig:mass_gain_sum}. The mass growth rate is largely restricted to the centers of the galaxies and falls to zero around 1.0 R/\reff, following profile of the $\Delta$log(sSFR). The mass growth rate is strongly dependent on the stellar mass of the paired galaxies. 
-
-The fractional mass change is greatest in the less massive galaxies, $\Delta$M$_{merger}$/M$_{total}$ $=$ 0.06 (6\%), while it is less substantial is the more massive galaxies, $\Delta$M$_{merger}$/M$_{total}$ $=$ 0.005 (0.5\%). This is unsurprising as the $\Delta$log(sSFR) profiles were independent of the galaxies' total stellar mass. 
-
-%Galaxies in the mass range \logm\ $=$ 9.0$-$10.0 have a mass growth of $\sim$1.6$\times$ that of secular mass growth and galaxies in the mass range \logm\ $=$ 10.0$-$11.0 have a mass growth of $\sim$2.3$\times$ that of secular mass growth. While low mass galaxies may see a more substantial change to their total stellar mass, the more massive galaxies experience higher growth rates.
-
-In the context of galaxy evolution, where less massive galaxies merge to form larger galaxies, the merger induced star formation contributes a significant amount of stellar mass on top of the stellar mass contribution from the mixing of the two galaxies. Further, the merger induced mass growth is restricted to the centers of the paired galaxies which will result in galaxies which have more prominent bulges in their centers.  
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}\label{sec:disc}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
-\centering
-\includegraphics[width=3in]{fig/mass_gain.pdf}
-\caption[The fractional mass gain due to merger induced star formation.]{The fractional mass growth due to merger induced star formation over 1 Gyr. The highlighted region represents the propagated standard errors of the mean of the stacked log(sSFR) profiles. }
-\label{fig:mass_gain_sum}
-\end{figure}
+%\begin{figure}
+%\centering
+%\includegraphics[width=3in]{fig/mass_gain.pdf}
+%\caption[The fractional mass gain due to merger induced star formation.]{The fractional mass growth due to merger induced star formation over 1 Gyr. The highlighted region represents the propagated standard errors of the mean of the stacked log(sSFR) profiles. }
+%\label{fig:mass_gain_sum}
+%\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
