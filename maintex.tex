@@ -1,6 +1,3 @@
-% AASTeX v6.2
-%\documentclass[preprint]{aastex62}
-
 % ApJ Format
 \documentclass[iop,revtex4,twocolumn,apj,numberedappendix,appendixfloats]{emulateapj}
 \usepackage{apjfonts}
@@ -79,9 +76,9 @@ Interaction induced star formation was first seen observationally in the bluer c
 The previous mentioned works using SDSS were restricted to studying the centers of the paired galaxies through 2\arcsec\ diameter optical fibers. With the recent large integral field spectroscopic (IFS) surveys, interacting galaxies can now be studied with unprecedented spatial detail. These surveys allow us to study the centers of merging galaxies more rigorously since apertures can be set to the physical scale of the galaxies instead of being bound by a fixed sky aperture. These IFS surveys will also allow us to see the extent of the centrally induced star formation and to see how the star formation in the disks of the galaxies are affected. 
 
 Indeed, \citet{Barrera-Ballesteros:2015} used the CALIFA (Calar Alto Legacy Integral Field Area) survey to study a sample of 103 paired galaxies by varying the size of the aperture through which the \ewha\ is extracted from. In this study, they found a moderate enhancement to the sSFR in the centers of paired galaxies and a moderate suppression to the sSFR in outskirts of the paired galaxies. 
-%
+
 \citet{Pan:2019} used the SDSS-IV MaNGA survey to study radial profiles of a sample of 205 paired galaxies. The enhancement to the sSFR was shown to be the strongest in the centers of the paired galaxies. This central enhancement linearly fell with increasing galactocentric radii; however, a moderate enhancement to the sSFR remain in the outskirts of the galaxies. \citet{Pan:2019} further studied the paired galaxies as a function of merger stage; from well separated pairs to post-merger galaxies. Across the different merger stages, the sSFR enhancement was greatest in close pairs with tidal features and in post-merger galaxies. This was in agreement with previous hydrodynamical simulations which showed that a burst of star formation is triggered after the first pericenter and as the two galaxies begin to coalesce \citep{Scudder:2012}. 
-%
+
 The radial profile of sSFR in post-merger galaxies has also been studied with the MaNGA survey by \citet{Thorp:2019}. The post-merger galaxies were shown to have a strong enhancement to the sSFR in their centers as well as a moderate enhancement in their outskirts. 
 
 Where previous studies on the radial profile of the sSFR offsets in paired galaxies have focused on studying the profiles as a function of interaction stage, we will focus on the radial profile as a function of the stellar mass, projected separation, and mass ratio. As mentioned previously, these parameters have been covered by studies restricted to the nuclear region of the paired galaxies. With the MaNGA survey, we will be able to expand upon these previous studies in greater spatial detail. We will be able to see how these three parameters affect both the level of the sSFR offsets in the centers of the paired galaxies and the offsets in the outskirts of the galaxies. We will also be able to study if any of three parameters influence the gradient of the sSFR enhancement profiles or if the gradient is preserved between different configurations. 
@@ -126,23 +123,23 @@ We build two different pair samples in this work; the inside-IFU sample which co
 
 \subsection{Inside-IFU Sample}\label{sec:inside}
 
-We identify potential paired galaxies by overlaying SDSS photometric objects over the MaNGA fields of view. We manually inspect each MaNGA field, removing photometric objects which are over-deblended galaxy fragments and adding any objects missed by the SDSS photometric catalog. At this stage the object catalog includes any foreground stars and foreground/background galaxies along with the potential paired galaxies. 
+To identify potential paired galaxies covered by individual IFUs, we start by overlaying SDSS photometric objects over each MaNGA fields of view. We manually inspect each MaNGA field, removing photometric objects which are over-deblended galaxy fragments and, very rarely, adding any objects missed in the SDSS photometric catalog. At this stage the object catalog includes foreground stars and foreground/background galaxies along with the potential paired galaxies. 
 
 To select paired galaxies out of our object catalog, we inspect the spectra of each object. We use our own {\sc idl} based spectral fitting code, {\sc spfit}, to model the spectra from the MaNGA datacubes. {\sc spfit} simultaneously fits emission lines and the stellar continuum with the Levenberg-Marquardt nonlinear least-squares minimization algorithm \citepalias{Fu:2018}. Emission lines are parameterized as a Gauss-Hermite series and the stellar continuum is the sum of simple stellar populations (SSPs) convolved with the line-of-sight velocity distribution (LOSVD).
 
 The spectra of the identified objects is extracted through a 1\arcsec\ circular aperture and fitted assuming the MaNGA target's redshift and then manually sorted into the following categories; ``good" galaxy spectra, broad-line AGN, foreground star, foreground/background galaxies, or poor S/N objects. The ``good" galaxy spectra are the objects whose spectra are well modeled by {\sc spfit} at the target galaxy's redshift, whether it is the target galaxy itself or a nearby companion galaxy. This means that the companion galaxy can be within approximately $\pm$3000 km s$^{-1}$ of the MaNGA target. We found 6573 ``good" objects, 57 broad-line AGN, 836 foreground stars, 319 foreground/background galaxies, and 1546 objects with poor S/N. 
 
-From the 6573 galaxies with good spectra, 404 of the MaNGA IFUs have multiple galaxy objects within the IFU. We further restrict the sample by setting a relative velocity cut of $\Delta v$ $<$ 500 km s$^{-1}$ to remove projected companions. Given redshift range of the MaNGA sample and the size of MaNGA's IFUs, the maximum projected separation for a companion galaxy in the IFU is $\sim$40 kpc. Again, the galaxy sample is also restricted to galaxies with a stellar mass range of \logm\ $=$ 9.0$-$11.5 and galaxies in the Primary or Secondary MaNGA subsamples. We also require that the galaxies are classified as star forming as described in Section \ref{sec:data}. These requirements reduce our sample down to 87 star forming galaxies (SFGs). 
+Among 6142 MaNGA IFUs considered here, 404 have multiple galaxy objects within the IFU. We further restrict the sample by setting a relative velocity cut of $\Delta v$ $<$ 500 km s$^{-1}$ to remove projected companions. Given redshift range of the MaNGA sample and the size of MaNGA's IFUs, the maximum projected separation for a companion galaxy in the IFU is $\sim$40 kpc. Again, the galaxy sample is also restricted to galaxies with a stellar mass range of \logm\ $=$ 9.0$-$11.5 and galaxies in the Primary or Secondary MaNGA subsamples. We also require that the galaxies are classified as star forming as described in Section \ref{sec:data}. These requirements reduce our sample down to 87 star forming MaNGA targets with inside-IFU companions. While the companions to the inside-IFU MaNGA targets contained are within the MaNGA IFUs, we only use the MaNGA targets when building radial profiles. We leave out the identified companions from the analysis because the MaNGA targets are covered by the NSA catalog with geometries and total stellar masses while the companions are not covered by the NSA catalog. 
 
 Several of the target galaxies in our sample have multiple companions. From the whole set of 404 IFUs, there are 327 pairs, 67 triplets, 7 quadruplets, and 1 quintuplet. In cases where a MaNGA target has multiple viable companions galaxies, we chose the closest companion when measuring the pair's mass ratio and projected separation. 
-
-
 
 \subsection{Outside-IFU Sample}\label{sec:outside}
 
 We supplement the inside-IFU sample with a set of pairs identified outside of the field of view of the MaNGA IFU. We select these outside-IFU pairs from the NSA catalog. We search for these external pairs by selecting objects with a projected separation from the MaNGA targets of $r_{\rm p}$ $<$ 50 kpc using the MaNGA target's redshift. We further use a relative velocity cut of $\Delta v$ $<$ 500 km s$^{-1}$ to remove projected galaxies from the selection. 
 
 From the NSA catalog's 641,409 galaxies, we find 492 galaxies which are paired to MaNGA targets. After restricting the sample to SFGs, we have 133 MaNGA targets with paired galaxies outside of the IFU. MaNGA targets which have both an inside-IFU and an outside-IFU pair are left to the inside-IFU sample. This give use a total of 175 MaNGA targets in our pair sample.
+
+From the NSA catalog's 641,409 galaxies, we find 492 galaxies which are paired to MaNGA targets. After restricting the sample to SFGs, we have another 133 MaNGA targets with paired galaxies outside of the IFU. MaNGA targets which have both an inside-IFU and an outside-IFU pair are left to the inside-IFU sample. This give us a total of 175 close pairs.
 
 \subsection{Control Sample}\label{sec:control}
 
@@ -152,35 +149,33 @@ It has been shown that the SFR in galaxies is dependent on both the stellar mass
 
 In the first method, we only control for the stellar mass between the pairs and controls. We split both the pair and control samples into five evenly spaced stellar mass bins over the range, \logm\ $=$ 9.0$-$11.5. The pairs are then compared to their respective controls within each stellar mass bin. While the redshift in not constrained in this method, we will show in Section \ref{sec:mass-bin} that this method is sufficient to reveal the merger induced star formation. 
 
+It has been shown that the SFR in galaxies is dependent on both the stellar mass and the redshift of the galaxies \citep[e.g.,][]{Noeske:2007}. We will compare our interacting galaxies with isolated galaxies of a similar stellar mass and redshift, to account for these other dependencies. To do this, we will use two different methods of pair - control comparison. 
 
-In the second method, we wish to account for both stellar mass and redshift. To do this we select a subsample of 20 control galaxies for each paired galaxy. We first select all of the control galaxies which are within a 0.1 dex stellar mass limit and within the same MaNGA subsample (e.g. Primary or Secondary) as the paired galaxy. Since the MaNGA sample has a tight distribution in stellar mass and redshift, the stellar mass and MaNGA subsample restriction effectively sets a $z$ $\lesssim$ $\sim$0.025 redshift cut. 
+In the first method, we only control for the stellar mass between the pairs and controls. We split both the pair and control samples into five evenly spaced stellar mass bins over the range, \logm\ $=$ 9.0$-$11.5. The pairs are then compared to their respective controls within each stellar mass bins. While the redshift is not constrained in this method, we will show in Section \ref{sec:mass-bin} that this method is sufficient to reveal the merger induced star formation. 
 
-Setting the above requirements, most paired galaxies will find between 20$-$100 control galaxies. Since we want each paired galaxy to be treated in a similar manner, we will down-select the total number of acquired control galaxies down to 20 controls randomly. A given control galaxy may be selected for multiple pairs by the pipeline; most of the control galaxies are used at least once and the average number of times a given control is reused is between 4$-$6 times. In the cases where a paired galaxy does not initially acquire 20 control galaxies we iteratively expand the stellar mass limit by 0.1 dex until at least 20 control galaxies are found. Only 5 of the paired galaxies required an extra iteration to find 20 controls. 
+In the second method, we wish to account for both stellar mass and redshift. To do this we select a subsample of 20 control galaxies for each paired galaxy. We first select all of the control galaxies which are within a 0.1~dex stellar mass limit and within the same MaNGA subsample (e.g. Primary or Secondary) as the paired galaxy. Since the MaNGA sample has a tight distribution in stellar mass and redshift, the stellar mass and MaNGA subsample restriction effectively sets a $\Delta z$ $\lesssim$ $\sim$0.025 redshift tolerance. 
+
+Setting the above requirements, most paired galaxies will find between 20$-$100 control galaxies. Since we want each paired galaxy to be treated in a similar manner, we randomly down-select the total number of acquired control galaxies to 20. A given control galaxy may be selected for multiple pairs by the pipeline; most of the control galaxies are used at least once and the average number of times a given control is reused is between 4$-$6 times. In the cases where a paired galaxy does not initially acquire 20 control galaxies we iteratively expand the stellar mass limit by 0.1 dex until at least 20 control galaxies are found. Only 5 of the paired galaxies required an extra iteration to find 20 controls. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Radial Profiles of Star Formation}\label{sec:analysis}
+\section{Analysis Methods}\label{sec:analysis}
 
 \subsection{Specific Star Formation Rate}
 
-%%% SPFIT
-We use our spectral fitting code, {\sc spfit}, to get measurements of emission line fluxes, equivalent widths, velocities, and velocity dispersions of 19 emission lines and measurements of stellar masses, ages, [Fe/H], and the kinematics of the stellar populations. 
+For each MaNGA 1\arcsec$\times$1\arcsec\ spaxel, we use our spectral fitting code, {\sc spfit}, to get measurements of emission line fluxes, equivalent widths, velocities, and velocity dispersions of 19 emission lines and measurements of stellar masses, ages, [Fe/H], and the kinematics of the stellar populations. 
 
-%%% Reddening
 We correct the emission lines for reddening using the extinction curve from \citet{Cardelli:1989} with updated coefficients from \citet{ODonnell:1994}. The extinction is parameterized as $R_V$ $\equiv$ $A_V/E(B-V)$ $=$ 3.1, where we estimate the value of the $V$-band extinction, $A_V$, by comparing the H$\alpha$/H$\beta$ ratio to the expected value of 2.85 for case-B recombination. 
 
-We measure the SFR from the extinction corrected H$\alpha$ luminosity, $L_{{\rm H}\alpha}$.  We use the SFR formula, Equation \ref{eq:sfr}, from \citet{Murphy:2011} which uses a Kroupa IMF, Solar metallicity, a constant SFR at an age of 100 Myr, and Case-B recombination. 
-
+We measure the SFR from the extinction corrected H$\alpha$ luminosity, $L_{{\rm H}\alpha}$.  We use the SFR formula, Equation \ref{eq:sfr}, from \citet{Murphy:2011} which uses a Kroupa IMF, Solar metallicity, a constant SFR at an age of 100 Myr, and Case-B recombination: 
 \begin{equation}\label{eq:sfr}
-\frac{\rm{SFR}}{M_{\odot} \, \rm{yr^{-1}}} = \frac{L_{\rm H\alpha}}{1.86 \times 10^{41}\, \rm{erg\,s}^{-1}}
+\frac{\rm{SFR}}{M_{\odot} \, \rm{yr^{-1}}} = \frac{L_{\rm H\alpha}}{1.86 \times 10^{41}\, \rm{erg\,s}^{-1}}.
 \end{equation}
 
-Since the stellar mass of a galaxy is not uniformly distributed within the galaxy, we normalize the SFR by the local stellar mass, $M$, giving us the specific star formation rate (sSFR). The local stellar masses used here is the stellar mass calculated by {\sc SPFIT}'s fit to the stellar continuum within each MaNGA spaxel (spatial pixel).
-
+Since the stellar mass of a galaxy is not uniformly distributed within the galaxy, we normalize the SFR by the stellar mass in the same spaxel, giving us the specific star formation rate (sSFR):
 \begin{equation}
 {\rm sSFR} = \frac{\rm SFR}{M}
 \end{equation}
-
-This will allow us to compare regions of high mass surface density to regions of low mass surface density. 
+The local stellar masses used here is derived from {\sc SPFIT}'s best-fit stellar continuum. Utilizing sSFR, instead of SFR, allows us to compare regions of high mass surface density to regions of low mass surface density. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Radial Profiles}\label{sec:radial}
@@ -191,7 +186,7 @@ The NSA catalog has complete coverage over the MaNGA sample (since MaNGA selects
 
 We fit the geometry with apertures from both catalogs when available. When using the first method of pair-control comparison, where pairs and controls are grouped into stellar mass bins, we fit the control galaxies with the NSA apertures. When making the comparison with the second tailored control method, paired galaxies fitted with the NSA aperture are compared against controls fitted with the NSA aperture and paired galaxies fitted with the \citet{Simard:2011} apertures are compared against controls fitted with the \citet{Simard:2011} apertures. Further, when defining the a galaxy's geometry with the \citet{Simard:2011} apertures we also use the masses given in the catalog for the total stellar mass of the galaxy.
 
-
+We fit the geometry with apertures from both catalogs when available. When using the first method of pair-control comparison, where pairs and controls are grouped into stellar mass bins, we fit the control galaxies with the NSA apertures. When making the comparison with the second method, paired galaxies fitted with the NSA aperture are compared against controls fitted with the NSA aperture and paired galaxies fitted with the \citet{Simard:2011} apertures are compared against controls fitted with the \citet{Simard:2011} apertures. Further, when defining a galaxy's geometry with the \citet{Simard:2011} apertures we also use the masses given in the catalog for the total stellar mass of the galaxy. Note that although we carefully treat the two catalogs separately whenever possible, we find excellent agreement in the geometry parameters of isolated galaxies in both catalogs.
 
 We calculate the inclination angle, {\it i}, of the galaxies using the major-to-minor axis ratios from the elliptical apertures;
 
@@ -203,10 +198,7 @@ Where $b/a$ is the major-to-minor axis ratio and $q$ is the intrinsic oblateness
 
 The inclination angle, along with the galaxy's position angle, is used to deproject the geometries of the galaxies. We use the 50\% half light radius (i.e. the effective radius, \reff) to scale the sizes of the galaxies. Doing this will allow us to compare galaxies of different sizes against each other.
 
-Once the geometry of the galaxies are set, we can build the radial profiles. The spaxels are binned into radius increments of 0.2 \reff\ from 0.0$-$2.6 \reff. Within each radius bin we take the median of the specific star formation rate. The profiles' errors are the standard error of the mean of the data within each radius bin. We create one of these individual averaged radial profiles for every MaNGA galaxy. 
-
-%We use our catalog of photometric objects and the \citet{Simard:2011} catalog to mask foreground/background objects within the MaNGA IFUs which may contaminate the data. Objects in our photometric catalog are masked out with a 2\arcsec\ circular aperture and the galaxies from \citet{Simard:2011} are masked out with a 2.0 R/\reff\ elliptical aperture, using the r-band S\'ersic apertures from the catalog. This gives us an individual radial profile of the sSFR for all paired and control galaxies.
-
+Once the geometry of the galaxies are set, we can build azimuthally averaged radial profiles. The spaxels are binned into radius increments of 0.2 \reff\ from 0.0$-$2.6 \reff. Within each radius bin we take the median of the specific star formation rate. The profiles' errors are the standard error of the mean of the data within each radius bin. We build an azimuthally averaged radial profile for each MaNGA star forming galaxy and later stack and differentiate these profiles in the subsequent analysis. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}\label{sec:results}
@@ -226,17 +218,14 @@ With the individual log(sSFR) profiles built for each MaNGA galaxy, we now use t
 
 \subsubsection{Mass-Binned Difference Profiles}\label{sec:mass-bin}
 
-In the first method, paired and control galaxies are grouped into five evenly spaced stellar mass bins between \logm\ $=$ 9.0$-$11.5. Within each stellar mass bin, we create a median profile of log(sSFR) as a function of galactocentric radius for both paired and control galaxies. The control profiles are constructed using all available control galaxies within each mass bin. The error associated with the profile is the standard error of mean of the data at each radius bin. We show these ``stacked" profiles for control galaxies in the left hand panel of Figure \ref{fig:ssfr_prof} and the stacked profiles for paired galaxies in the middle panel of Figure \ref{fig:ssfr_prof}.
+In the first method, paired and control galaxies are grouped into five evenly spaced stellar mass bins between \logm\ $=$ 9.0$-$11.5. Within each stellar mass bin, we create a median profile of log(sSFR) as a function of \reff-scaled galactocentric distance for both paired and control galaxies. The control profiles are constructed using all available control galaxies within each mass bin. The error associated with the ``stacked'' profile is the standard error of mean of the data at each radius bin. We show these stacked profiles for control galaxies in the left hand panel of Figure \ref{fig:ssfr_prof} and the stacked profiles for paired galaxies in the middle panel of Figure \ref{fig:ssfr_prof}. Star formation in the control galaxies are quenched in their centers with respect to their disks and the difference between the sSFR in their centers and their disks increases with stellar mass, consistent with previously published results using the MaNGA survey \citep{Belfiore:2018}. In contrast, the paired galaxies show flatter sSFR profiles where the level of the sSFR remains roughly consistent across their disks except for paired galaxies with stellar masses above \logm\ $=$ 10.5, which still show some central quenching. 
 
-The radial extent of our profiles go out to 2.6 \reff; however,  67\% of the MaNGA sample is designed to cover only 1.5 \reff\ of the galaxy. Also, the MaNGA galaxies are not always centered on a spaxel center, so the 0$^{\rm th}$ spaxel may fall outside of the innermost radii bin. Because of these issues, the centers or the outskirts of the stacked profiles may only represent a small subset of the galaxies in that mass bin. To account for this, we ``trim" the stacked profiles where a radius bin contains data for less than 50\% of the total set of galaxies. We represent the trimmed regions in our figures with dashed lines. In Figure \ref{fig:ssfr_prof}, galaxies below \logm\ $\le$ 10.0 have their innermost radii bin trimmed due to insufficient coverage.
+{\bf COMMENT: I am not sure the trimmed regions could be so limited. If this is indeed correct, then we don't need to spend a paragraph on something so negligible and not to highlight the trimed regions in the plots.} 
+The radial extent of our profiles reaches 2.6 \reff; however, 67\% of the MaNGA sample (i.e., the Primary subsample) is designed to cover only 1.5 \reff\ of the galaxy. Also, the MaNGA galaxies are not always centered on a spaxel center, so the 0$^{\rm th}$ spaxel may fall outside of the innermost radii bin. Because of these issues, the centers or the outskirts of the stacked profiles may only represent a small subset of the galaxies in that mass bin. To account for this, we ``trim" the stacked profiles where a radius bin contains data for less than 50\% of the total set of galaxies. We represent the trimmed regions in our figures with dashed lines. In Figure \ref{fig:ssfr_prof}, galaxies below \logm\ $\le$ 10.0 have their innermost radii bin trimmed due to insufficient coverage.
 
-Once the stacked profiles are made, we take the difference between the stacked profiles of the paired galaxies and the control galaxies, pair - control, in log space (this means that the difference profiles really represent a ratio between the pairs and controls in linear space). This gives us difference profile, $\Delta$log(sSFR), which shows us where the sSFR is enhanced or suppressed (shown in the right hand panel of Figure \ref{fig:ssfr_prof}). 
+We then take the difference between the stacked profiles of the paired galaxies and the control galaxies, pair - control, in log space (this means that the difference profiles really represent a ratio between the pairs and controls in linear space). This gives us difference profile, $\Delta$log(sSFR), which shows us where the sSFR is enhanced or suppressed (shown in the right hand panel of Figure \ref{fig:ssfr_prof}). Across all stellar mass bins, the sSFR of paired galaxies are centrally enhanced by $\sim$0.35$\pm$0.1~dex, which gradually falls to zero around $\sim$1.2 \reff. In the outskirts of the pairs beyond 1.2 \reff, the pairs feature lightly suppressed sSFR of 0.0$-$0.1 dex. All of the mass ranges except for the highest mass range, \logm\ $=$ 11.0$-$11.5, trend closely to the median profile. For the most massive galaxies, \logm\ $=$ 11.0$-$11.5, the enhancement to the sSFR within 0.5 \reff\ is higher than the median profile at 0.5$-$0.6 dex. The sSFR enhancement in the sample seems to be mass independent except for the most massive galaxies which feature higher levels of sSFR enhancement.
 
-The control galaxies are quenched in their centers with respect to their disks and the difference between the sSFR in their centers and their disks increases with higher stellar masses (which was previously seen in the MaNGA survey in \citet{Belfiore:2018}). The paired galaxies show flattened star formation profiles where the level of the sSFR remains roughly consistent across their disks except for paired galaxies with stellar masses above \logm\ $=$ 10.5 which still show some central quenching. 
-
-When taking the difference between the pairs and controls, the paired profiles are centrally enhanced by $\sim$0.35 $\pm$ 0.1 dex which then falls to zero around 1.2 \reff. In the outskirts of the pairs beyond 1.2 \reff, the pairs feature lightly suppressed sSFR of 0.0$-$0.1 dex. All of the mass ranges except for the highest mass range, \logm\ $=$ 11.0$-$11.5, trend closely to the median profile. For the most massive galaxies, \logm\ $=$ 11.0$-$11.5, the enhancement to the sSFR within 0.5 \reff\ is higher than the median profile at 0.5$-$0.6 dex. The sSFR enhancement in the sample seems to be mass independent except for the most massive galaxies which feature higher levels of sSFR enhancement.
-
-It is also relevant to note that the driving factor behind the central enhancement to the sSFR in the difference profiles is really the quenching in the centers of the controls. While the mechanism for the quenching in galaxies is in dispute, the merger process seems to be capable of rejuvenating star formation in the centers of these galaxies resulting in the flatter sSFR profiles seen in the paired galaxies. Further, since the sSFR enhancement in the difference profiles is largely driven by the quenched controls, it may be more appropriate to describe isolated galaxies as being centrally quenched in comparison to paired galaxies or that the profiles of paired galaxies are flattened in their centers with respect to their controls. 
+Alternatively, the central enhancement of the sSFR in the paired galaxies can be interpreted as the quenching of star formation in the centers of isolated galaxies. While the mechanism for quenching in galaxies remains under debate, the merger process seems to be capable of rejuvenating star formation in the centers of these galaxies, resulting in the flatter sSFR profiles. 
 
 The higher rate of star formation within interacting galaxies will mean that the stellar mass in the interacting galaxies will grow at a faster rate compared to secular mass growth. The fractional mass growth rate is simply the difference between the sSFR profiles of the paired and control galaxies in linear space (pairs - controls) multiplied by a given timescale. We chose a timescale of 0.4 Gyr which is estimated to be the average timescale for the merger induced starburst \citep{Feng:2019}. 
 
@@ -300,8 +289,6 @@ The results we obtain from the tailored-control method is largely consistent wit
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
 While the total stellar mass of the galaxies has no effect on the merger induced star formation, the mass ratio between the paired galaxies does. The mass ratio here is calculated as the difference between stellar masses contained within the 50\% half light radius, 
 
 \begin{equation}
@@ -318,8 +305,6 @@ The sSFR offsets in the outskirts of the galaxy pairs show a dependence on the m
 
 In the top right of Figure \ref{fig:ssfr_dm} we see that the sSFR enhancement is strongest in galaxies close to a 1:1 mass ratio, $\Delta$log($M$) $=$ 0.0. These galaxies feature a central enhancement of $\sim$0.35 dex which is 0.1 dex higher than the average central enhancement of the whole sample. This enhancement falls with wider mass ratio; however, pairs with large differences in stellar mass still feature substantial levels of star formation enhancement, 0.15$-$0.20 dex at mass ratios of $|\Delta$log($M$)$|$ $=$ 1.0. We also see that secondary companions show a higher level of sSFR enhancement, by $\sim$0.1 dex, with respect to primary companions. 
 
-%To emphasize the difference between primary and secondary companions and to further investigate the sSFR enhancement seen in the outskirts of low mass galaxies (\logm\ $=$ 9.0$-$9.5), we plot the difference profiles split both by stellar mass and mass ratio in Figure \ref{fig:ssfr_massdm}. The difference profile of primary companions is centrally enhanced by 0.25 dex and remains enhanced across their disks with an enhancement of 0.1-0.3 dex. The difference profile of secondary companions is centrally enhanced by 0.3 dex and is suppressed by 0.1 dex in their outskirts. Specifically looking at the paired galaxies in the mass range, \logm\ $=$ 9.0$-$9.5, the primary companions in the mass range show strong enhancements to their outskirts while the primary companions in the mass range show a weak suppression to their outskirts. 
-
 From the mass ratio, we see two different effects. First, we see that the central enhancement to the sSFR is strongest for pairs with 1:1 mass ratios. Second, we see that secondary companions show steeper enhancement profiles with higher levels of sSFR enhancement in their centers and stronger levels of sSFR suppression in their disks with respect to primary companions. It is interesting to note that the central enhancement to sSFR is dependent on both the mass ratio and the projected separation (which we will demonstrate in the next section) while the sSFR offsets in their outskirts primarily depends on whether the galaxy is the primary or secondary companion of the pair.
 
 \subsection{Dependency on Projected Separation}\label{sec:sep}
@@ -330,14 +315,8 @@ This effect can be seen more clearly in the scatter plot of the central $\Delta$
 
 The sSFR enhancement increasing with closer projected separations is to be expected and has been shown in previous studies \citep{Li:2008, Ellison:2008, Scudder:2012, Patton:2013}. The passage of the first pericenter is predicted to trigger a burst of star formation which falls as the two galaxies separate \citep{Scudder:2012}. The sSFR enhancement in our sample persists out to 50 kpc and previous works have shown that the burst of star formation can persist out to 150 kpc \citep{Patton:2013}. 
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}\label{sec:disc}
-
-%Among the three parameters, stellar mass, mass ratio, and projected separation, the projected separation has the strongest effect on the $\Delta$log(sSFR) enhancement, followed by the mass ratio. From this we see that the paired galaxies with the strongest enhancements to the central sSFR are paired galaxies with 1:1 mass ratios and  which are within 10 kpc. 
-
-%Between the splitting the $\Delta$log(sSFR) profile by stellar mass, mass ratio, and projected separation, we see that the general shape of the profile within the inner 1.0 \reff\ is unchanged. The profile is peaked in the center of the paired galaxies and linearly (in log space) to zero around 1.0 \reff. Different projected separations and mass ratios may elevate or suppress the level of the enhancement in the profile's center; however, the shape of the profile is largely unchanged.
 
 \subsection{Comparison with Previous Works}
 
