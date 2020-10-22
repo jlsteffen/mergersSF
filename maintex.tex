@@ -230,7 +230,7 @@ This method of stacking sSFR profiles by a single parameter (stellar mass) has t
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 \centering
-\includegraphics[width=\linewidth]{fig/ssfr_mass.pdf}
+\includegraphics[width=0.8\linewidth]{fig/ssfr_mass.pdf}
 \caption[]{The \textbf{Left} panel shows the $\Delta$log(sSFR) profiles where the difference profiles are constructed from the difference between the paired galaxy profiles and a set of 20 control galaxies. The profiles are split into five different stellar mass bins and the highlighted region about the profiles represent the standard error of mean of the profile. The black dashed line represents the mean profile between the four difference mass ranges. The number of paired galaxies in each mass range is given in the legend in parentheses. In the \textbf{Right} panel the nuclear $\Delta$log(sSFR) are shown. The black squares are the mean values within a stellar mass bin (where the size of the bins are shown the the horizontal error bars). The vertical error bars on the black squares represent the standard deviation within the bin. The horizontal, dashed black line represents the median central enhancement of the pair sample. Galaxies in the outside-IFU (Blue) and inside-IFU (Red) samples are separately depicted.}
 \label{fig:ssfr_mass}
 \end{figure*}
@@ -239,7 +239,7 @@ This method of stacking sSFR profiles by a single parameter (stellar mass) has t
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{fig/sep_hist.pdf}
+\includegraphics[width=0.8\linewidth]{fig/sep_hist.pdf}
 \caption[]{The projected separation distribution of the whole sample (blue) against the projected separation distribution for the highest mass galaxies, \logm\ $=$ 11.0$-$11.5 (Red). }
 \label{fig:sep_hist}
 \end{figure}
@@ -249,8 +249,8 @@ This method of stacking sSFR profiles by a single parameter (stellar mass) has t
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 \centering
-\includegraphics[width=\linewidth]{fig/ssfr_dm.pdf}
-\caption[]{Same as Figure \ref{fig:ssfr_mass} except the difference profiles are split by mass ratio. The inside-IFU sample is left out of this analysis as their mass ratios are unreliable.}
+\includegraphics[width=0.8\linewidth]{fig/ssfr_dm.pdf}
+\caption[]{Same as Figure \ref{fig:ssfr_mass} except the difference profiles are split by the mass ratio of the pair. The inside-IFU sample is left out of this analysis because we do not yet have reliable measurements of their total stellar mass ratios.}
 \label{fig:ssfr_dm}
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -273,102 +273,104 @@ The results we obtain from the tailored-control method is largely consistent wit
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 \centering
-\includegraphics[width=\linewidth]{fig/ssfr_sep.pdf}
+\includegraphics[width=0.8\linewidth]{fig/ssfr_sep.pdf}
 \caption[]{Same as Figure \ref{fig:ssfr_mass} except the difference profiles are split by projected separation. }
 \label{fig:ssfr_sep}
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-While the total stellar mass of the galaxies has no effect on the merger induced star formation, the mass ratio between the paired galaxies does. The mass ratio here is calculated as the difference between stellar masses contained within the 50\% half light radius, 
+While the centrally enhanced star formation in close galaxy pairs seems mostly mass-independent, the mass ratio of the galaxy pair, like the projected separation, may be an important parameter that controls the level of enhancement \citep{Ellison:2008}. 
 
+The mass ratio here is defined as, 
 \begin{equation}
-\Delta {\rm log}(M) = {\rm log}(M_{\rm target}) - {\rm log}(M_{\rm comp}) 
+\Delta {\rm log}(M) = {\rm log}(M_{\rm target}) - {\rm log}(M_{\rm comp}),
 \end{equation}
+where $M_{\rm target}$ is the stellar mass of the MaNGA target galaxy and $M_{\rm comp}$ is the stellar mass of the companion galaxy. We will define the more massive galaxy of a pair the primary companion and the less massive one the secondary companion.
 
-Where $M_{\rm target}$ is the stellar mass of the MaNGA target galaxy and $M_{\rm comp}$ is the stellar mass of the companion galaxy. We will define the more massive galaxies of a pair, $\Delta$log($M$) $>$ 0.0, the primary companion and the less massive galaxy of a pair, $\Delta$log($M$) $<$ 0.0, the secondary companion.
-
-For the outside-IFU sample we use the stellar masses calculated from the $r$-band elliptical Petrosian apertures from the NSA catalog. Most of the companion galaxies in the inside-IFU sample are not covered by either the NSA catalog or \citet{Simard:2011}. Because of this, the inside-IFU galaxies are left out of this analysis.
+For the outside-IFU pair sample we use the stellar masses enclosed by the $r$-band elliptical Petrosian apertures from the NSA catalog. The inside-IFU pair sample is left out of this analysis, because most of the secondary companions in these pairs are missing in the NSA catalog and the \citet{Simard:2011} catalog.
 
 In the top left of Figure \ref{fig:ssfr_dm}, we split the profiles by mass ratio in four bins; the primary and secondary companion of a major merger, $|\Delta$log($M$)$|$ $<$ 0.5, and the primary and secondary companion of a minor merger, $|\Delta$log($M$)$|$ $>$ 0.5. Regardless of the mass ratio, the centers of the paired galaxies are centrally enhanced, though major mergers have stronger enhancements in their centers by $\sim$0.2 dex over minor mergers. Secondary companions also feature slightly higher levels of enhancement in their centers than primary companions at the same mass ratios by $\sim$0.1 dex. 
 
 The sSFR offsets in the outskirts of the galaxy pairs show a dependence on the mass ratio. Primary companions show a zero to positive enhancement of 0.0$-$0.4 dex to the sSFR in their outskirts. Secondary companions feature a suppression to the sSFR in their outskirts of about 0.1$-$0.4 dex. 
 
-In the top right of Figure \ref{fig:ssfr_dm} we see that the sSFR enhancement is strongest in galaxies close to a 1:1 mass ratio, $\Delta$log($M$) $=$ 0.0. These galaxies feature a central enhancement of $\sim$0.35 dex which is 0.1 dex higher than the average central enhancement of the whole sample. This enhancement falls with wider mass ratio; however, pairs with large differences in stellar mass still feature substantial levels of star formation enhancement, 0.15$-$0.20 dex at mass ratios of $|\Delta$log($M$)$|$ $=$ 1.0. We also see that secondary companions show a higher level of sSFR enhancement, by $\sim$0.1 dex, with respect to primary companions. 
+In the top right of Figure \ref{fig:ssfr_dm} we see that the sSFR enhancement is strongest in galaxies close to a 1:1 mass ratio ($\Delta$log($M$) $=$ 0.0). These galaxies feature a central enhancement of $\sim$0.35 dex which is 0.1 dex higher than the average central enhancement of the whole sample. This enhancement falls with wider mass ratio; however, pairs with large differences in stellar mass still feature substantial levels of star formation enhancement, 0.15$-$0.20 dex at mass ratios of $|\Delta$log($M$)$|$ $=$ 1.0. We also see that secondary companions show a higher level of sSFR enhancement, by $\sim$0.1 dex, with respect to primary companions. 
 
 From the mass ratio, we see two different effects. First, we see that the central enhancement to the sSFR is strongest for pairs with 1:1 mass ratios. Second, we see that secondary companions show steeper enhancement profiles with higher levels of sSFR enhancement in their centers and stronger levels of sSFR suppression in their disks with respect to primary companions. It is interesting to note that the central enhancement to sSFR is dependent on both the mass ratio and the projected separation (which we will demonstrate in the next section) while the sSFR offsets in their outskirts primarily depends on whether the galaxy is the primary or secondary companion of the pair.
 
 \subsection{Dependency on Projected Separation}\label{sec:sep}
 
-We look at the level of sSFR enhancement as a function of the projected separation between the two galaxies in Figure \ref{fig:ssfr_sep}. The $\Delta$log(sSFR) profiles show a clear gradient with the projected separation with close galaxy pairs showing higher levels of sSFR enhancement compared to pairs with wide separations. The profiles in the galaxy pairs in the separation range, $r_{\rm p}$ $=$ 0.0$-$12.5, are generally $\sim$0.05$-$0.1 dex above the median and the profiles of the galaxy pairs in the separation range, $r_{\rm p}$ $=$ 37.5$-$50.0, are generally $\sim$0.05$-$0.1 dex below the median. 
+A number of previous studies have shown that the sSFR enhancement increases as projected separation decreases \citep[e.g.,][]{Li:2008, Ellison:2008, Scudder:2012, Patton:2013}, in agreement with simulations \citep{Scudder:2012}. 
 
-This effect can be seen more clearly in the scatter plot of the central $\Delta$log(sSFR) enhancement as a function of projected separation. The level of the enhancement gradually increases with closer separation from 50 kpc to 10 kpc. While $\Delta$log(sSFR) falls at higher separations, there is still a substantial level of enhancement between 40 and 50 kpc, $\sim$0.1$-$0.2 dex. Within 20 kpc, the $\Delta$log(sSFR) enhancement jumps to 0.3$-$0.4 dex. 
+Figure \ref{fig:ssfr_sep} shows the profile and the central level of sSFR enhancement as a function of the projected separation ($r_{\rm p}$) from our MaNGA data. The $\Delta$log(sSFR) profiles show a clear gradient with the projected separation with close galaxy pairs showing higher levels of sSFR enhancement compared to pairs with wide separations. The profiles in the galaxy pairs in the separation range, $r_{\rm p}$ $=$ 0.0$-$12.5, are generally $\sim$0.05$-$0.1 dex above the median and the profiles of the galaxy pairs in the separation range, $r_{\rm p}$ $=$ 37.5$-$50.0, are generally $\sim$0.05$-$0.1 dex below the median. 
 
-The sSFR enhancement increasing with closer projected separations is to be expected and has been shown in previous studies \citep{Li:2008, Ellison:2008, Scudder:2012, Patton:2013}. The passage of the first pericenter is predicted to trigger a burst of star formation which falls as the two galaxies separate \citep{Scudder:2012}. The sSFR enhancement in our sample persists out to 50 kpc and previous works have shown that the burst of star formation can persist out to 150 kpc \citep{Patton:2013}. 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Discussion}\label{sec:disc}
-
-\subsection{Comparison with Previous Works}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
-\centering
-\includegraphics[width=3in]{fig/nuc_sep.pdf}
-\caption[]{(\textbf{Top}) $\Delta$log(SFR) over projected separation for this sample using the tailored control method (Black), \citet{Ellison:2008} (Red),  \citet{Scudder:2012} (Blue), \citet{Patton:2013} (Green), and \citet{Bustamante:2020} (Purple). (\textbf{Bottom}) $\Delta$log(sSFR) over projected separation for this sample (Black), \citet{Li:2008} (Red), and \citet{Patton:2020} (Blue).  }
-\label{fig:nuc_sep}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-The $\Delta$log(SFR) as a function of projected separation has been studied before with the SDSS survey \citep{Ellison:2008, Li:2008, Patton:2013, Scudder:2012, Bustamante:2020}. We compare the mentioned surveys with our own work in Figure \ref{fig:nuc_sep}. We find that our central SFR enhancements for closely separated pairs are higher than many of the previous studies, our sSFR enhancement is $\sim$0.2 dex higher than \citet{Scudder:2012} and $\sim$0.3 dex higher than \citet{Ellison:2008} and \citet{Bustamante:2020}. The central enhancement to the sSFR for closely separated pairs in our sample is $\sim$0.1 dex higher than \citet{Patton:2013}. The sSFR enhancement function from \citet{Li:2008} follows closely to our own and remains $\sim$0.05 dex above our sample out to 40 kpc.  
-
-The sSFR as a function of separation was studied with the cosmological hydrodynamical simulations of IllustrisTNG \citep{Patton:2020}. In Figure \ref{fig:nuc_sep} we show the $\Delta$log(sSFR) enhancements across 2D separation (projected separation) from the TNG300-1 simulation. \citet{Patton:2020} found a sSFR enhancement which is 1.8$\times$ that of the isolated controls within a separation of 15 kpc and is statistically significant out to a 2d separation of $\sim$250 kpc. This enhancement is $\sim$0.1 dex lower than ours; however, our sSFR enhancement shown in Figure \ref{fig:nuc_sep} was extracted from a 0.5 \reff\ aperture while \citet{Patton:2020} extracted the sSFR from a 50\% half-mass radius. This means that our extraction radius is effectively twice a small and is more restricted to the central burst of star formation. 
-
-Our sample only covers projected separations within 50 kpc, while previous surveys cover out to 100$-$200 kpc. While our sample covers a smaller separation range, the $\Delta$log(SFR) of our sample at 50 kpc is roughly the same level as \citet{Scudder:2012} and \citet{Patton:2013} at the same projected separation. From this we see that our sSFR enhancement as a function of projected separation is consistent with with what has been found in previous works. 
-
-\citet{Li:2008} studied the star formation enhancement over different stellar masses and saw that low mass galaxies experience greater levels of enhancement than high mass galaxies.  Galaxies in the mass range \logm\ $=$ 9.72 were shown to experience an enhancement $\sim$0.4 dex higher than galaxies in the mass range \logm\ $=$ 10.6. In this work, we find that $\Delta$log(sSFR) has no dependence on the stellar mass of the galaxy. The source of the difference is unclear; between our works we utilize different methods for determining the sSFR enhancement in galaxy pairs. \citet{Li:2008} defines their enhancement function as the average sSFR of the paired galaxies at a given separation, weighted by the number of companions, subtracted by the average sSFR of the whole sample. While we don't find the same dependency between the sSFR enhancement and stellar mass, the sSFR enhancement as a function of projected separation between our studies is in good agreement.
-
-The dependency of the SFR enhancement on the mass ratio was studied in \citet{Ellison:2008}. They found that pairs with mass ratios of 2:1 have higher SFR enhancements of $\sim$0.1 dex over pairs with wider 10:1 mass ratios. We find that pairs with mass ratios of $\Delta$log($M$) $=$ 0.25 (1.8:1) are 0.2 dex over pairs with mass ratios of $\Delta$log($M$) $=$ 1.0 (10:1). \citet{Ellison:2008} also saw tentative evidence for SFR enhancement in the secondary companions of minor pairs. We not only confirm that secondary companions of minor pairs feature SFR enhancement, but also that the enhancement is higher than the primary component of pairs at the same mass ratios. 
-
-In Figure \ref{fig:prof_comp} we compare the $\Delta$log(sSFR) profile as a function of galactocentric radius between our work and previous works. The post-merger galaxies in \citet{Thorp:2019} have sSFR enhancements between $\sim$0.05$-$0.2 dex higher than our sample of paired galaxies. The centers of the post-merger galaxies feature a greater level of sSFR enhancement in their centers compared to our galaxies pairs of $\Delta$log(sSFR) $=$ 0.5, roughly 0.25 dex higher than our paired galaxies. The post-merger galaxies also feature enhanced sSFR in their disk past 1.0 \reff\ of $\sim$0.1$-$0.15 dex. The heightened level of sSFR enhancement in the centers of post-merger galaxies in comparison to merging galaxies seems consistent with the idea that a second and greater burst of star formation occurs as the two merging galaxies coalesce into a single galaxy. 
-
-The galaxy pairs in \citet{Pan:2019} have sSFR enhancements that are roughly $\sim$0.1$-$0.2 dex higher than our sample. Our paired galaxies show a slight sSFR suppression in their disks past 1.0 \reff\ while the galaxy pairs in \citet{Pan:2019} show an enhancement of $\sim$0.15 dex to the sSFR in their disks. The reason for the discrepancies between our samples may be that \citet{Pan:2019} includes a set of post-merger galaxies while our sample has no post-merger galaxies. These post-merger galaxies are predicted to have higher levels of star formation over other paired galaxies due to a second larger burst of star formation which is triggered as the merging galaxies coalesce and may be able to increase the sample's average sSFR enhancement . 
-
-\citet{Barrera-Ballesteros:2015} studied the sSFR in paired galaxies in the CALIFA IFS survey using the H$\alpha$ equivalent width (\ewha) as a proxy for the sSFR. They compared the sSFR in the centers of paired galaxies to their disks by varying the aperture diameters from which they extract the \ewha. They found that the sSFR is enhanced in the centers of the paired galaxies but suppressed in their disks, which is similar to what we find.  
-
-\citet{Moreno:2015} used {\sc Gadget}-3, a smoothed particle hydrodynamics code, to study the spatial extent of the star formation enhancement. The merger simulations showed that the star formation enhancement was largely concentrated in the centers (R $<$ 1 kpc) of the paired galaxies and that the off-nuclear regions (1 $<$ R $<$ 10 kpc) showed a suppression to the star formation. \citet{Moreno:2015} also found that lower mass secondary galaxies (in mergers with stellar mass ratios of 2.5:1) have higher levels of sSFR enhancement in their centers and have stronger levels of sSFR suppression in their disks. This is in good agreement with our work, we found that secondary companions show moderately higher levels of sSFR enhancement in their centers in comparison to primary companions at the same mass ratio. Further, the outskirts of the primary companions feature positive to zero enhancement to their sSFR while the secondary companions show a strong suppression to the sSFR in their outskirts. 
+This effect can be seen more clearly in the plot of the central $\Delta$log(sSFR) enhancement as a function of projected separation. The level of the enhancement gradually increases with closer separation from 50 kpc to 10 kpc. While $\Delta$log(sSFR) falls at higher separations, there is still a substantial level of enhancement between 40 and 50 kpc, $\sim$0.1$-$0.2 dex. Within 20 kpc, the $\Delta$log(sSFR) enhancement jumps to 0.3$-$0.4 dex. Our data shows that the sSFR enhancement persists out to at least $r_{\rm p} = 50$~kpc, which is the limit of our pair selection. In the next section, we will compare our results with those from previous studies.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Summary and Conclusion}\label{sec:sum}
+\section{Comparison with Previous Work}\label{sec:disc}
+
+\subsection{Difference Radial Profiles}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 \centering
 \includegraphics[width=3in]{fig/prof_comp.pdf}
-\caption[]{The mean radial profile of $\Delta$log(sSFR) between pairs and controls of this work with the tailored control method (Black) compared against those of \citet{Pan:2019} (Red) and \citet{Thorp:2019} (Blue).}
+\caption[]{The mean radial profile of $\Delta$log(sSFR) between pairs and controls of this work with the tailored control method ({\it Black}) compared against those of \citet{Pan:2019} ({\it Red}) and \citet{Thorp:2019} ({\it Blue}).}
 \label{fig:prof_comp}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In this work. we have made a sample of 175 star forming galaxy pairs along with a set of 1888 star forming control galaxies in the MaNGA IFS survey. We compared the radial profiles of sSFR between the paired galaxies and controls galaxies and found the following;
+In Figure \ref{fig:prof_comp} we compare the $\Delta$log(sSFR) profile as a function of galactocentric radius between our work and previous works. The post-merger galaxies in \citet{Thorp:2019} have sSFR enhancements between $\sim$0.05$-$0.2 dex higher than our sample of paired galaxies. The centers of the post-merger galaxies feature a greater level of sSFR enhancement in their centers compared to our galaxies pairs of $\Delta$log(sSFR) $=$ 0.5, roughly 0.25 dex higher than our paired galaxies. The post-merger galaxies also feature enhanced sSFR in their disk past 1.0 \reff\ of $\sim$0.1$-$0.15 dex. The heightened level of sSFR enhancement in the centers of post-merger galaxies in comparison to merging galaxies seems consistent with the idea that a second and greater burst of star formation occurs as the two merging galaxies coalesce into a single galaxy. 
+
+The galaxy pairs in \citet{Pan:2019} have sSFR enhancements that are roughly $\sim$0.1$-$0.2 dex higher than our sample. Our paired galaxies show a slight sSFR suppression in their disks past 1.0 \reff\ while the galaxy pairs in \citet{Pan:2019} show an enhancement of $\sim$0.15 dex to the sSFR in their disks. The reason for the discrepancies between our samples may be that \citet{Pan:2019} includes a set of post-merger galaxies while our sample has no post-merger galaxies. These post-merger galaxies are predicted to have higher levels of star formation over other paired galaxies due to a second larger burst of star formation which is triggered as the merging galaxies coalesce and may be able to increase the sample's average sSFR enhancement. 
+
+While in this work we find that $\Delta$log(sSFR) has essentially no dependence on the stellar mass of the galaxy, \citet{Li:2008} found that lower mass galaxies experience greater levels of enhancement than higher mass galaxies. Galaxies in the mass range \logm\ $=$ 9.72 were shown to experience an enhancement $\sim$0.4 dex higher than galaxies in the mass range \logm\ $=$ 10.6. The source of the difference is unclear; between our works we utilize different methods for determining the sSFR enhancement in galaxy pairs. \citet{Li:2008} defines their enhancement function as the average sSFR of the paired galaxies at a given separation, weighted by the number of companions, subtracted by the average sSFR of the whole sample. While we do not find the same dependency between the sSFR enhancement and stellar mass, the sSFR enhancement as a function of projected separation between our studies is in good agreement (see Figure~\ref{fig:nuc_sep}).
+
+\subsection{Dependency on Merger Parameters}
+
+The dependency of the SFR enhancement on the mass ratio was studied in \citet{Ellison:2008}. They found that pairs with mass ratios of 2:1 have higher SFR enhancements of $\sim$0.1 dex over pairs with wider 10:1 mass ratios. We find that pairs with mass ratios of $\Delta$log($M$) $=$ 0.25 (1.8:1) are 0.2 dex over pairs with mass ratios of $\Delta$log($M$) $=$ 1.0 (10:1). \citet{Ellison:2008} also saw tentative evidence for SFR enhancement in the secondary companions of minor pairs. We not only confirm that secondary companions of minor pairs feature SFR enhancement, but also that the enhancement is higher than the primary component of pairs at the same mass ratios. 
+
+The observations are also consistent with simulations. \citet{Moreno:2015} used {\sc Gadget}-3, a smoothed particle hydrodynamics code, to study the spatial extent of the star formation enhancement. The merger simulations showed that the star formation enhancement was largely concentrated in the centers (R $<$ 1 kpc) of the paired galaxies and that the off-nuclear regions (1 $<$ R $<$ 10 kpc) showed a suppression to the star formation. \citet{Moreno:2015} also found that lower mass secondary galaxies (in mergers with stellar mass ratios of 2.5:1) have higher levels of sSFR enhancement in their centers and have stronger levels of sSFR suppression in their disks. This is in good agreement with our work, we found that secondary companions show moderately higher levels of sSFR enhancement in their centers in comparison to primary companions at the same mass ratio. Further, the outskirts of the primary companions feature positive to zero enhancement to their sSFR while the secondary companions show a strong suppression to the sSFR in their outskirts. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\centering
+\includegraphics[width=3in]{fig/nuc_sep.pdf}
+\caption[]{(\textbf{Top}) $\Delta$log(SFR) over projected separation from this study ({\it Black}), \citet{Ellison:2008} ({\it Red}), \citet{Scudder:2012} ({\it Blue}), \citet{Patton:2013} ({\it Green}), and \citet{Bustamante:2020} ({\it Purple}). (\textbf{Bottom}) $\Delta$log(sSFR) over projected separation from this study ({\it Black}), \citet{Li:2008} ({\it Red}), and \citet{Patton:2020} ({\it Blue}).}
+\label{fig:nuc_sep}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Figure~\ref{fig:nuc_sep} compares the enhancement in both SFR and sSFR as a function of projected separation. For our data points, we use the mean $\Delta\log{\rm SFR}$ and $\Delta\log{\rm sSFR}$ measured within a deprojected radius of 0.5~\reff\ (i.e., the black data points in the right side panel of Figure~\ref{fig:ssfr_sep}). The literature data are either measured from single 1-1.5\arcsec-radius SDSS fibers \citep{Ellison:2008,Scudder:2012,Patton:2013} or XX\arcsec-radius apertures from CALIFA IFS data \citep{Bustamante:2020}. 
+%The $\Delta$log(SFR) as a function of projected separation has been studied before with the SDSS survey \citep{Ellison:2008, Li:2008, Patton:2013, Scudder:2012, Bustamante:2020}. We compare the mentioned surveys with our own work in Figure \ref{fig:nuc_sep}. 
+We find that our central SFR enhancements for closely separated pairs are higher than many of the previous studies, our sSFR enhancement is $\sim$0.2 dex higher than \citet{Scudder:2012} and $\sim$0.3 dex higher than \citet{Ellison:2008} and \citet{Bustamante:2020}. The central enhancement to the sSFR for closely separated pairs in our sample is $\sim$0.1 dex higher than \citet{Patton:2013}. The sSFR enhancement function from \citet{Li:2008} follows closely to our own and remains $\sim$0.05 dex above our sample out to 40 kpc.  
+
+The sSFR as a function of separation was studied with the cosmological hydrodynamical simulations of IllustrisTNG \citep{Patton:2020}. In Figure \ref{fig:nuc_sep} we show the $\Delta$log(sSFR) enhancements across 2D separation (projected separation) from the TNG300-1 simulation. \citet{Patton:2020} found a sSFR enhancement which is 1.8$\times$ that of the isolated controls within a separation of 15 kpc and is statistically significant out to a 2d separation of $\sim$250 kpc. This enhancement is $\sim$0.1 dex lower than ours; however, our sSFR enhancement shown in Figure \ref{fig:nuc_sep} was extracted from a 0.5 \reff\ aperture while \citet{Patton:2020} extracted the sSFR from a 50\% half-mass radius. This means that our extraction radius is effectively twice a small and is more restricted to the central burst of star formation. 
+
+Our sample only covers projected separations within 50 kpc, while previous surveys cover out to 100$-$200 kpc. While our sample covers a smaller separation range, the $\Delta$log(SFR) of our sample at 50 kpc is roughly the same level as \citet{Scudder:2012} and \citet{Patton:2013} at the same projected separation. From this we see that our sSFR enhancement as a function of projected separation is consistent with with what has been found in previous works. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary and Conclusion}\label{sec:sum}
+
+In this paper, we have demonstrated the power of a massive integral-field spectroscopic survey in comparison studies of galaxy properties. The nearby galaxy populations show consistent behaviors despite of their large diversity in star formation properties. Stacking was able to detect the signal buried in the noise by averaging, in the time domain, the likely stochastic star forming histories of galaxies (which drives the scatter in the sample). We focused on comparing the azimuthally averaged radial profiles of sSFR between galaxies in close pairs and a control sample of isolated galaxies. In agreement with previous studies, we found that, on average, star formation is elevated in close galaxy pairs. The properties of these purported merger-induced differences in sSFR can be summarized as follows:
 
 \begin{enumerate}
-\item The sSFR is centrally enhanced within the inner 1.0 \reff\ by 0.25 $\pm$ 0.1 dex. 
-\item The outskirts of the paired galaxies, \reff\ $=$ 1.0$-$2.5, show limited suppression in their disks of $\sim$0.1 dex.
-\item The sSFR enhancement in paired galaxies is independent of their total stellar mass.
-\item The sSFR enhancement in paired galaxies does depend on the ratio between the masses of the paired galaxies. Galaxies with small mass ratios, $|\Delta$log($M$)$|$ $=$ 0.0$-$0.5, see an enhancement to sSFR of 0.35 dex, which is 0.1 dex higher than the average paired galaxies in the survey. Paired galaxies with large mass ratios, $|\Delta$log($M$)$|$ $=$ 1.0, still show substantial levels of enhancement to the sSFR, 0.1$-$0.2 dex. 
-\item The secondary companions of a galaxy pair, the less massive galaxy, show higher sSFR enhancements, by $\sim$0.1 dex in comparison to primary companions at the same mass ratio. Further, primary companions have zero to positive sSFR offsets in their ouskirts, $\Delta$log(sSFR) $=$ 0.0$-$0.4 dex. Secondary companions feature a sSFR suppression in their outskirts of 0.1$-$0.4 dex.
-\item The sSFR enhancement increases with closer projected separations where galaxies within 20 kpc have their sSFR enhanced by 0.3$-$0.4. 
+
+\item Star formation is enhanced within the inner 1.0 \reff\ and it peaks at a level of 0.25 $\pm$ 0.1 dex (i.e., $\sim$2$\times$ faster star formation). On the other hand, the outskirts of the paired galaxies (\reff\ $=$ 1.0$-$2.5) show a moderate amount of suppression in sSFR at a level of $\sim$0.1 dex.
+ 
+\item The sSFR difference profile is largely independent of the stellar mass.
+
+\item The level of central sSFR enhancement increases as the projected separation of the pair decreases. 
+
+\item The level of central sSFR enhancement depends on the mass ratio of the galaxy pair. Galaxies with small mass ratios, $|\Delta$log($M$)$|$ $=$ 0.0$-$0.5, see an enhancement $\sim$0.1 dex higher than the average. But the enhancement is still present in pairs with mass ratios as large as $|\Delta$log($M$)$|$ $=$ 1.0. 
+
+\item The merger-induced changes in sSFR also seem to differ between the more massive and the less massive member of a galaxy pair. At the same mass ratio, the less massive member in a galaxy pair shows a higher sSFR enhancement (by $\sim$0.1 dex) in comparison to the more massive member. And in the galactic outskirt (R/\reff\ $=$ 1.0$-$2.5), the more massive member shows a general enhancement in sSFR, while the less massive member features a general suppression.
+
 \end{enumerate}
 
-There is still much to be understood about these galaxy pairs. We see that there is a great diversity in the difference profiles of individual galaxies. In particular there are galaxy pairs which feature a strong suppression to the sSFR in their centers while others feature a central enhancement to the sSFR which is much greater than the median enhancement. The depth of our analysis here would benefit by studying other merger parameters like the interaction stage or the gas fraction. 
-
-As of August 24, 2020, MaNGA has finished observing its goal of 10,000 galaxies. The completion of the final sample will mean that we will have access to a larger sample of paired and control galaxies. We also plan to fit the light profiles of the inside-IFU companion galaxies which will allow us to roughly double the size of the inside-IFU sample. With this and the completion of MaNGA's observations, we may be able to expand our pair sample to include nearly 500 galaxy pairs.
-
-With the larger sample size we will be better able to separate how the stellar mass, mass ratio, and projected separation effect the enhancement profile along with new parameters like the merger stage and gas fraction. Also, by constructing enhancement profiles for the inside-IFU companions to the MaNGA targets, we can better study how primary companions behave in comparison to their secondary companions. 
+As of 2020 August 24, MaNGA has completed its observations of $\sim$10,000 galaxies. This final sample gives us access to an unprecedentedly large sample of paired and control galaxies with 2\arcsec\ spatial sampling up to 2-3~\reff, which will undoubtedly improve the results presented here. In addition, the less massive members of the inside-IFU pairs can be included in such a comparison study once we build a better deblended photometric catalog using SDSS images.
 
 \acknowledgments
 
-% funding
 We thank Cheng Li for our useful discussion on how the sSFR enhancement in galaxy pairs relates to their stellar mass and mass ratio. J.S. and H.F. acknowledge support from the National Science Foundation (NSF) grant AST-1614326. Funding for the Sloan Digital Sky Survey IV has been provided by the Alfred P. Sloan Foundation, the U.S. Department of Energy Office of Science, and the Participating Institutions. SDSS acknowledges support and resources from the Center for High-Performance Computing at the University of Utah. The SDSS web site is www.sdss.org.
 
 SDSS is managed by the Astrophysical Research Consortium for the Participating Institutions of the SDSS Collaboration including the Brazilian Participation Group, the Carnegie Institution for Science, Carnegie Mellon University, the Chilean Participation Group, the French Participation Group, Harvard-Smithsonian Center for Astrophysics, Instituto de Astrofísica de Canarias, The Johns Hopkins University, Kavli Institute for the Physics and Mathematics of the Universe (IPMU) / University of Tokyo, the Korean Participation Group, Lawrence Berkeley National Laboratory, Leibniz Institut für Astrophysik Potsdam (AIP), Max-Planck-Institut für Astronomie (MPIA Heidelberg), Max-Planck-Institut für Astrophysik (MPA Garching), Max-Planck-Institut für Extraterrestrische Physik (MPE), National Astronomical Observatories of China, New Mexico State University, New York University, University of Notre Dame, Observatório Nacional / MCTI, The Ohio State University, Pennsylvania State University, Shanghai Astronomical Observatory, United Kingdom Participation Group, Universidad Nacional Autónoma de México, University of Arizona, University of Colorado Boulder, University of Oxford, University of Portsmouth, University of Utah, University of Virginia, University of Washington, University of Wisconsin, Vanderbilt University, and Yale University.
