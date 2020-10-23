@@ -97,7 +97,7 @@ Throughout we adopt the $\Lambda$CDM cosmology with $\Omega_{\rm m}=0.3$, $\Omeg
 \begin{figure}
 \centering
 \includegraphics[width=\linewidth]{fig/color-mag.pdf}
-\caption[]{Color-magnitude diagram for MaNGA galaxies. The grey circles represent the whole MaNGA sample and the color scale reflects the local density around each data point in this color-magnitude plane, as indicated by the color bar on the top. Inside-IFU pairs are marked with red diamonds and the outside-IFU pairs are marked with red squares. From top to bottom, the dashed lines divide the sample into red sequence, green valley, and blue cloud. The star-forming galaxy sample used in this paper are the galaxies below the lower dividing line.}
+\caption[]{Color-magnitude diagram for MaNGA galaxies. The grey circles represent the whole MaNGA sample and the color scale reflects the local density around each data point in this color-magnitude plane, as indicated by the color bar on the top. The {\it blue} diamonds represent the star forming paired galaxies (by the BPT and \ewha cuts), the {\it red} diamonds represent the paired galaxies which are classified as retired (by the \ewha\ cut), and the {\it green} diamonds represent the paired galaxies containing an AGN (as identified by the BPT diagnostic). From top to bottom, the dashed lines divide the sample into red sequence, green valley, and blue cloud. The star-forming galaxy sample used in this paper are the galaxies below the lower dividing line.}
 \label{fig:cmd}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -194,7 +194,9 @@ Where $b/a$ is the major-to-minor axis ratio and $q$ is the intrinsic oblateness
 
 The inclination angle, along with the galaxy's position angle, is used to deproject the geometries of the galaxies. We use the 50\% half light radius ({\it i.e}, the effective radius, \reff) to scale the sizes of the galaxies. Doing this will allow us to compare galaxies of different sizes against each other.
 
-Once the geometries of the galaxies are set, we can build azimuthally averaged radial profiles. The spaxels are binned into radius increments of 0.2 \reff\ from 0.0$-$2.6 \reff. Within each radius bin we take the median of the specific star formation rate. The profiles' errors are the standard error of the mean of the data within each radius bin. We build an azimuthally averaged radial profile for each MaNGA star forming galaxy and later stack and differentiate these profiles in the subsequent analysis. 
+Once the geometries of the galaxies are set, we can build azimuthally averaged radial profiles. The spaxels are binned into radius increments of 0.2 \reff\ from 0.0$-$2.6 \reff. While the MaNGA sample is limited spatially to 1.5$-$2.5 \reff\, the spaxels along the semi-minor axis of a galaxy will be able to extend beyond that range because of the inclination angle, sin($i$). 
+
+Within each radius bin we take the median of the specific star formation rate. The profiles' errors are the standard error of the mean of the data within each radius bin. We build an azimuthally averaged radial profile for each MaNGA star forming galaxy and later stack and differentiate these profiles in the subsequent analysis. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}\label{sec:results}
@@ -215,9 +217,6 @@ With the individual log(sSFR) profiles built for each MaNGA galaxy, we now use t
 \subsubsection{Mass-Binned Difference Profiles}\label{sec:mass-bin}
 
 In the first method, paired and control galaxies are grouped into five evenly spaced stellar mass bins between \logm\ $=$ 9.0$-$11.5. Within each stellar mass bin, we create a median profile of log(sSFR) as a function of \reff-scaled galactocentric distance for both paired and control galaxies. The control profiles are constructed using all available control galaxies within each mass bin. The error associated with the ``stacked'' profile is the standard error of mean of the data at each radius bin. We show these stacked profiles for control galaxies in the left hand panel of Figure \ref{fig:ssfr_prof} and the stacked profiles for paired galaxies in the middle panel of Figure \ref{fig:ssfr_prof}. Star formation in the control galaxies are quenched in their centers with respect to their disks and the difference between the sSFR in their centers and their disks increases with stellar mass, consistent with previously published results using the MaNGA survey \citep{Belfiore:2018}. In contrast, the paired galaxies show flatter sSFR profiles where the level of the sSFR remains roughly consistent across their disks except for paired galaxies with stellar masses above \logm\ $=$ 10.5, which still show some central quenching. 
-
-%{\bf COMMENT: I am not sure the trimmed regions could be so limited. If this is indeed correct, then we don't need to spend a paragraph on something so negligible and not to highlight the trimed regions in the plots.} 
-%The radial extent of our profiles reaches 2.6 \reff; however, 67\% of the MaNGA sample (i.e., the Primary subsample) is designed to cover only 1.5 \reff\ of the galaxy. Also, the MaNGA galaxies are not always centered on a spaxel center, so the 0$^{\rm th}$ spaxel may fall outside of the innermost radii bin. Because of these issues, the centers or the outskirts of the stacked profiles may only represent a small subset of the galaxies in that mass bin. To account for this, we ``trim" the stacked profiles where a radius bin contains data for less than 50\% of the total set of galaxies. We represent the trimmed regions in our figures with dashed lines. In Figure \ref{fig:ssfr_prof}, galaxies below \logm\ $\le$ 10.0 have their innermost radii bin trimmed due to insufficient coverage.
 
 We then take the difference between the stacked profiles of the paired galaxies and the control galaxies, pair - control, in log space (this means that the difference profiles really represent a ratio between the pairs and controls in linear space). This gives us the difference profile, $\Delta$log(sSFR), which shows us where the sSFR is enhanced or suppressed (shown in the right hand panel of Figure \ref{fig:ssfr_prof}). Across all stellar mass bins, the sSFR of paired galaxies are centrally enhanced by $\sim$0.35$\pm$0.1~dex, which gradually falls to zero around $\sim$1.2 \reff. In the outskirts of the pairs beyond 1.2 \reff, the pairs feature lightly suppressed sSFR of 0.0$-$0.1 dex. All of the mass ranges except for the highest mass range, \logm\ $=$ 11.0$-$11.5, trend closely to the median profile. For the most massive galaxies, \logm\ $=$ 11.0$-$11.5, the enhancement to the sSFR within 0.5 \reff\ is significantly higher than the median profile (reaching 0.5$-$0.6 dex). As will be discussed in \S~\ref{sec:tailored}, we believe this elevated enhancement in the highest mass bin is driven by more compact mergers instead of stellar mass. 
 
@@ -283,7 +282,7 @@ The mass ratio here is defined as,
 \begin{equation}
 \Delta {\rm log}(M) = {\rm log}(M_{\rm target}) - {\rm log}(M_{\rm comp}),
 \end{equation}
-where $M_{\rm target}$ is the stellar mass of the MaNGA target galaxy and $M_{\rm comp}$ is the stellar mass of the companion galaxy. We will define the more massive galaxy of a pair the primary companion and the less massive one the secondary companion.
+where $M_{\rm target}$ is the stellar mass of the MaNGA target galaxy and $M_{\rm comp}$ is the stellar mass of the companion galaxy. We emphasize that the MaNGA target is not always the more massive component of the pair. We will define the more massive galaxy of a pair the primary companion and the less massive one the secondary companion.
 
 For the outside-IFU pair sample we use the stellar masses enclosed by the $r$-band elliptical Petrosian apertures from the NSA catalog. The inside-IFU pair sample is left out of this analysis, because most of the secondary companions in these pairs are missing in the NSA catalog and the \citet{Simard:2011} catalog.
 
@@ -312,7 +311,7 @@ This effect can be seen more clearly in the plot of the central $\Delta$log(sSFR
 \begin{figure}
 \centering
 \includegraphics[width=3in]{fig/prof_comp.pdf}
-\caption[]{The mean radial profile of $\Delta$log(sSFR) between pairs and controls of this work with the tailored control method ({\it Black}) compared against those of \citet{Pan:2019} ({\it Red}) and \citet{Thorp:2019} ({\it Blue}).}
+\caption[]{The mean radial profile of $\Delta$log(sSFR) between pairs and controls of this work with the tailored control method ({\it Black}) compared against those of \citet{Pan:2019} ({\it Red}), a pair survey, and \citet{Thorp:2019} ({\it Blue}), a post-merger survey.}
 \label{fig:prof_comp}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
