@@ -42,7 +42,7 @@
 % citations
 \defcitealias{Fu:2018}{Paper I} 
 
-%\usepackage{epstopdf}
+\usepackage{epstopdf}
 
 \begin{document}
 
@@ -50,16 +50,7 @@
 SDSS-IV MaNGA: The Radial Profile of Enhanced Star Formation in Close Galaxy Pairs
 }
 
-\author{
-Joshua~L.~Steffen\altaffilmark{1}, Hai~Fu\altaffilmark{1,2}, J.~M.~Comerford\altaffilmark{3}, Y.~Sophia~Dai\altaffilmark{4}, Shuai~Feng\altaffilmark{5,6,7}, Arran~C.~Gross\altaffilmark{1}, and Rui~Xue\altaffilmark{1}
-}
-\altaffiltext{1}{Department of Physics \& Astronomy, University of Iowa, Iowa City, IA 52242}
-\altaffiltext{2}{Insititute for Astronomy, University of Hawaii, Honolulu, HI 96822}
-\altaffiltext{3}{Department of Astrophysical and Planetary Sciences, University of Colorado, Boulder, CO 80309}
-\altaffiltext{4}{Chinese Academy of Sciences South America Center for Astronomy (CASSACA), 20A Datun Road, Beijing 100012, China}
-\altaffiltext{5}{Department of Physics, Hebei Normal University, 20 South Erhuan Road, Shijiazhuang, 050024, China}
-\altaffiltext{6}{Key Laboratory for Research in Galaxies and Cosmology, Shanghai Astronomical Observatory, Chinese Academy of Sciences, 80 Nandan Road, Shanghai 200030, China}
-\altaffiltext{7}{University of the Chinese Academy of Sciences, No.19A Yuquan Road, Beijing 100049, China}
+\include{authors}
 
 \begin{abstract}
 We compare the radial profiles of the specific star formation rate (sSFR) in a sample of 175 star-forming galaxies in close pairs with those of mass-matched isolated galaxies in the SDSS-IV MaNGA survey. We find that the sSFR is centrally enhanced (within one effective radius) in interacting galaxies by $\sim$0.25 dex and that there is a weak sSFR suppression in the outskirts of the galaxies of $\sim$0.1 dex. We stack the differences profiles for galaxies in five stellar mass bins between \logm\ $=$ 9.0$-$11.5 and find that the sSFR enhancement has no dependence on the stellar mass. The same result is obtained when the comparison galaxies are matched to each paired galaxy in both stellar mass and redshift. In addition, we find that that the sSFR enhancement is elevated in pairs with nearly equal masses and closer projected separations, in agreement with previous work based on single-fiber spectroscopy. We also find that the sSFR offsets in the outskirts of the paired galaxies are dependent on whether the galaxy is the more massive or less massive companion in the pair. The more massive companion experiences zero to a positive sSFR enhancement while the less massive companion experiences sSFR suppression in their outskirts.
@@ -76,7 +67,7 @@ In the $\Lambda$CDM model, galaxy evolution is a hierarchical process. In this m
 %%%Simulations%%%
 The internal dynamics of these interacting galaxies were first modeled in the seminal work, \citet{Toomre:1972}. Since then, hydrodynamical simulations have expanded upon the N-body simulations of \citet{Toomre:1972} by modeling gas-dynamics within the galaxies. These simulations show the process by which barred structures develop within the disks of the interacting galaxies due to the tidal torques between them \citep{Barnes:1991}. As the bars form, the gases within the galaxy's disk lose angular momentum and get funneled into the centers of the galaxies. 
 
-When the gas-inflows impact upon the gases in the nucleus of the galaxy, a burst of new star formation is triggered \citep{Barnes:1996, Mihos:1996}. These gas inflows will also bring metal-poor gases from the disk into the center of the galaxy which can dilute the central metallicity \citep{Rupke:2010, Perez:2011, Scudder:2012}. The gas-inflows may also be able to reach into the very center of the galaxy and trigger an episode of supermassive black hole (SMBH) accretion \citep{Capelo:2017}. 
+When the gas-inflows impact upon the gases in the nucleus of the galaxy, a burst of new star formation in triggered \citep{Barnes:1996, Mihos:1996}. These gas inflows will also bring metal-poor gases from the disk into the center of the galaxy which can dilute the central metallicity \citep{Rupke:2010, Perez:2011, Scudder:2012}. The gas-inflows may also be able to reach into the very center of the galaxy and trigger an episode of supermassive black hole (SMBH) accretion \citep{Capelo:2017}. 
 
 %%%Observations%%%
 Interaction induced star formation was first seen observationally in the bluer colors of peculiar galaxies in \citet{Larson:1978}. Similar observations have has also been shown in more recent works using the single-fiber spectroscopic survey, SDSS (Sloan Digital Sky Survey) \citep{Ellison:2008, Li:2008, Scudder:2012, Patton:2013, Bustamante:2020}. From these previous works it has been shown that the strength of the star formation enhancement in the centers of paired galaxies is dependent on the stellar mass of the pairs \citep{Li:2008}, the projected separation between the pairs \citep{Ellison:2008, Li:2008, Scudder:2012}, and the mass ratio between the pairs \citep{Ellison:2008}. 
@@ -105,7 +96,7 @@ Throughout we adopt the $\Lambda$CDM cosmology with $\Omega_{\rm m}=0.3$, $\Omeg
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{color-mag.pdf}
+\includegraphics[width=\linewidth]{fig/color-mag.pdf}
 \caption[]{Color-magnitude diagram for MaNGA galaxies. The grey circles represent the whole MaNGA sample and the color scale reflects the local density around each data point in this color-magnitude plane, as indicated by the color bar on the top. The {\it blue} diamonds represent the star forming paired galaxies (by the BPT and \ewha\ cuts), the {\it red} diamonds represent the paired galaxies which are classified as retired (by the \ewha\ cut), and the {\it green} diamonds represent the paired galaxies containing an AGN (as identified by the BPT diagnostic). From top to bottom, the dashed lines divide the sample into red sequence, green valley, and blue cloud. The star-forming galaxy sample used in this paper are the galaxies below the lower dividing line.}
 \label{fig:cmd}
 \end{figure}
@@ -123,7 +114,7 @@ NUV-r = 3.1682 - 0.16 (\mathcal{M}_{\rm i}+18)
 \begin{equation}\label{eq:red}
 NUV-r = 4.7866 - 0.04 (\mathcal{M}_{\rm i}+18),
 \end{equation}
-Where $NUV-r$ is the color from SDSS's $k$-corrected absolute magnitude and $\mathcal{M}_{\rm i}$ is the $i$-band magnitude from the NSA catalog. We further apply an \ewha\ $\ge$ 3\AA\ cut on galaxy spectra extracted from a 1.0~\reff\ aperture to ensure that all \textbf{retired} galaxies are removed from the sample \citep{Cid-Fernandes:2011}. Finally, we use the BPT diagnostic \citep{Baldwin:1981} to remove galaxies with possible AGN in their centers. Specifically, we use the emission line ratios, log([O~{\sc iii}]/H$\beta$) and log([N~{\sc ii}]/H$\alpha$), extracted from a 1.3~kpc aperture along with the maximum starburst line of \citet{Kewley:2001} as the demarcation between the star-forming branch and the AGN branch.
+Where $NUV-r$ is the color from SDSS's $k$-corrected absolute magnitude and $\mathcal{M}_{\rm i}$ is the $i$-band magnitude from the NSA catalog. We further apply an \ewha\ $\ge$ 3\AA\ cut on galaxy spectra extracted from a 1.0~\reff\ aperture to ensure that all passive galaxies are removed from the sample \citep{Cid-Fernandes:2011}. Finally, we use the BPT diagnostic \citep{Baldwin:1981} to remove galaxies with possible AGN in their centers. Specifically, we use the emission line ratios, log([O~{\sc iii}]/H$\beta$) and log([N~{\sc ii}]/H$\alpha$), extracted from a 1.3~kpc aperture along with the maximum starburst line of \citet{Kewley:2001} as the demarcation between the star-forming branch and the AGN branch.
 
 On top of the star formation cuts, we require that all galaxies are in either the Primary or Secondary MaNGA subsamples \citep{Wake:2017}, and that the stellar mass range of the galaxy sample is between \logm\ $=$ 9.0$-$11.5. We use masses calculated from the elliptical Petrosian apertures in the NSA catalog for our total stellar masses. 
 
@@ -195,7 +186,7 @@ Where $b/a$ is the major-to-minor axis ratio and $q$ is the intrinsic oblateness
 
 The inclination angle, along with the galaxy's position angle, is used to deproject the geometries of the galaxies. We use the 50\% half light radius ({\it i.e}, the effective radius, \reff) to scale the sizes of the galaxies. Doing this will allow us to compare galaxies of different sizes against each other.
 
-Once the geometries of the galaxies are set, we can build azimuthally averaged radial profiles. The spaxels are binned into radius increments of 0.2 \reff\ from 0.0$-$2.6 \reff. \textbf{The MaNGA sample does not have a uniform spatial coverage, 63\% of the sample is designed to cover 1.5 \reff\ (the Primary+ subsample) and 37\% of the sample is designed to cover 2.5 \reff\ (the Secondary subsample).} While the MaNGA sample is limited spatially to 1.5$-$2.5 \reff\, the spaxels along the semi-minor axis of a galaxy will be able to extend beyond that range because of the galaxy's inclination angle, sin($i$). 
+Once the geometries of the galaxies are set, we can build azimuthally averaged radial profiles. The spaxels are binned into radius increments of 0.2 \reff\ from 0.0$-$2.6 \reff. While the MaNGA sample is limited spatially to 1.5$-$2.5 \reff\, the spaxels along the semi-minor axis of a galaxy will be able to extend beyond that range because of the galaxy's inclination angle, sin($i$). 
 
 Within each radius bin we take the median of the specific star formation rate. The profiles' errors are the standard error of the mean of the data within each radius bin. We build an azimuthally averaged radial profile for each MaNGA star forming galaxy and later stack and differentiate these profiles in the subsequent analysis. 
 
@@ -207,7 +198,7 @@ Within each radius bin we take the median of the specific star formation rate. T
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 \centering
-\includegraphics[width=\linewidth]{ssfr_comb.pdf}
+\includegraphics[width=\linewidth]{fig/ssfr_comb.pdf}
 \caption[]{The log(sSFR) as a function of galactocentric radius for control galaxies (\textbf{Left}) and galaxy pairs (\textbf{Middle}). The difference between the profiles of the paired galaxies and the control galaxies are shown in the \textbf{Right} panel. The dashed black profile represents the mean of the difference profiles. The colors of the profiles represent the mass range of the selected galaxies which is given in the legend along with the number of galaxies in that mass bin in parantheses. The highlighted region around the profiles represent the standard error of the mean of the data at the given radius interval. }
 \label{fig:ssfr_prof}
 \end{figure*}
@@ -228,7 +219,7 @@ This method of stacking sSFR profiles by a single parameter (stellar mass) has t
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 \centering
-\includegraphics[width=0.8\linewidth]{ssfr_mass.pdf}
+\includegraphics[width=0.8\linewidth]{fig/ssfr_mass.pdf}
 \caption[]{The \textbf{Left} panel shows the $\Delta$log(sSFR) profiles where the difference profiles are constructed from the difference between the paired galaxy profiles and a set of 20 control galaxies. The profiles are split into five different stellar mass bins and the highlighted region about the profiles represent the standard error of mean of the profile. The black dashed line represents the mean profile between the four difference mass ranges. The number of paired galaxies in each mass range is given in the legend in parentheses. In the \textbf{Right} panel the nuclear $\Delta$log(sSFR) are shown. The black squares are the mean values within a stellar mass bin (where the size of the bins are shown the the horizontal error bars). The vertical error bars on the black squares represent the standard deviation within the bin. The horizontal, dashed black line represents the median central enhancement of the pair sample. Galaxies in the outside-IFU (Blue) and inside-IFU (Red) samples are separately depicted.}
 \label{fig:ssfr_mass}
 \end{figure*}
@@ -237,7 +228,7 @@ This method of stacking sSFR profiles by a single parameter (stellar mass) has t
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 \centering
-\includegraphics[width=0.8\linewidth]{sep_hist.pdf}
+\includegraphics[width=0.8\linewidth]{fig/sep_hist.pdf}
 \caption[]{The projected separation distribution of the whole sample (blue) against the projected separation distribution for the highest mass galaxies, \logm\ $=$ 11.0$-$11.5 (Red). }
 \label{fig:sep_hist}
 \end{figure}
@@ -247,7 +238,7 @@ This method of stacking sSFR profiles by a single parameter (stellar mass) has t
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 \centering
-\includegraphics[width=0.8\linewidth]{ssfr_dm.pdf}
+\includegraphics[width=0.8\linewidth]{fig/ssfr_dm.pdf}
 \caption[]{Same as Figure \ref{fig:ssfr_mass} except the difference profiles are split by the mass ratio of the pair. The inside-IFU sample is left out of this analysis because we do not yet have reliable measurements of their total stellar mass ratios.}
 \label{fig:ssfr_dm}
 \end{figure*}
@@ -271,7 +262,7 @@ The results we obtain from the tailored-control method is largely consistent wit
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}
 \centering
-\includegraphics[width=0.8\linewidth]{ssfr_sep.pdf}
+\includegraphics[width=0.8\linewidth]{fig/ssfr_sep.pdf}
 \caption[]{Same as Figure \ref{fig:ssfr_mass} except the difference profiles are split by projected separation. }
 \label{fig:ssfr_sep}
 \end{figure*}
@@ -311,7 +302,7 @@ This effect can be seen more clearly in the plot of the central $\Delta$log(sSFR
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 \centering
-\includegraphics[width=3in]{prof_comp.pdf}
+\includegraphics[width=3in]{fig/prof_comp.pdf}
 \caption[]{The mean radial profile of $\Delta$log(sSFR) between pairs and controls of this work with the tailored control method ({\it Black}) compared against those of \citet{Pan:2019} ({\it Red}), a pair sample, and \citet{Thorp:2019} ({\it Blue}), a post-merger sample.}
 \label{fig:prof_comp}
 \end{figure}
@@ -332,7 +323,7 @@ The observations are also consistent with simulations. \citet{Moreno:2015} used 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 \centering
-\includegraphics[width=3in]{nuc_sep.pdf}
+\includegraphics[width=3in]{fig/nuc_sep.pdf}
 \caption[]{(\textbf{Top}) $\Delta$log(SFR) over projected separation from this study ({\it Black}), \citet{Ellison:2008} ({\it Red}), \citet{Scudder:2012} ({\it Blue}), \citet{Patton:2013} ({\it Green}), and \citet{Bustamante:2020} ({\it Purple}). (\textbf{Bottom}) $\Delta$log(sSFR) over projected separation from this study ({\it Black}), \citet{Li:2008} ({\it Red}), and \citet{Patton:2020} ({\it Blue}).}
 \label{fig:nuc_sep}
 \end{figure}
@@ -374,30 +365,5 @@ SDSS is managed by the Astrophysical Research Consortium for the Participating I
 %%%%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%
 \bibliographystyle{aasjournal}
 \bibliography{mergerbib}
-
-\appendix
-
-\begin{deluxetable*}{cccccccccc}
-%\tablestypesize{\small} \tablewidth{0pt}
-\tablecaption{Pair Catalog}
-\tablehead{
-\colhead{Plate} & \colhead{IFU} & \colhead{Sample} & \colhead{\Delta\theta} & \colhead{r_{\rm p}} & \colhead{\Delta \rm{log}(M)} & \colhead{R.A.} & \colhead{Decl.} & \colhead{Redshift} & \colhead{log(M)} \\
-\colhead{} & \colhead{} & \colhead{} & \colhead{(arcseconds)} & \colhead{(kpc)} & \colhead{(dex)} & \colhead{(deg)} & \colhead{(deg)} & \colhead{} & \colhead{log(M_\odot)} \\
-\colhead{(1)} & \colhead{(2)} & \colhead{(3)} & \colhead{(4)} & \colhead{(5)} & \colhead{(6)} & \colhead{(7)} & \colhead{(8)} & \colhead{(9)} & \colhead{(10)}
-}
-\decimals
-\startdata
-7443 & 12703 & 1 & 7.3 & 5.8 & 0.0 & 229.52558 & 42.74584 & 0.04027 & 10.8 \\
-7960 & 12703 & 1 & 78.2 & 39.0 & 1.2 & 259.22831 & 31.52755 & 0.02475 & 10.1 \\
-7964 & 3704 & 1 & 55.0 & 19.7 & 1.7 & 316.25170 & -0.93328 & 0.01759 & 9.2 \\
-7975 & 12704 & 2 & 2.9 & 4.9 & 0.6 & 324.58642 & 11.34867 & 0.08886 & 11.1 \\
-7977 & 9102 & 2 & 8.6 & 10.5 & 2.1 & 332.83066 & 12.18472 & 0.06309 & 10.8 \\
-8078 & 6104 & 2 & 30.1 & 26.2 & -0.1 & 42.73943 & 0.36941 & 0.04421 & 10.1 \\
-8078 & 12703 & 1 & 35.4 & 20.0 & 0.9 & 42.57027 & 0.09199 & 0.02808 & 10.8 \\
-8079 & 1902 & 1 & 7.3 & 3.1 & 1.5 & 42.54777 & -0.99910 & 0.02129 & 9.5 \\
-8079 & 12702 & 1 & 61.7 & 27.4 & -0.6 & 41.86858 & -0.26820 & 0.02198 & 10.3 \\
-8080 & 9101 & 2 & 11.0 & 9.7 & 0.0 & 47.34003 & -0.40794 & 0.04482 & 9.9 \\
-\enddata
-\end{deluxetable*}
 
 \end{document}
