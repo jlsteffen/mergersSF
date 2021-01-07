@@ -125,7 +125,11 @@ We use our own {\sc idl} based spectral fitting code, {\sc spfit}\footnote{\url{
 For each MaNGA 1\arcsec$\times$1\arcsec\ spaxel, we use our spectral fitting code, {\sc spfit}, to get measurements of emission line fluxes, equivalent widths, velocities, and velocity dispersions of 19 emission lines and measurements of stellar masses, ages, [Fe/H], and the kinematics of the stellar populations.
 }
 
-MaNGA DAP \citep{Belfiore:2019}, Pipe3D \citep{Sanchez:2016a, Sanchez:2016b}
+\textbf{
+The are a few differences between {\sc SPFIT} and the previous spectral fitting codes designed for the MaNGA project; the MaNGA {\sc DAP} \citep{Belfiore:2019} and {\sc Pipe3D} \citep{Sanchez:2016a, Sanchez:2016b}. {\sc SPFIT} re-bins the MaNGA datacubes into 1\arcsec $\times$ 1\arcsec\ pixels to remove the covariances between neighboring pixels while the {\sc DAP} and {\sc Pipe3D} leaves the data in its original 0.5\arcsec $\times$ 0.5\arcsec\ format. Each code uses a slightly different SSP library. The {\sc DAP} uses the MILES-HC (Hierarchically Clustered MILES templates) library \citep{Westfall:2019}, {\sc PIPE3D} library uses the GSD156 library \citep{Cid-Fernandes:2013} which is built from the GRANADA \citep{Martins:2005} and MILES \citep{Sanchez-Blazquez:2006} libraries, and {\sc SPFIT} uses the MIUSCAT library which is the combination of the MILES, CaT \citep{Cenarro:2001}, and Indo-U.S. stellar libraries \citep{Valdes:2004}. Both {\sc SPFIT} and the {\DAP} simultaneously fits emission lines and the stellar continuum while {\sc PIPE3D} only fits the emission lines.
+}
+
+
 
 \subsection{\textbf{Selecting Star Forming Galaxies}}\label{sec:sf}
 
@@ -365,7 +369,7 @@ The observations are also consistent with simulations. \citet{Moreno:2015} used 
 \begin{figure}
 \centering
 \includegraphics[width=3in]{fig/nuc_sep.pdf}
-\caption[]{(\textbf{Top}) $\Delta$log(SFR) over projected separation from this study ({\it Black}), \citet{Ellison:2008} ({\it Red}), \citet{Scudder:2012} ({\it Blue}), \citet{Patton:2013} ({\it Green}), and \citet{Bustamante:2020} ({\it Purple}). (\textbf{Bottom}) $\Delta$log(sSFR) over projected separation from this study ({\it Black}), \citet{Li:2008} ({\it Red}), and \citet{Patton:2020} ({\it Blue}).}
+\caption[]{(\textbf{Top}) $\Delta$log(SFR) \textbf{extracted from the inner 0.5 \reff} over projected separation from this study ({\it Black}), \citet{Ellison:2008} ({\it Red}), \citet{Scudder:2012} ({\it Blue}), \citet{Patton:2013} ({\it Green}), and \citet{Bustamante:2020} ({\it Purple}). (\textbf{Bottom}) $\Delta$log(sSFR) \textbf{extracted from the inner 0.5 \reff} over projected separation from this study ({\it Black}), \citet{Li:2008} ({\it Red}), and \citet{Patton:2020} ({\it Blue}).}
 \label{fig:nuc_sep}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
