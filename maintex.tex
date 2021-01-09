@@ -103,12 +103,12 @@ Throughout we adopt the $\Lambda$CDM cosmology with $\Omega_{\rm m}=0.3$, $\Omeg
 \section{Data and Samples}\label{sec:data}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
+\begin{figure*}
 \centering
 \includegraphics[width=\linewidth]{fig/bpt-cmd.pdf}
-\caption[]{Color-magnitude diagram for MaNGA galaxies. The grey circles represent the whole MaNGA sample and the color scale reflects the local density around each data point in this color-magnitude plane, as indicated by the color bar on the top. The {\it blue} diamonds represent the star forming paired galaxies (by the BPT and \ewha\ cuts), the {\it red} diamonds represent the paired galaxies which are classified as retired (by the \ewha\ cut), and the {\it green} diamonds represent the paired galaxies containing an AGN (as identified by the BPT diagnostic). From top to bottom, the dashed lines divide the sample into red sequence, green valley, and blue cloud. The star-forming galaxy sample used in this paper are the galaxies below the lower dividing line.}
+\caption[]{(\textbf{Top}) Color-magnitude diagram for MaNGA galaxies. The grey circles represent the whole MaNGA sample and the color scale reflects the local density around each data point in this color-magnitude plane, as indicated by the color bar on the top. The {\it blue} diamonds represent the star forming paired galaxies (by the BPT and \ewha\ cuts), the {\it red} diamonds represent the paired galaxies which are classified as retired (by the \ewha\ cut), and the {\it green} diamonds represent the paired galaxies containing an AGN (as identified by the BPT diagnostic). From top to bottom, the dashed lines divide the sample into red sequence, green valley, and blue cloud. The star-forming galaxy sample used in this paper are the galaxies below the lower dividing line. (\textbf{Bottom}) BPT diagram for the MaNGA galaxies. }
 \label{fig:cmd}
-\end{figure}
+\end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 MaNGA is an IFS survey at the Apache Point Observatory (APO) which uses the SDSS (Sloan Digital Sky Survey) 2.5-meter telescope along with two dual-channel BOSS spectrographs \citep{Drory:2015}. MaNGA captures spectra through 17 integral field units (IFUs) with variable numbers of fibers: 19, 37, 61, 91, and 127 fibers covering 12.5\arcsec, 17.5\arcsec, 22.5\arcsec, 27.5\arcsec, and 32.5\arcsec on the sky respectively \citep{Law:2015}. MaNGA is an optical survey with a spectral coverage of 3600$-$10,300 \AA\ with a resolution of R $\sim$ 2000 and a PSF of 2.5\arcsec\ FWHM \citep{Bundy:2015}. 
@@ -151,9 +151,7 @@ We build two different pair samples in this work; the inside-IFU sample which co
 
 To identify potential paired galaxies covered by individual IFUs, we start by overlaying SDSS photometric objects over each MaNGA fields of view. We manually inspect each MaNGA field, removing photometric objects which are over-deblended galaxy fragments and, very rarely, adding any objects missed in the SDSS photometric catalog. At this stage the object catalog includes foreground stars and foreground/background galaxies along with the potential paired galaxies. 
 
-To select paired galaxies out of our object catalog, we inspect the spectra of each object. 
-
-The spectra of the identified objects is extracted through a 1\arcsec\ circular aperture and fitted assuming the MaNGA target's redshift and then manually sorted into the following categories: ``good" galaxy spectra, broad-line AGN, foreground star, foreground/background galaxies, or poor S/N objects. The ``good" galaxy spectra are the objects whose spectra are well modeled by {\sc spfit} at the target galaxy's redshift, whether it is the target galaxy itself or a nearby companion galaxy. This means that the companion galaxy can be within approximately $\pm$3000 km s$^{-1}$ of the MaNGA target. We found 6573 ``good" objects, 57 broad-line AGN, 836 foreground stars, 319 foreground/background galaxies, and 1546 objects with poor S/N. 
+To select paired galaxies out of our object catalog, we inspect the spectra of each object. The spectra of the identified objects is extracted through a 1\arcsec\ circular aperture and fitted assuming the MaNGA target's redshift and then manually sorted into the following categories: ``good" galaxy spectra, broad-line AGN, foreground star, foreground/background galaxies, or poor S/N objects. The ``good" galaxy spectra are the objects whose spectra are well modeled by {\sc spfit} at the target galaxy's redshift, whether it is the target galaxy itself or a nearby companion galaxy. This means that the companion galaxy can be within approximately $\pm$3000 km s$^{-1}$ of the MaNGA target. We found 6573 ``good" objects, 57 broad-line AGN, 836 foreground stars, 319 foreground/background galaxies, and 1546 objects with poor S/N. 
 
 \textbf{Broad-line AGN comprise $\sim$0.9\% of MaNGA's galaxy sample where \citet{Lacerda:2020} found a fraction of $\sim$2.8\% from the CALIFA survey and \citet{Sanchez:2018} found a fraction of $\sim$1.33\% from the MaNGA's MPL-5 sample (which observed $\sim$2700 galaxies).  
 }
@@ -182,19 +180,26 @@ In the second method, we select a ``tailored'' control sample for each paired ga
 \section{Analysis Methods}\label{sec:analysis}
 
 \subsection{Specific Star Formation Rate}
-
-We correct the emission lines extracted by {\sc spfit} for reddening using the extinction curve from \citet{Cardelli:1989} with updated coefficients from \citet{ODonnell:1994}. The extinction is parameterized as $R_V$ $\equiv$ $A_V/E(B-V)$ $=$ 3.1, where we estimate the value of the $V$-band extinction, $A_V$, by comparing the H$\alpha$/H$\beta$ ratio to the expected value of 2.85 for Case-B recombination. \textbf{To control the quality of the used data, we only use spaxels with S/N $\ge$ 3 for the H$\alpha$ line.}
+\textbf{We calculate the star formation rates in the pair and control galaxies with the emission lines extracted with our spectra fitting code, {\sc SPFIT} (described in Section \ref{sec:spfit}).} We correct the emission lines for reddening using the extinction curve from \citet{Cardelli:1989} with updated coefficients from \citet{ODonnell:1994}. The extinction is parameterized as $R_V$ $\equiv$ $A_V/E(B-V)$ $=$ 3.1, where we estimate the value of the $V$-band extinction, $A_V$, by comparing the H$\alpha$/H$\beta$ ratio to the expected value of 2.85 for Case-B recombination. 
 
 We measure the SFR from the extinction corrected H$\alpha$ luminosity, $L_{{\rm H}\alpha}$. We use the SFR formula, Equation \ref{eq:sfr}, from \citet{Murphy:2011} which uses a Kroupa IMF, Solar metallicity, a constant SFR at an age of 100 Myr, and Case-B recombination: 
 \begin{equation}\label{eq:sfr}
 \frac{\rm{SFR}}{M_{\odot} \, \rm{yr^{-1}}} = \frac{L_{\rm H\alpha}}{1.86 \times 10^{41}\, \rm{erg\,s}^{-1}}.
 \end{equation}
 
-Since the stellar mass of a galaxy is not uniformly distributed within the galaxy, we normalize the SFR by the stellar mass in the same spaxel, giving us the specific star formation rate (sSFR):
+Since the stellar mass of a galaxy is not uniformly distributed within the galaxy, we normalize the SFR by the stellar mass in the same spaxel, $M$, giving us the specific star formation rate (sSFR):
 \begin{equation}
 {\rm sSFR} = \frac{\rm SFR}{M}.
 \end{equation}
 The local stellar masses used here is derived from {\sc spfit}'s best-fit stellar continuum. Utilizing sSFR, instead of SFR, allows us to compare regions of high mass surface density to regions of low mass surface density. 
+
+\textbf{
+We check our measurement of the specific star formation rate with the equivalent width of the H$\alpha$ line, \ewha, since it is a known proxy for the sSFR. This is useful as the sSFR is dependent on {\sc SPFIT}'s measurement of the stellar mass while \ewha\ is an observable. As we will show in Section \ref{sec:results}, the \ewha\ is consistent with our measurement of the sSFR.
+}
+
+\textbf{
+The signal to noise ratio of the data will fall with wide galactocentric radii. MaNGA is designed to cover 1.5 \reff\ for galaxies in the Primary sample and 2.5 \reff\ in the secondary sample. These are not hard limits, data will exist beyond these radii, especially along the semi-minor axis of galaxy; however, the data beyond these limits may be unreliable due to low signal to noise. To control the quality of the used data, we only use spaxels with S/N $\ge$ 3 for the H$\alpha$ line.
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Radial Profiles}\label{sec:radial}
@@ -214,13 +219,15 @@ Where $b/a$ is the major-to-minor axis ratio and $q$ is the intrinsic oblateness
 
 The inclination angle, along with the galaxy's position angle, is used to deproject the geometries of the galaxies. We use the 50\% half light radius ({\it i.e}, the effective radius, \reff) to scale the sizes of the galaxies. Doing this will allow us to compare galaxies of different sizes against each other.
 
-Once the geometries of the galaxies are set, we can build azimuthally averaged radial profiles. The spaxels are binned into radius increments of 0.2 \reff\ from 0.0$-$2.6 \reff. \textbf{The MaNGA sample does not have a uniform spatial coverage, 63\% of the sample is designed to cover 1.5 \reff\ (the Primary+ subsample) and 37\% of the sample is designed to cover 2.5 \reff\ (the Secondary subsample).} {\it While the MaNGA sample is limited spatially to 1.5$-$2.5 \reff\, the spaxels along the semi-minor axis of a galaxy will be able to extend beyond that range because of the galaxy's inclination angle, sin($i$). }
+Once the geometries of the galaxies are set, we can build azimuthally averaged radial profiles. The spaxels are binned into radius increments of 0.2 \reff\ from 0.0$-$2.6 \reff. Within each radius bin we take the median of the specific star formation rate. 
 
-Within each radius bin we take the median of the specific star formation rate. The profiles' errors are the standard error of the mean of the data within each radius bin. \textbf{Here we define the standard error of the mean, $\sigma_{\overline{x}}$, as,
+The profiles' errors are the standard error of the mean of the data within each radius bin. \textbf{Here we define the standard error of the mean, $\sigma_{\overline{x}}$, as,
 \begin{equation}
 \sigma_{\overline{x}} = \frac{\sigma}{\sqrt{n}},
 \end{equation}
 where $\sigma$ is the standard deviation and $n$ is the sample size.} We build an azimuthally averaged radial profile for each MaNGA star forming galaxy and later stack and differentiate these profiles in the subsequent analysis. 
+
+\textbf{The MaNGA sample does not have a uniform spatial coverage, 63\% of the sample is designed to cover 1.5 \reff\ (the Primary+ subsample) and 37\% of the sample is designed to cover 2.5 \reff\ (the Secondary subsample).} {\it While the MaNGA sample is limited spatially to 1.5$-$2.5 \reff\, the spaxels along the semi-minor axis of a galaxy will be able to extend beyond that range because of the galaxy's inclination angle, sin($i$).}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}\label{sec:results}
