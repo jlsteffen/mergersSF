@@ -1,0 +1,28 @@
+% ApJ Format
+%\documentclass[apj,twocolumn]{emulateapj}
+%\usepackage{apjfonts}
+
+%\begin{document}
+
+\begin{table}
+\begin{center}
+\caption{Close Galaxy Pairs and Multiples in MaNGA IFUs}
+\label{tab:coords}
+\begin{tabular}{lc ccc}
+\hline
+\hline
+Plate-IFU & Index & R.A. (J2000) & Decl. (J2000) & Redshift \\
+          &           & (deg)        & (deg)         &     \\
+\hline
+\input{table1_data.tex}
+\hline
+\end{tabular}
+\end{center}
+\tablecomments{
+This table lists a total of 404 plate-IFUs that contain close galaxy pairs and multiples in the eighth MaNGA Product Launch (MPL-8). The second column lists the component index, where ``0'' indicates the primary target of the MaNGA observation. For each IFU, all components within $\pm$2000\,km~s$^{-1}$ of the primary are listed, sorted in ascending angular distance from the primary.\\
+(This table is available in its entirety in a machine-readable form in the online journal. A portion is shown here for guidance regarding its form and content.)
+}
+\end{table}
+
+
+%\end{document}
