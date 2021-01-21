@@ -95,6 +95,12 @@
 {Belfiore}, F., {Maiolino}, R., {Bundy}, K., {et~al.} 2018, \mnras, 477, 3014,
   \dodoi{10.1093/mnras/sty768}
 
+\bibitem[{{Belfiore} {et~al.}(2019){Belfiore}, {Westfall}, {Schaefer},
+  {Cappellari}, {Ji}, {Bershady}, {Tremonti}, {Law}, {Yan}, {Bundy}, {Shetty},
+  {Drory}, {Thomas}, {Emsellem}, \& {S{\'a}nchez}}]{Belfiore:2019}
+{Belfiore}, F., {Westfall}, K.~B., {Schaefer}, A., {et~al.} 2019, \aj, 158,
+  160, \dodoi{10.3847/1538-3881/ab3e4e}
+
 \bibitem[{{Bundy} {et~al.}(2015){Bundy}, {Bershady}, {Law}, {Yan}, {Drory},
   {MacDonald}, {Wake}, {Cherinka}, {S{\'a}nchez-Gallego}, {Weijmans}, {Thomas},
   {Tremonti}, {Masters}, {Coccato}, {Diamond-Stanic}, {Arag{\'o}n-Salamanca},
@@ -120,6 +126,9 @@
 {Capelo}, P.~R., {Dotti}, M., {Volonteri}, M., {et~al.} 2017, \mnras, 469,
   4437, \dodoi{10.1093/mnras/stx1067}
 
+\bibitem[{{Cappellari}(2017)}]{Cappellari:2017}
+{Cappellari}, M. 2017, \mnras, 466, 798, \dodoi{10.1093/mnras/stw3020}
+
 \bibitem[{{Cardelli} {et~al.}(1989){Cardelli}, {Clayton}, \&
   {Mathis}}]{Cardelli:1989}
 {Cardelli}, J.~A., {Clayton}, G.~C., \& {Mathis}, J.~S. 1989, \apj, 345, 245,
@@ -129,6 +138,10 @@
   {Mateus}, \& {Vale Asari}}]{Cid-Fernandes:2011}
 {Cid Fernandes}, R., {Stasi{\'n}ska}, G., {Mateus}, A., \& {Vale Asari}, N.
   2011, \mnras, 413, 1687, \dodoi{10.1111/j.1365-2966.2011.18244.x}
+
+\bibitem[{{Cooray} \& {Sheth}(2002)}]{Cooray:2002}
+{Cooray}, A., \& {Sheth}, R. 2002, \physrep, 372, 1,
+  \dodoi{10.1016/S0370-1573(02)00276-4}
 
 \bibitem[{{Drory} {et~al.}(2015){Drory}, {MacDonald}, {Bershady}, {Bundy},
   {Gunn}, {Law}, {Smith}, {Stoll}, {Tremonti}, {Wake}, {Yan}, {Weijmans},
@@ -141,11 +154,6 @@
   {McConnachie}}]{Ellison:2008}
 {Ellison}, S.~L., {Patton}, D.~R., {Simard}, L., \& {McConnachie}, A.~W. 2008,
   \aj, 135, 1877, \dodoi{10.1088/0004-6256/135/5/1877}
-
-\bibitem[{{Feng} {et~al.}(2019){Feng}, {Shen}, {Yuan}, {Luo}, {Zhang}, {Wang},
-  {Wang}, {Li}, {Hou}, {Kong}, {Guo}, \& {Zuo}}]{Feng:2019}
-{Feng}, S., {Shen}, S.-Y., {Yuan}, F.-T., {et~al.} 2019, \apj, 880, 114,
-  \dodoi{10.3847/1538-4357/ab24da}
 
 \bibitem[{{Fu} {et~al.}(2018){Fu}, {Steffen}, {Gross}, {Dai}, {Isbell}, {Lin},
   {Wake}, {Xue}, {Bizyaev}, \& {Pan}}]{Fu:2018}
@@ -162,6 +170,11 @@
 {Kewley}, L.~J., {Dopita}, M.~A., {Sutherland}, R.~S., {Heisler}, C.~A., \&
   {Trevena}, J. 2001, \apj, 556, 121, \dodoi{10.1086/321545}
 
+\bibitem[{{Lacerda} {et~al.}(2020){Lacerda}, {S{\'a}nchez}, {Cid Fernandes},
+  {L{\'o}pez-Cob{\'a}}, {Espinosa-Ponce}, \& {Galbany}}]{Lacerda:2020}
+{Lacerda}, E. A.~D., {S{\'a}nchez}, S.~F., {Cid Fernandes}, R., {et~al.} 2020,
+  \mnras, 492, 3073, \dodoi{10.1093/mnras/staa008}
+
 \bibitem[{{Larson} \& {Tinsley}(1978)}]{Larson:1978}
 {Larson}, R.~B., \& {Tinsley}, B.~M. 1978, \apj, 219, 46,
   \dodoi{10.1086/155753}
@@ -172,10 +185,22 @@
 {Law}, D.~R., {Yan}, R., {Bershady}, M.~A., {et~al.} 2015, \aj, 150, 19,
   \dodoi{10.1088/0004-6256/150/1/19}
 
+\bibitem[{Lawson \& Hanson(1974)}]{Lawson:1974}
+Lawson, C.~L., \& Hanson, R.~J. 1974, Solving least squares problems
+  (Prentice-Hall Series in Automatic Computation, Englewood Cliffs:
+  Prentice-Hall, 1974).
+\newblock \url{http://adsabs.harvard.edu/abs/1974slsp.book.....L}
+
 \bibitem[{{Li} {et~al.}(2008){Li}, {Kauffmann}, {Heckman}, {Jing}, \&
   {White}}]{Li:2008}
 {Li}, C., {Kauffmann}, G., {Heckman}, T.~M., {Jing}, Y.~P., \& {White}, S.
   D.~M. 2008, \mnras, 385, 1903, \dodoi{10.1111/j.1365-2966.2008.13000.x}
+
+\bibitem[{Markwardt(2009)}]{Markwardt:2009}
+Markwardt, C.~B. 2009, in ASP Conference Series, Astronomical Data Analysis
+  Software and Systems XVIII, D. A. Bohlender, D. Durand, and P. Dowler, eds.,
+  Vol. 411, 251.
+\newblock \url{http://adsabs.harvard.edu/abs/2009ASPC..411..251M}
 
 \bibitem[{{Mihos} \& {Hernquist}(1996)}]{Mihos:1996}
 {Mihos}, J.~C., \& {Hernquist}, L. 1996, \apj, 464, 641, \dodoi{10.1086/177353}
@@ -184,6 +209,11 @@
   {Bluck}, {Bansal}, \& {Hernquist}}]{Moreno:2015}
 {Moreno}, J., {Torrey}, P., {Ellison}, S.~L., {et~al.} 2015, \mnras, 448, 1107,
   \dodoi{10.1093/mnras/stv094}
+
+\bibitem[{{Moreno} {et~al.}(2020){Moreno}, {Torrey}, {Ellison}, {Patton},
+  {Bottrell}, {Bluck}, {Hani}, {Hayward}, {Bullock}, {Hopkins}, \&
+  {Hernquist}}]{Moreno:2020}
+---. 2020, \mnras, \dodoi{10.1093/mnras/staa2952}
 
 \bibitem[{{Murphy} {et~al.}(2011){Murphy}, {Condon}, {Schinnerer}, {Kennicutt},
   {Calzetti}, {Armus}, {Helou}, {Turner}, {Aniano}, {Beir{\~a}o}, {Bolatto},
@@ -240,6 +270,35 @@
 {Rupke}, D. S.~N., {Kewley}, L.~J., \& {Chien}, L.~H. 2010, \apj, 723, 1255,
   \dodoi{10.1088/0004-637X/723/2/1255}
 
+\bibitem[{{S{\'a}nchez} {et~al.}(2016{\natexlab{a}}){S{\'a}nchez}, {P{\'e}rez},
+  {S{\'a}nchez-Bl{\'a}zquez}, {Gonz{\'a}lez}, {Ros{\'a}les-Ortega},
+  {Cano-D{\'\i}az}, {L{\'o}pez-Cob{\'a}}, {Marino}, {Gil de Paz}, {Moll{\'a}},
+  {L{\'o}pez-S{\'a}nchez}, {Ascasibar}, \&
+  {Barrera-Ballesteros}}]{Sanchez:2016a}
+{S{\'a}nchez}, S.~F., {P{\'e}rez}, E., {S{\'a}nchez-Bl{\'a}zquez}, P., {et~al.}
+  2016{\natexlab{a}}, \rmxaa, 52, 21.
+\newblock \doarXiv{1509.08552}
+
+\bibitem[{{S{\'a}nchez} {et~al.}(2016{\natexlab{b}}){S{\'a}nchez}, {P{\'e}rez},
+  {S{\'a}nchez-Bl{\'a}zquez}, {Garc{\'\i}a-Benito}, {Ibarra-Mede},
+  {Gonz{\'a}lez}, {Rosales-Ortega}, {S{\'a}nchez-Menguiano}, {Ascasibar},
+  {Bitsakis}, {Law}, {Cano-D{\'\i}az}, {L{\'o}pez-Cob{\'a}}, {Marino}, {Gil de
+  Paz}, {L{\'o}pez-S{\'a}nchez}, {Barrera-Ballesteros}, {Galbany}, {Mast},
+  {Abril-Melgarejo}, \& {Roman-Lopes}}]{Sanchez:2016b}
+---. 2016{\natexlab{b}}, \rmxaa, 52, 171.
+\newblock \doarXiv{1602.01830}
+
+\bibitem[{{S{\'a}nchez} {et~al.}(2018){S{\'a}nchez}, {Avila-Reese},
+  {Hernandez-Toledo}, {Cortes-Su{\'a}rez}, {Rodr{\'\i}guez-Puebla},
+  {Ibarra-Medel}, {Cano-D{\'\i}az}, {Barrera-Ballesteros}, {Negrete},
+  {Calette}, {de Lorenzo-C{\'a}ceres}, {Ortega-Minakata}, {Aquino},
+  {Valenzuela}, {Clemente}, {Storchi-Bergmann}, {Riffel}, {Schimoia}, {Riffel},
+  {Rembold}, {Brownstein}, {Pan}, {Yates}, {Mallmann}, \&
+  {Bitsakis}}]{Sanchez:2018}
+{S{\'a}nchez}, S.~F., {Avila-Reese}, V., {Hernandez-Toledo}, H., {et~al.} 2018,
+  \rmxaa, 54, 217.
+\newblock \doarXiv{1709.05438}
+
 \bibitem[{{Scudder} {et~al.}(2012){Scudder}, {Ellison}, {Torrey}, {Patton}, \&
   {Mendel}}]{Scudder:2012}
 {Scudder}, J.~M., {Ellison}, S.~L., {Torrey}, P., {Patton}, D.~R., \& {Mendel},
@@ -258,11 +317,35 @@
 \bibitem[{{Toomre} \& {Toomre}(1972)}]{Toomre:1972}
 {Toomre}, A., \& {Toomre}, J. 1972, \apj, 178, 623, \dodoi{10.1086/151823}
 
+\bibitem[{{van der Marel} \& {Franx}(1993)}]{van-der-Marel:1993}
+{van der Marel}, R.~P., \& {Franx}, M. 1993, \apj, 407, 525,
+  \dodoi{10.1086/172534}
+
+\bibitem[{{Vazdekis} {et~al.}(2012){Vazdekis}, {Ricciardelli}, {Cenarro},
+  {Rivero-Gonz{\'a}lez}, {D{\'\i}az-Garc{\'\i}a}, \&
+  {Falc{\'o}n-Barroso}}]{Vazdekis:2012}
+{Vazdekis}, A., {Ricciardelli}, E., {Cenarro}, A.~J., {et~al.} 2012, \mnras,
+  424, 157, \dodoi{10.1111/j.1365-2966.2012.21179.x}
+
 \bibitem[{{Wake} {et~al.}(2017){Wake}, {Bundy}, {Diamond-Stanic}, {Yan},
   {Blanton}, {Bershady}, {S{\'a}nchez-Gallego}, {Drory}, {Jones}, {Kauffmann},
   {Law}, {Li}, {MacDonald}, {Masters}, {Thomas}, {Tinker}, {Weijmans}, \&
   {Brownstein}}]{Wake:2017}
 {Wake}, D.~A., {Bundy}, K., {Diamond-Stanic}, A.~M., {et~al.} 2017, \aj, 154,
   86, \dodoi{10.3847/1538-3881/aa7ecc}
+
+\bibitem[{{Zehavi} {et~al.}(2002){Zehavi}, {Blanton}, {Frieman}, {Weinberg},
+  {Mo}, {Strauss}, {Anderson}, {Annis}, {Bahcall}, {Bernardi}, {Briggs},
+  {Brinkmann}, {Burles}, {Carey}, {Castander}, {Connolly}, {Csabai},
+  {Dalcanton}, {Dodelson}, {Doi}, {Eisenstein}, {Evans}, {Finkbeiner},
+  {Friedman}, {Fukugita}, {Gunn}, {Hennessy}, {Hindsley}, {Ivezi{\'c}}, {Kent},
+  {Knapp}, {Kron}, {Kunszt}, {Lamb}, {Leger}, {Long}, {Loveday}, {Lupton},
+  {McKay}, {Meiksin}, {Merrelli}, {Munn}, {Narayanan}, {Newcomb}, {Nichol},
+  {Owen}, {Peoples}, {Pope}, {Rockosi}, {Schlegel}, {Schneider}, {Scoccimarro},
+  {Sheth}, {Siegmund}, {Smee}, {Snir}, {Stebbins}, {Stoughton}, {SubbaRao},
+  {Szalay}, {Szapudi}, {Tegmark}, {Tucker}, {Uomoto}, {Vanden Berk}, {Vogeley},
+  {Waddell}, {Yanny}, \& {York}}]{Zehavi:2002}
+{Zehavi}, I., {Blanton}, M.~R., {Frieman}, J.~A., {et~al.} 2002, \apj, 571,
+  172, \dodoi{10.1086/339893}
 
 \end{thebibliography}
