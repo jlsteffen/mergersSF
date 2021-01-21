@@ -151,38 +151,35 @@ We build two different pair samples in this work; the inside-IFU sample which co
 
 \subsection{Inside-IFU Sample}\label{sec:inside}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{deluxetable*}{cccccccccc}
-%\tablestypesize{\small} \tablewidth{0pt}
-%\tablecaption{Pair Catalog}
-%\tablehead{
-%\colhead{Plate} & \colhead{IFU} & \colhead{Sample} & \colhead{\Delta\theta} & \colhead{r_{\rm p}} & \colhead{\Delta \rm{log}(M)} & \colhead{R.A.} & \colhead{Decl.} & \colhead{Redshift} & \colhead{log(M)} \\
-%\colhead{} & \colhead{} & \colhead{} & \colhead{(arcseconds)} & \colhead{(kpc)} & \colhead{(dex)} & \colhead{(deg)} & \colhead{(deg)} & \colhead{} & \colhead{log(M_\odot)} \\
-%\colhead{(1)} & \colhead{(2)} & \colhead{(3)} & \colhead{(4)} & \colhead{(5)} & \colhead{(6)} & \colhead{(7)} & \colhead{(8)} & \colhead{(9)} & \colhead{(10)}
-%}
-%\decimals
-%\startdata
-%7443 & 12703 & 1 & 7.3 & 5.8 & 0.0 & 229.52558 & 42.74584 & 0.04027 & 10.8 \\
-%7960 & 12703 & 1 & 78.2 & 39.0 & 1.2 & 259.22831 & 31.52755 & 0.02475 & 10.1 \\
-%7964 & 3704 & 1 & 55.0 & 19.7 & 1.7 & 316.25170 & -0.93328 & 0.01759 & 9.2 \\
-%7975 & 12704 & 2 & 2.9 & 4.9 & 0.6 & 324.58642 & 11.34867 & 0.08886 & 11.1 \\
-%7977 & 9102 & 2 & 8.6 & 10.5 & 2.1 & 332.83066 & 12.18472 & 0.06309 & 10.8 \\
-%8078 & 6104 & 2 & 30.1 & 26.2 & -0.1 & 42.73943 & 0.36941 & 0.04421 & 10.1 \\
-%8078 & 12703 & 1 & 35.4 & 20.0 & 0.9 & 42.57027 & 0.09199 & 0.02808 & 10.8 \\
-%8079 & 1902 & 1 & 7.3 & 3.1 & 1.5 & 42.54777 & -0.99910 & 0.02129 & 9.5 \\
-%8079 & 12702 & 1 & 61.7 & 27.4 & -0.6 & 41.86858 & -0.26820 & 0.02198 & 10.3 \\
-%8080 & 9101 & 2 & 11.0 & 9.7 & 0.0 & 47.34003 & -0.40794 & 0.04482 & 9.9 \\
-%\enddata
-%\tablecomments{
-%(1) MaNGA Plate number; (2) MaNGA IFU ID; (3) subsample flag: 1-Primary Sample, 2-Secondary sample; (4-5) projected separation in arcseconds and kiloparsecs; (6) mass ratio, (7-8) right ascension and declination in degrees; (9) redshift; (10) 
-%stellar mass. \\ \\
-%(This table is available in its entirety in a machine-readable form in the online journal. A portion is shown here for guidance regarding its form and content.)
-%}
-%\label{tab:pair}
-%\end{deluxetable*}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\input{table1.tex}
+\begin{table}
+\begin{center}
+\caption{Close Galaxy Pairs and Multiples in MaNGA IFUs}
+\label{tab:coords}
+\begin{tabular}{lc ccc}
+\hline
+\hline
+Plate-IFU & Index & R.A. (J2000) & Decl. (J2000) & Redshift \\
+          &           & (deg)        & (deg)         &     \\
+\hline
+ 7443-12703&0&229.5255758&+42.7458538&0.04043\\
+    \nodata&1&229.5265348&+42.7440666&0.04079\\
+  7958-3701&0&257.5338400&+33.5989046&0.11015\\
+    \nodata&1&257.5344200&+33.5984600&0.10920\\
+    \nodata&2&257.5326566&+33.5979470&0.11031\\
+  7960-3701&0&257.0857469&+31.7469109&0.10819\\
+    \nodata&1&257.0850100&+31.7470300&0.10800\\
+  7960-3702&0&258.2893316&+31.5820375&0.02961\\
+    \nodata&1&258.2913540&+31.5812244&0.02943\\
+  7962-3702&0&259.0637432&+28.0140065&0.10725\\
+    \nodata&1&259.0639447&+28.0130439&0.10753\\
+\hline
+\end{tabular}
+\end{center}
+\tablecomments{
+This table lists a total of 404 plate-IFUs that contain close galaxy pairs and multiples in the eighth MaNGA Product Launch (MPL-8). The second column lists the component index, where ``0'' indicates the primary target of the MaNGA observation. For each IFU, all components within $\pm$2000\,km~s$^{-1}$ of the primary are listed, sorted in ascending angular distance from the primary.\\
+(This table is available in its entirety in a machine-readable form in the online journal. A portion is shown here for guidance regarding its form and content.)
+}
+\end{table}
 
 To identify potential paired galaxies covered by individual IFUs, we start by overlaying SDSS photometric objects over each MaNGA fields of view. We manually inspect each MaNGA field, removing photometric objects which are over-deblended galaxy fragments and, very rarely, adding any objects missed in the SDSS photometric catalog. At this stage the object catalog includes foreground stars and foreground/background galaxies along with the potential paired galaxies. 
 
