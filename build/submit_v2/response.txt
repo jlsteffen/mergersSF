@@ -1,0 +1,131 @@
+We thank the referee for the report. We hope that we have addressed the referee's concerns in the updated document. Our responses to the referee's comments are given below and the revised parts of the paper have been highlighted in bold. 
+
+#######################################################
+### Reply to the Reviewer's Comments
+#######################################################
+
+MAJOR COMMENTS
+
+I am concerned with the radial sampling at large distances, specifically at 1.5 < Reff < 2.5. The number of galaxies sampled by the primary and secondary sample are different. Therefore, for a given stellar mass bin the sampling in the inner 1.5 Reff is larger than in the outskirts. This could induce artificial slopes in the radial gradient of Delta_sSFR. The authors should discuss this, indicating the impact of having a sample with a non-homogeneous radial coverage.
+
+> We have added a couple of paragraphs addressing this in sections 3.1 and 3.2. In section 3.1 we have added a S/N > 3 cut on the Ha line to remove spaxels with low signal, which are mostly going to be beyond 1.5 Reff and 2.5 Reff in the primary and secondary samples respectively. In section 3.2, we also mention how the number of usable spaxels will fall beyond 1.5 Reff and that the results here should be taken with a grain of salt. 
+
+Other than the comparison with the literature in Sec.5, the authors should make a deeper discussion of their results and give their physical interpretation of their results.
+
+>   We have added a section discussing our physical interpretation of the results to the discussion section. 
+
+I also encourage the authors to please highlight the differences between their study and those derived from the same MaNGA dataset.
+
+>   We have expanded the discussion of our results in comparison to Pan+2019 and Thorp+2019.
+
+MINOR COMMENTS
+
+ABSTRACT
+
+The author should include a sentence at the end of the abstract in which they explain what is, in the light of their results, the most likely phsical scenario explaining their results.
+
+>   We've added a sentence to the abstract describing the physical scenario. 
+
+SECTION 2.
+
+In Sec. 2, the authors create selection lines that devide the red sequence, the green valley and the blue cloud in the CMD. The authors should compare their best separation lines with previous studies.
+
+>   There is no standard way to way to split the CMD; however, we checked our cuts against those in Wake+2017 and find that they are consistent. We have also added the BPT diagram and WHAN diagram for our pair selection.
+
+I strongly recommend the authors to use 6 Á, instead of 3A. This threshold has been used as selection criteria for selecting star-forming galaxies/regions (see Sanchez 2020). By the way, EW(Ha)>6A Is equivalent to the SSFR> ~ -10.8 yr^-1 The authors have to state that this is an intrinsic limit due to the Selection criteria.
+
+>   We agree with the reviewer here and changed our EW(Ha) cut to 6 A. This limit reduces our total pair sample from 175 pairs to 169 pairs.
+
+The authors use the EW(HA)>3A and the BPT diagram (emission line fluxes) to differentiate between passive and star forming galaxies. The authors have to Indicate how these properties have been derived using the MANGA data before they are used as selection criteria, or at least refer to the section where they show how these quantities are derived (see my next comment).
+
+>   We have added a reference to a section describing our spectral fitting code, SPFIT.
+
+The authors should give more details regarding SPFIT. Which SSPs did the authors used? Are the derived properties similar to those derived from other analysis pipelines such as DAP or PIPE3D? I recommend that the authors create a subsection in Sec.2 or 3 to address the main properties of their analysis pipeline.
+
+>   We have created a new subsection describing SPFIT in more detail. 
+
+What is the fraction of broad-line AGNs compared to the one from previous studies using the MaNGA sample (Lacerda et al. 2020).
+
+>   We've added a paragraph to Inside-IFU pair sample section comparing the number of BLAGN that we find in comparison to Lacerda+2020 and Sanchez+2018.
+
+This sentence it is not clear to me: 'We leave out the identified companions from the analysis because the MaNGA targets are covered by the NSA catalog with geometries and total stellar masses while the companions are not covered by the NSA catalog'. Does the authors mean that they did not include in their analysis the companion galaxies they found within the MaNGA FoV? If this is the case, why make this selection in the first place?
+
+>   We have rephrased this statement in the text. What we meant to say was that we only analyze the MaNGA target galaxies in our work and not the other galaxies found within the IFUs. 
+
+Is the list of galaxies in Sec. 2.1 and 2.2 available? Such lists are useful to the community. I encourage the authors to provide such a list.
+
+>   We have added a machine readable table of our galaxy pairs to the paper.
+
+I suggest the authors to restrain themselves to refer the Control Sample as the 'isolated sample' as these galaxies are not strictly isolated (as for example the galaxies selected in the AMIGA survey, e.g.,Verdes-Montenegro et al., 2015).
+
+>   We have changed instances of "isolated sample" to "control sample"
+
+SECTION 3
+
+As in the previous Sec.2, I suggest that the authors provided a more detailed description of the analysis pipeline.
+
+> We have expanded our description of the methodology.
+
+In sec 3.1., Why not using the EW(Ha) instead of the SFR/M (which is actually surface densities) to estimate sSFR?
+
+>   The surface density factor will be cancelled out with SFR/M since both SFR and M here are surface densities. We have also decided to show radial profiles of EW(Ha) to show that they are constant with each other.
+
+In Sec. 3.2, the authors have to detail that the galaxy sampling is not the same from 0 to 1.5 Reff to 1.5 to 2.5 Reff this is due to the Primary and secondary samples inherit from the MaNGA sample.This is independent from the correction from inclination. The authors have also to discuss the impact of the FoV coverage in their results.
+
+>   We have added a paragraph on the non-uniform radial coverage. 
+
+SECTION 4
+
+Fig.3, left panel: It is difficult to visualize the different radial trends for different stellar mass bins. I suggest to make 5 subpanels for each mass bin.
+
+>   We think that breaking the figures into 5 panel plots would take up too much space, instead we changed the bound of the plots to remove the extra white space.
+
+Fig.3, right panel: The vertical error bars look rather small to be representative of the standard deviation of the sample in each stellar mass bin.
+
+>   There was a typo in the caption, there error bars here are the standard error of the mean. We have fixed that typo.
+
+In the sentence: 'To understand why these high mass galaxies behave differently from the rest of the sample, we compare the distribution of the projected separation for the whole sample and for galaxies in the highest mass bin in Figure 4' The author refer to the radial gradient in left panel of Fig.3? If so, please clarify. This sentence and the previous paragraph are hard to read since in the previous paragraph the authors are referring to the low-mass bins.
+
+>   We have rephrased this here and referred to the figures in question.
+
+The authors mention:'The highest mass galaxies in the sample are at closer projected separations in comparison to the rest of the sample with 70% of the highest mass galaxies being within 20 kpc.' Has this been observed in other samples of interacting galaxies?
+
+>   We think that this may be due to clustering effects, see Cooray&Sheth 2002 and Zehavi+2002. We have added a paragraph about this in the text.
+
+Fig.5: There is a typo in the text. Those are only two panels not four as suggested in the description of this Fig. There are no bottom left and right panels, right?
+
+>   We've fixed the typo
+
+Fig.5: It is not clear if the right panel is the Delta_sSFR within a 0.5 aperture, please clarify.
+
+>   We now clarify this in the caption.
+
+Fig.5: The authors mention that there is a clear difference among the different profiles at large Reff. As mentioned above, this may depend on the galaxies being on the primary or secondary MaNGA sample.
+
+>   We looked at Fig.5 (now Fig.6) without the secondary galaxies from the sample and find similar results. 
+
+It is a bit confusing what the authors refer to 'primary' and 'secondary' companion of major and minor mergers: abs(log(Delta_M)) < 0.5 is a major merger otherwise it is a minor merger, no? This is also making difficult to understand the results from left panel of Fig.5. Why is there a difference between the blue and red radial trends? In principle there should not be a difference between them since they both are referring to minor mergers. Please make clear in the figures the primary and secondary profiles/points in minor and major mergers.
+
+>   Here we are studying how the more massive galaxy of a pair (the primary galaxy) may differ from the less massive galaxy of the pair (the secondary galaxy). We clarify this in the text. We also update Fig.6 to have a row for abs(Deltalog(M)), showing how major merger differ from minor mergers, and a row for Deltalog(M), showing how primary companions differ from secondary companions. 
+
+In Sec. 4.3 the authors mention: 'The ∆log(sSFR) profiles show a clear gradient with the projected separation with close galaxy pairs showing higher levels of sSFR enhancement compared to pairs with wide separations.'. This is not true from the figure, within the uncertainties the gradients are similar regardless of the projected separation of the pair. Please rectify.
+
+>   The reviewer is correct here and we have updated the text. 
+
+Why do the authors find an increment in the central Delta_sSFR at large separations (~50 kpc)? Why do the authors find this 'V-shape' in the enhancement in the Delta_sSFR? Is due to the sample selection (inside outside IFU pairs)?
+
+>   The dip was likely due to a few pairs with a strong sSFR suppression in their centers, these pairs seem to have been removed with the stricter EW(Ha)>6 A cut so that there is no longer a strong dip at 30-40 kpc. 
+
+SECTION 5
+
+Fig 7.: This goes to my main concern. The authors can note that neither the Thorp et al or Pan et al. works go beyond 1.5 Reff. This could be due to the effect of the FoV coverage of the MaNGA survey. Please comment on this. I also encourage the authors to explore further the possible difference with the literature datasets. I find worrisome the difference between their radial profiles and those in the literature. I can understand the difference between the Thorp et al. work and the one with the authors, but Pan et al. work sample is similar, yet the enhancement is significantly larger for Pan et al. work.
+
+>   Pan+2019 includes a large set of 82 post-merger galaxies. We think that this may be a major source of why their profiles are elevated over ours. We have also updated fig.8 as Thorp+2019 used the SFR and not sSFR. We have also updated our analysis to match pairs to controls based on stellar mass, redshift, and effective radius like what was done in Pan+2019.
+
+Sec. 5.2: The authors have to further discuss what are the possible differences between the results from Li et al.(2008) and their results. Not only about differences in the methodology but also the samples and what is the impact of these differences in the physical interpretation of mergers in galaxy evolution.
+
+>   We do not know why our results differ from Li+2008. We have discussed this with Cheng Li but we were unable to resolve this discrepancy. 
+
+Fig.8: Please include in the caption that this Delta_SFR and Delta_sSFR refers to the integrated values with 0.5 Reff.
+
+>   We have updated the captions. 

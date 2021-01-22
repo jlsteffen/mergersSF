@@ -1,0 +1,39 @@
+1. I’ve updated the language across the paper.
+
+2. The abstract was over the 250 word count, I removed the part about the fractional mass change and edited some of the other wording so that the abstract is now under that limit
+
+3. Added BPT cuts to remove AGN from the samples
+
+4. We removed the BPT masking and object masking on individual spaxels. 
+
+5. Changed Figure 1 (the CMD diagram) to distinguish inside-IFU pairs from outside-IFU pairs
+
+6. Clarified how we deal with pairs with multiple companions; we use the closest pair for the calculation of the projected separation and the mass ratio.
+
+7. In the Tailored Control method, added a paragraph about how a particular control galaxy may be selected for multiple pairs; however, that the sample is not dominated by a handful of controls. 
+
+8. Emphasized that the total stellar mass is taken from the NSA/Simard+11 catalogs while the stellar masses used in the sSFR = SFR/M calculation is from the fit to the stellar continuum within each MaNGA spaxel. 
+
+9. Changed the radius binning from 0.1 Re to 0.2 Re
+
+10. Added a fifth mass range, log(M/M) = 11.0 - 11.5
+
+11. The new mass range showed higher sSFR enhancements above the sample median. After some analysis, we find that these galaxies have closer separations compared to the whole sample, we show this in Figure 4
+
+12. Changed our merger timescale in the mass growth calculation from 1.0 Gyr to 0.4 Gyr based on the work of Feng+19
+
+13. Removed the mass growth section and accompanying figure as it is not the focus of the work, the mass growth is discussed in the Results- Mass-binning section. 
+
+14. Added more discussion about the sSFR profiles of the controls and pairs from Figure 2. In particular we mention how the controls show centrally suppressed sSFR while the pairs show roughly flat profiles. We point out that the DeltaLog(sSFR) seen in the centers of pairs is largely driven by the quenching seen in the controls. 
+
+15. Removed the inside-IFU pairs from the mass ratio analysis. The inside-IFU companions were often not covered by either the NSA or Simard+11 catalogs. The mass ratios were previously calculated from the stellar masses from the inner 1.3 kpc, as calculated by our spectral fitting code, SPFIT. 
+
+16. We spend more time discussing the sSFR offsets seen in the outskirts of the pairs. We find that the offsets seen there seems to depend on whether the pairs is the more massive companion or less massive companion. The more massive companions show zero to positive offsets in their disks, the less massive companions show negative offsets in their disks. This is similar to what is seen in the hydrodynamical simulations of Moreno+15.
+
+17. Widened the separation bins used and figure 6
+
+18. Removed the talk of the zero enhancement at very small separations, < 5 kpc, since there are few pairs in that range
+
+19. I’ve added Li+08 to Figure 7 and the discussion.
+
+20. Added Moreno+15 and Patton+20 (galaxy merger simulations) to the discussion
