@@ -6,6 +6,9 @@
 \usepackage{amsmath}
 \usepackage{comment}
 
+%\usepackage{CJK}
+%\setCJKmainfont{SimSun}
+
 % Units
 \newcommand{\kms}{km~s$^{-1}$}
 \newcommand{\msun}{$M_{\odot}$}
@@ -42,17 +45,15 @@
 % citations
 \defcitealias{Fu:2018}{Paper I} 
 
-%\usepackage{epstopdf}
-
 \begin{document}
-
 \title{
 SDSS-IV MaNGA: The Radial Profile of Enhanced Star Formation in Close Galaxy Pairs
 }
 
 \author{
-Joshua~L.~Steffen\altaffilmark{1}, Hai~Fu\altaffilmark{1,2}, J.~M.~Comerford\altaffilmark{3}, Y.~Sophia~Dai\altaffilmark{4}, Shuai~Feng\altaffilmark{5,6,7}, Arran~C.~Gross\altaffilmark{1}, and Rui~Xue\altaffilmark{1}
+Joshua~L.~Steffen\altaffilmark{1}, Hai~Fu\altaffilmark{1,2}, J.~M.~Comerford\altaffilmark{3}, Y.~Sophia~Dai \altaffilmark{4}, Shuai~Feng\altaffilmark{5,6,7}, Arran~C.~Gross\altaffilmark{1}, and Rui~Xue\altaffilmark{1}
 }
+
 \altaffiltext{1}{Department of Physics \& Astronomy, University of Iowa, Iowa City, IA 52242}
 \altaffiltext{2}{Insititute for Astronomy, University of Hawaii, Honolulu, HI 96822}
 \altaffiltext{3}{Department of Astrophysical and Planetary Sciences, University of Colorado, Boulder, CO 80309}
@@ -60,6 +61,7 @@ Joshua~L.~Steffen\altaffilmark{1}, Hai~Fu\altaffilmark{1,2}, J.~M.~Comerford\alt
 \altaffiltext{5}{Department of Physics, Hebei Normal University, 20 South Erhuan Road, Shijiazhuang, 050024, China}
 \altaffiltext{6}{Key Laboratory for Research in Galaxies and Cosmology, Shanghai Astronomical Observatory, Chinese Academy of Sciences, 80 Nandan Road, Shanghai 200030, China}
 \altaffiltext{7}{University of the Chinese Academy of Sciences, No.19A Yuquan Road, Beijing 100049, China}
+
 
 \begin{abstract}
 We compare the radial profiles of the specific star formation rate (sSFR) in a sample of \textbf{169} star-forming galaxies in close pairs with those of mass-matched \textbf{control} galaxies in the SDSS-IV MaNGA survey. We find that the sSFR is centrally enhanced (within one effective radius) in interacting galaxies by $\sim$0.3 dex and that there is a weak sSFR suppression in the outskirts of the galaxies of $\sim$0.1 dex. We stack the differences profiles for galaxies in five stellar mass bins between \logm\ $=$ 9.0$-$11.5 and find that the sSFR enhancement has no dependence on the stellar mass. The same result is obtained when the comparison galaxies are matched to each paired galaxy in both stellar mass and redshift. In addition, we find that that the sSFR enhancement is elevated in pairs with nearly equal masses and closer projected separations, in agreement with previous work based on single-fiber spectroscopy. We also find that the sSFR offsets in the outskirts of the paired galaxies are dependent on whether the galaxy is the more massive or less massive companion in the pair. The more massive companion experiences zero to a positive sSFR enhancement while the less massive companion experiences sSFR suppression in their outskirts. \textbf{Our results illustrate the complex tidal effects on star formation in closely paired galaxies. }
@@ -106,7 +108,7 @@ Throughout we adopt the $\Lambda$CDM cosmology with $\Omega_{\rm m}=0.3$, $\Omeg
 \begin{figure*}
 \centering
 \includegraphics[width=\linewidth]{fig/bpt-cmd.pdf}
-\caption[]{(\textbf{Left}) Color-magnitude diagram for MaNGA galaxies. \textbf{(\textbf{Center}) BPT diagram for the MaNGA galaxies. (\textbf{Right}) The WHAN diagram for the MaNGA galaxies.} The grey circles represent the whole MaNGA sample and the color scale reflects the local density around each data point in this color-magnitude plane, as indicated by the color bar on the top. The {\it blue} diamonds represent the star forming paired galaxies (by the BPT and \ewha\ cuts), the {\it red} diamonds represent the paired galaxies which are classified as retired (by the \ewha\ cut), and the {\it green} diamonds represent the paired galaxies containing an AGN (as identified by the BPT diagnostic).}
+\caption[]{(\textbf{Left}) Color-magnitude diagram for MaNGA galaxies. \textbf{(\textbf{Center}) BPT diagram for the MaNGA galaxies. (\textbf{Right}) The WHAN diagram for the MaNGA galaxies.} The grey circles represent the whole MaNGA sample and the color scale reflects the local density around each data point in this color-magnitude plane, as indicated by the color bar on the top. The {\it purple} diamonds represent the paired galaxies which are classified as retired (by the \ewha\ cut), the {\it blue} diamonds represent the star forming paired galaxies (by the BPT diagram), the {\it green} diamonds represent the composite star forming-AGN paired galaxies (by the BPT diagram), and the {\it Red} diamonds represent the paired galaxies containing an AGN (by the BPT diagram).}
 \label{fig:cmd}
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -321,7 +323,7 @@ This method of stacking sSFR profiles by a single parameter (stellar mass) has t
 \begin{figure*}
 \centering
 \includegraphics[width=0.8\linewidth]{fig/ssfr_dm.pdf}
-\caption[]{Same as Figure \ref{fig:ssfr_mass} except the difference profiles are split by the mass ratio of the pair. The \textbf{top} row is the absolute value of the mass ratio and the \textbf{bottom} row is the mass ratio without taking the absolute value. Taking the mass ratio without the absolute value allows us to separately study the more massive companions of pairs from less massive companions from pairs. The inside-IFU sample is left out of this analysis because we do not yet have reliable measurements of their total stellar mass ratios.}
+\caption[]{Same as Figure \ref{fig:ssfr_mass} except the difference profiles are split by the mass ratio of the pair. The \textbf{top} row is the absolute value of the mass ratio and the \textbf{bottom} row is the mass ratio without taking the absolute value. Taking the mass ratio without the absolute value allows us to separately study the more massive companions of pairs from the less massive companions from pairs. The inside-IFU sample is left out of this analysis because we do not yet have reliable measurements of their total stellar mass ratios.}
 \label{fig:ssfr_dm}
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -362,15 +364,15 @@ The mass ratio here is defined as,
 \end{equation}
 where $M_{\rm target}$ is the stellar mass of the MaNGA target galaxy and $M_{\rm comp}$ is the stellar mass of \textbf{its identified} companion galaxy. \textbf{In the inside-IFU sample, we have stellar masses for the MaNGA target galaxy but not the other identified pairs. Because of this, we leave the inside-IFU companions out of this analysis.}
 
-\textbf{In the top left of Figure \ref{fig:ssfr_dm}, we split difference profiles into four mass ratio bins from $|\Delta$log(M)$|$ $=$ 0.0$-$1.0. Here, $|\Delta$log(M)$|$ $\le$ 0.5, represents equal mass major mergers while $|\Delta$log(M)$|$ $\ge$ 0.5 represents minor mergers. We see that there is a clear preference for pairs in major merger to have higher sSFR enhancements in their centers, $\sim$0.3$-$0.4 dex, while minor mergers show a weaker sSFR enhancement of $\sim$0.0$-$0.2 dex. The effect can be seen more clearly with the data extracted from the central 0.5 \reff\ in the top right panel. Here the $\Delta$log(sSFR) falls linearly with wider mass ratios, reaching zero enhancement to the sSFR at $|\Delta$log(M)$|$ $=$ 1.5$-$1.75.}
+\textbf{In the top left of Figure \ref{fig:ssfr_dm}, we split the $\Delta$log(sSFR) profiles into four mass ratio bins from $|\Delta$log(M)$|$ $=$ 0.0$-$1.0. Here, $|\Delta$log(M)$|$ $\le$ 0.5, represents equal mass major mergers while $|\Delta$log(M)$|$ $\ge$ 0.5 represents minor mergers. We see that there is a clear preference for pairs in major merger to have higher sSFR enhancements in their centers, $\sim$0.3$-$0.4 dex, while minor mergers show a weaker sSFR enhancement of $\sim$0.0$-$0.2 dex. The effect can be seen more clearly with the data extracted from the central 0.5 \reff\ in the top right panel. Here the $\Delta$log(sSFR) falls linearly with wider mass ratios, reaching zero enhancement to the sSFR at $|\Delta$log(M)$|$ $=$ 1.5$-$1.75.}
 
 \textbf{We not only use the mass ratio to study how a major merger behaves differently from a minor merger but also to study how the more massive galaxy of a pair behaves differently from the less massive galaxy of the pair. We expect that either component of a similar mass pair will behave in a similar fashion; however, in a minor merger the large central galaxy may not respond to the merger event in the same way as its less massive companion. The two different scenarios can be differentiated with our definition of the mass ratio in equation \ref{eq:dm}; when the MaNGA target is the more massive companion of the pair, its mass ratio is positive and when MaNGA target is the less massive companion of pair the mass ratio is negative. To distinguish between these scenarios, we refer to the more massive galaxy of a pair as the primary companion and the less massive galaxy of a pair as the secondary companion.}
 
-In \textbf{bottom left panel} of Figure \ref{fig:ssfr_dm}, we split the profiles by mass ratio in four bins. \textbf{The primary companions are the pairs with $\Delta$log(M) $\ge$ 0.0 and the secondary companions are the pairs with $\Delta$log(M) $\le$ 0.0. When splitting the mass ratio like this we see that major mergers still higher levels of sSFR enhancement in comparison to minor mergers; however, we also see that the less massive companion of the pair sees a higher $\Delta$log(sSFR) in comparison to the more massive companion of a pair. In major mergers, the sSFR enhancement is $\sim$0.1 dex higher in secondary companions in comparison to primary companions and in minor mergers the sSFR enhancement is $\sim$0.2 dex higher in secondary companions in comparison to primary companions.}
+In \textbf{bottom left panel} of Figure \ref{fig:ssfr_dm}, we split the profiles by mass ratio in four bins. \textbf{The primary companions are the pairs with $\Delta$log(M) $\ge$ 0.0 and the secondary companions are the pairs with $\Delta$log(M) $\le$ 0.0. When splitting the mass ratio like this we see that major mergers still higher levels of sSFR enhancement in comparison to minor mergers; however, we also see that the less massive companion of the pair sees a higher $\Delta$log(sSFR) in comparison to the more massive companion of a pair. In major mergers, the sSFR enhancement is $\sim$0.1 dex higher in secondary companions in comparison to primary companions. In minor mergers the sSFR enhancement is $\sim$0.2 dex higher in secondary companions in comparison to primary companions.}
 
 In \textbf{bottom right panel} of Figure \ref{fig:ssfr_dm} we see that the sSFR enhancement is strongest in galaxies close to a 1:1 mass ratio ($\Delta$log($M$) $=$ 0.0). These galaxies feature a central enhancement of $\sim$0.4 dex which is 0.2 dex higher than the average central enhancement of the whole sample. \textbf{This enhancement falls with wider mass ratios with a different slope for primary and secondary companions. At $\Delta$log($M$) $=$ -1.0, the sSFR is enhanced by 0.2 dex while at $\Delta$log($M$) $=$ 1.0 the sSFR enhancement is zero.}
 
-\textbf{We also see that the $\Delta$log(sSFR) in the outskirts ($R$ $>$ 1.5 \reff) of the pairs have a dependence on the mass ratio in the bottom right of Figure \ref{fig:ssfr_dm}. Primary companions show a zero to positive enhancement of 0.0$-$0.4 dex to the sSFR in their outskirts, while secondary companions feature a suppression to the sSFR in their outskirts of about 0.0$-$0.4 dex. Again we note that only 37\% of the MaNGA sample is designed to extend beyond 1.5 \reff; however, a similar result has been observed in the hydrodynamical simulations of \citet{Moreno:2015} and \citet{Moreno:2020}. }
+\textbf{We also see that the $\Delta$log(sSFR) in the outskirts ($R$ $>$ 1.5 \reff) of the pairs have a dependence on the mass ratio in the bottom right of Figure \ref{fig:ssfr_dm}. Primary companions show a positive enhancement of 0.0$-$0.4 dex to the sSFR in their outskirts, while secondary companions feature a suppression to the sSFR in their outskirts of about 0.0$-$0.3 dex. Again we note that only 37\% of the MaNGA sample is designed to extend beyond 1.5 \reff; however, a similar result has been observed in the hydrodynamical simulations of \citet{Moreno:2015} and \citet{Moreno:2020}. }
 
 From the mass ratio, we see two different effects. First, we see that the central enhancement to the sSFR is strongest for pairs with 1:1 mass ratios. Second, we see that secondary companions show steeper enhancement profiles with higher levels of sSFR enhancement in their centers and stronger levels of sSFR suppression in their disks with respect to primary companions. \textbf{Finally, we see that primary companions feature sSFR enhancement at wide radii while secondary companions feature sSFR suppression at wide radii.}
 
@@ -398,11 +400,11 @@ A dependence on the projected separation can be seen more clearly when looking a
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In Figure \ref{fig:prof_comp} we compare the $\Delta$log(sSFR) profile and $\Delta$log(SFR) as a function of galactocentric radius between our work and previous works. \textbf{\citet{Thorp:2019} studies a sample of 36 post-mergers from the MaNGA sample. The centers of the post-merger galaxies feature a greater level of sSFR enhancement in their centers compared to our galaxies pairs of $\Delta$log(SFR) $=$ 0.40$-$0.45, roughly 0.2 dex higher than our paired galaxies. Between 0.4$-$1.0\reff\ the post-merger galaxies and our pairs are in closer agreement, being 0.05$-$0.1 dex higher than our paired galaxies. Beyond 1.0 \reff\ the post-merger galaxies have a higher $\Delta$log(SFR) by about 0.1$-$0.2 dex.} The heightened level of sSFR enhancement in the centers of post-merger galaxies in comparison to merging galaxies seems consistent with the idea that a second and greater burst of star formation occurs as the two merging galaxies coalesce into a single galaxy. 
+In Figure \ref{fig:prof_comp} we compare the $\Delta$log(sSFR) profile and $\Delta$log(SFR) as a function of galactocentric radius between our work and previous works using the MaNGA data. \textbf{\citet{Thorp:2019} studies a sample of 36 post-mergers from the MaNGA sample. The centers of the post-merger galaxies feature a greater level of sSFR enhancement in their centers compared to our galaxies pairs of $\Delta$log(SFR) $=$ 0.40$-$0.45, roughly 0.2 dex higher than our paired galaxies. Between 0.4$-$1.0\reff\ the post-merger galaxies and our pairs are in closer agreement, being 0.05$-$0.1 dex higher than our paired galaxies. Beyond 1.0 \reff\ the post-merger galaxies have a higher $\Delta$log(SFR) by about 0.1$-$0.2 dex.} The heightened level of sSFR enhancement in the centers of post-merger galaxies in comparison to merging galaxies seems consistent with the idea that a second and greater burst of star formation occurs as the two merging galaxies coalesce into a single galaxy. 
 
 \textbf{\citet{Pan:2019} studies a set of 205 paired galaxies in the MaNGA sample, focusing on the sSFR enhancement as a function of the merger interaction stage. The $\Delta$log(sSFR) profiles of the galaxies pairs in \citet{Pan:2019} are $\sim$0.10$-$0.15 dex above the profiles in our sample.} Our paired galaxies show a slight sSFR suppression in their disks past 1.0 \reff\ while the galaxy pairs in \citet{Pan:2019} show an enhancement of $\sim$0.15 dex to the sSFR in their disks. 
 
-The reason for the discrepancies between our samples may be that \citet{Pan:2019} includes a set of \textbf{96 pairs which are too close to be separately de-blended by SDSS and instead were visually identified by their morphology. 82 of these pairs are post-merger galaxies. \citet{Pan:2019} shows that pairs with morphological features show higher $\Delta$log(SFR) when compared to pairs without morphological distortions. Further, \citet{Thorp:2019} showed that post-merger galaxies have $\Delta$log(SFR) profiles which are higher than our sample's profiles. From this, infer that the lower $\Delta$log(sSFR) seen in our sample is due to our sample's lack of post-merger galaxies. }
+The reason for the discrepancies between our samples may be that \citet{Pan:2019} includes a set of \textbf{96 pairs which are too close to be separately de-blended by SDSS and instead were visually identified by their morphology. 82 of these pairs are post-merger galaxies. \citet{Pan:2019} showed that pairs with disturbed morphology have higher $\Delta$log(SFR) when compared to pairs without morphological distortions. Further, \citet{Thorp:2019} showed that post-merger galaxies have $\Delta$log(SFR) profiles which are elevated over our sample's profiles. From this, infer that the lower $\Delta$log(sSFR) seen in our sample is due to our sample's lack of post-merger galaxies. }
 
 \subsection{Central Enhancement vs. Merger Parameters}
 
