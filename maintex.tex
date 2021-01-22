@@ -1,14 +1,10 @@
 % ApJ Format
-\documentclass[iop,revtex4,twocolumn,apj,numberedappendix,appendixfloats]{emulateapj}
+\documentclass[apj,twocolumn]{emulateapj}
 \usepackage{apjfonts}
-% Hyperlinks & Bookmarks
 \usepackage[pagebackref=false,colorlinks=true,citecolor=blue,linkcolor=blue,breaklinks=true,bookmarks=true]{hyperref}
 \usepackage{amsmath}
-\usepackage{comment}
-
-%\usepackage{CJK}
-%\setCJKmainfont{SimSun}
-
+\usepackage{lineno}
+\linenumbers
 % Units
 \newcommand{\kms}{km~s$^{-1}$}
 \newcommand{\msun}{$M_{\odot}$}
@@ -33,22 +29,13 @@
 \newcommand{\NII}{[N\,{\sc ii}]}
 \newcommand{\NeIII}{[Ne\,{\sc iii}]}
 % special 
-\newcommand{\nod}{\nodata}
-
-\newcommand{\angstrom}{\mbox{\normalfont\AA}}
 \newcommand{\reff}{$R_{\rm eff}$}
 \newcommand{\ewha}{EW(H$\alpha$)}
 \newcommand{\logm}{log($M/M_{\odot}$)}
-%\newcommand{\arcsec}{\prime\prime}
-\newcommand{\simard}{Simard+11}
-
-% citations
 \defcitealias{Fu:2018}{Paper I} 
 
 \begin{document}
-\title{
-SDSS-IV MaNGA: The Radial Profile of Enhanced Star Formation in Close Galaxy Pairs
-}
+\title{SDSS-IV MaNGA: The Radial Profile of Enhanced Star Formation in Close Galaxy Pairs}
 
 \author{
 Joshua~L.~Steffen\altaffilmark{1}, Hai~Fu\altaffilmark{1,2}, J.~M.~Comerford\altaffilmark{3}, Y.~Sophia~Dai \altaffilmark{4}, Shuai~Feng\altaffilmark{5,6,7}, Arran~C.~Gross\altaffilmark{1}, and Rui~Xue\altaffilmark{1}
