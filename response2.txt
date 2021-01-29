@@ -1,0 +1,13 @@
+We thank the referee again for the suggestions. We list our responses to the referee's comments below and we have highlighted our changes to the manuscript in bold.
+
+#######################################################
+### Reply to the Reviewer's Comments
+#######################################################
+
+Following up the major comment regarding the radial gradients beyond 1.5 Reff, the authors wrote in Sec. 3.2 that : 'We decide to still extend our radial profiles out to 2.5 Reff, but emphasize that the data beyond 1.5 Reff is lower in quality.' which I agree with. However it is not clear from this sentence why the authors decided to extend the radial profiles and furthermore what is the impact that this have in their conclusions regarding the enhancement/suppression of SFR at the outskirts of pairs of galaxies. I suggest that the authors include some indication in Figures where radial gradients are plotted (2,3,4 left panel, 6, 7) that beyond 1.5 Reff the gradients may not be completely reliable. One possible solution would be to include a vertical dashed line at R/Reff = 1.5 in those plots.
+
+>  We revised the last last paragraph of Section 3.2 and we have also added vertical lines to the mentioned figures at 1.5 Reff. 
+
+Last sentence of Sec. 5.3: Is there any reference that back ups this? Does the satellite galaxies have a large fraction of bulges in comparison to central galaxies?
+
+>   Previous works like Bluck+2019 have found that the B/T ratio is slightly higher in satellite galaxies in comparison central galaxies at the same stellar mass. We added a reference to this in the work.
