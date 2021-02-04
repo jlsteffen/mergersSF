@@ -1,0 +1,327 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Abolfathi} {et~al.}(2018){Abolfathi}, {Aguado}, {Aguilar}, {Allende
+  Prieto}, {Almeida}, {Ananna}, {Anders}, {Anderson}, {Andrews}, {Anguiano},
+  {Arag{\'o}n-Salamanca}, {Argudo-Fern{\'a}ndez}, {Armengaud}, {Ata},
+  {Aubourg}, {Avila-Reese}, {Badenes}, {Bailey}, {Balland}, {Barger},
+  {Barrera-Ballesteros}, {Bartosz}, {Bastien}, {Bates}, {Baumgarten},
+  {Bautista}, {Beaton}, {Beers}, {Belfiore}, {Bender}, {Bernardi}, {Bershady},
+  {Beutler}, {Bird}, {Bizyaev}, {Blanc}, {Blanton}, {Blomqvist}, {Bolton},
+  {Boquien}, {Borissova}, {Bovy}, {Bradna Diaz}, {Brandt}, {Brinkmann},
+  {Brownstein}, {Bundy}, {Burgasser}, {Burtin}, {Busca}, {Ca{\~n}as},
+  {Cano-D{\'\i}az}, {Cappellari}, {Carrera}, {Casey}, {Cervantes Sodi}, {Chen},
+  {Cherinka}, {Chiappini}, {Choi}, {Chojnowski}, {Chuang}, {Chung}, {Clerc},
+  {Cohen}, {Comerford}, {Comparat}, {Correa do Nascimento}, {da Costa},
+  {Cousinou}, {Covey}, {Crane}, {Cruz-Gonzalez}, {Cunha}, {da Silva Ilha},
+  {Damke}, {Darling}, {Davidson}, {Dawson}, {de Icaza Lizaola}, {de la
+  Macorra}, {de la Torre}, {De Lee}, {de Sainte Agathe}, {Deconto Machado},
+  {Dell'Agli}, {Delubac}, {Diamond-Stanic}, {Donor}, {Downes}, {Drory}, {du Mas
+  des Bourboux}, {Duckworth}, {Dwelly}, {Dyer}, {Ebelke}, {Davis Eigenbrot},
+  {Eisenstein}, {Elsworth}, {Emsellem}, {Eracleous}, {Erfanianfar},
+  {Escoffier}, {Fan}, {Fern{\'a}ndez Alvar}, {Fernandez-Trincado}, {Fernand o
+  Cirolini}, {Feuillet}, {Finoguenov}, {Fleming}, {Font-Ribera}, {Freischlad},
+  {Frinchaboy}, {Fu}, {G{\'o}mez Maqueo Chew}, {Galbany}, {Garc{\'\i}a
+  P{\'e}rez}, {Garcia-Dias}, {Garc{\'\i}a-Hern{\'a}ndez}, {Garma Oehmichen},
+  {Gaulme}, {Gelfand }, {Gil-Mar{\'\i}n}, {Gillespie}, {Goddard}, {Gonz{\'a}lez
+  Hern{\'a}ndez}, {Gonzalez-Perez}, {Grabowski}, {Green}, {Grier}, {Gueguen},
+  {Guo}, {Guy}, {Hagen}, {Hall}, {Harding}, {Hasselquist}, {Hawley}, {Hayes},
+  {Hearty}, {Hekker}, {Hernand ez}, {Hernandez Toledo}, {Hogg},
+  {Holley-Bockelmann}, {Holtzman}, {Hou}, {Hsieh}, {Hunt}, {Hutchinson},
+  {Hwang}, {Jimenez Angel}, {Johnson}, {Jones}, {J{\"o}nsson}, {Jullo}, {Khan},
+  {Kinemuchi}, {Kirkby}, {Kirkpatrick}, {Kitaura}, {Knapp}, {Kneib},
+  {Kollmeier}, {Lacerna}, {Lane}, {Lang}, {Law}, {Le Goff}, {Lee}, {Li}, {Li},
+  {Lian}, {Liang}, {Lima}, {Lin}, {Long}, {Lucatello}, {Lundgren}, {Mackereth},
+  {MacLeod}, {Mahadevan}, {Maia}, {Majewski}, {Manchado}, {Maraston},
+  {Mariappan}, {Marques-Chaves}, {Masseron}, {Masters}, {McDermid}, {McGreer},
+  {Melendez}, {Meneses-Goytia}, {Merloni}, {Merrifield}, {Meszaros}, {Meza},
+  {Minchev}, {Minniti}, {Mueller}, {Muller-Sanchez}, {Muna}, {Mu{\~n}oz},
+  {Myers}, {Nair}, {Nand ra}, {Ness}, {Newman}, {Nichol}, {Nidever},
+  {Nitschelm}, {Noterdaeme}, {O'Connell}, {Oelkers}, {Oravetz}, {Oravetz},
+  {Ort{\'\i}z}, {Osorio}, {Pace}, {Padilla}, {Palanque-Delabrouille},
+  {Palicio}, {Pan}, {Pan}, {Parikh}, {P{\^a}ris}, {Park}, {Peirani},
+  {Pellejero-Ibanez}, {Penny}, {Percival}, {Perez-Fournon}, {Petitjean},
+  {Pieri}, {Pinsonneault}, {Pisani}, {Prada}, {Prakash}, {Queiroz}, {Raddick},
+  {Raichoor}, {Barboza Rembold}, {Richstein}, {Riffel}, {Riffel}, {Rix},
+  {Robin}, {Rodr{\'\i}guez Torres}, {Rom{\'a}n-Z{\'u}{\~n}iga}, {Ross},
+  {Rossi}, {Ruan}, {Ruggeri}, {Ruiz}, {Salvato}, {S{\'a}nchez}, {S{\'a}nchez},
+  {Sanchez Almeida}, {S{\'a}nchez-Gallego}, {Santana Rojas}, {Santiago},
+  {Schiavon}, {Schimoia}, {Schlafly}, {Schlegel}, {Schneider}, {Schuster},
+  {Schwope}, {Seo}, {Serenelli}, {Shen}, {Shen}, {Shetrone}, {Shull}, {Silva
+  Aguirre}, {Simon}, {Skrutskie}, {Slosar}, {Smethurst}, {Smith}, {Sobeck},
+  {Somers}, {Souter}, {Souto}, {Spindler}, {Stark}, {Stassun}, {Steinmetz},
+  {Stello}, {Storchi-Bergmann}, {Streblyanska}, {Stringfellow}, {Su{\'a}rez},
+  {Sun}, {Szigeti}, {Taghizadeh-Popp}, {Talbot}, {Tang}, {Tao}, {Tayar},
+  {Tembe}, {Teske}, {Thakar}, {Thomas}, {Tissera}, {Tojeiro}, {Tremonti},
+  {Troup}, {Urry}, {Valenzuela}, {van den Bosch}, {Vargas-Gonz{\'a}lez},
+  {Vargas-Maga{\~n}a}, {Vazquez}, {Villanova}, {Vogt}, {Wake}, {Wang},
+  {Weaver}, {Weijmans}, {Weinberg}, {Westfall}, {Whelan}, {Wilcots}, {Wild},
+  {Williams}, {Wilson}, {Wood-Vasey}, {Wylezalek}, {Xiao}, {Yan}, {Yang},
+  {Ybarra}, {Y{\`e}che}, {Zakamska}, {Zamora}, {Zarrouk}, {Zasowski}, {Zhang},
+  {Zhao}, {Zhao}, {Zheng}, {Zheng}, {Zhou}, {Zhu}, {Zinn}, \&
+  {Zou}}]{Abolfathi:2018}
+{Abolfathi}, B., {Aguado}, D.~S., {Aguilar}, G., {et~al.} 2018, \apjs, 235, 42
+
+\bibitem[{{Baldwin} {et~al.}(1981){Baldwin}, {Phillips}, \&
+  {Terlevich}}]{Baldwin:1981}
+{Baldwin}, J.~A., {Phillips}, M.~M., \& {Terlevich}, R. 1981, \pasp, 93, 5
+
+\bibitem[{{Barnes} \& {Hernquist}(1996)}]{Barnes:1996}
+{Barnes}, J.~E., \& {Hernquist}, L. 1996, \apj, 471, 115
+
+\bibitem[{{Barnes} \& {Hernquist}(1991)}]{Barnes:1991}
+{Barnes}, J.~E., \& {Hernquist}, L.~E. 1991, \apjl, 370, L65
+
+\bibitem[{{Barrera-Ballesteros} {et~al.}(2015){Barrera-Ballesteros},
+  {S{\'a}nchez}, {Garc{\'\i}a-Lorenzo}, {Falc{\'o}n-Barroso}, {Mast},
+  {Garc{\'\i}a-Benito}, {Husemann}, {van de Ven}, {Iglesias-P{\'a}ramo},
+  {Rosales-Ortega}, {P{\'e}rez-Torres}, {M{\'a}rquez}, {Kehrig}, {Marino},
+  {Vilchez}, {Galbany}, {L{\'o}pez-S{\'a}nchez}, {Walcher}, \& {Califa
+  Collaboration}}]{Barrera-Ballesteros:2015}
+{Barrera-Ballesteros}, J.~K., {S{\'a}nchez}, S.~F., {Garc{\'\i}a-Lorenzo}, B.,
+  {et~al.} 2015, \aap, 579, A45
+
+\bibitem[{{Belfiore} {et~al.}(2018){Belfiore}, {Maiolino}, {Bundy}, {Masters},
+  {Bershady}, {Oyarz{\'u}n}, {Lin}, {Cano-Diaz}, {Wake}, {Spindler}, {Thomas},
+  {Brownstein}, {Drory}, \& {Yan}}]{Belfiore:2018}
+{Belfiore}, F., {Maiolino}, R., {Bundy}, K., {et~al.} 2018, \mnras, 477, 3014
+
+\bibitem[{{Belfiore} {et~al.}(2019){Belfiore}, {Westfall}, {Schaefer},
+  {Cappellari}, {Ji}, {Bershady}, {Tremonti}, {Law}, {Yan}, {Bundy}, {Shetty},
+  {Drory}, {Thomas}, {Emsellem}, \& {S{\'a}nchez}}]{Belfiore:2019}
+{Belfiore}, F., {Westfall}, K.~B., {Schaefer}, A., {et~al.} 2019, \aj, 158, 160
+
+\bibitem[{{Bluck} {et~al.}(2019){Bluck}, {Bottrell}, {Teimoorinia},
+  {Henriques}, {Mendel}, {Ellison}, {Thanjavur}, {Simard}, {Patton},
+  {Conselice}, {Moreno}, \& {Woo}}]{Bluck:2019}
+{Bluck}, A. F.~L., {Bottrell}, C., {Teimoorinia}, H., {et~al.} 2019, \mnras,
+  485, 666
+
+\bibitem[{{Bundy} {et~al.}(2015){Bundy}, {Bershady}, {Law}, {Yan}, {Drory},
+  {MacDonald}, {Wake}, {Cherinka}, {S{\'a}nchez-Gallego}, {Weijmans}, {Thomas},
+  {Tremonti}, {Masters}, {Coccato}, {Diamond-Stanic}, {Arag{\'o}n-Salamanca},
+  {Avila-Reese}, {Badenes}, {Falc{\'o}n-Barroso}, {Belfiore}, {Bizyaev},
+  {Blanc}, {Bland-Hawthorn}, {Blanton}, {Brownstein}, {Byler}, {Cappellari},
+  {Conroy}, {Dutton}, {Emsellem}, {Etherington}, {Frinchaboy}, {Fu}, {Gunn},
+  {Harding}, {Johnston}, {Kauffmann}, {Kinemuchi}, {Klaene}, {Knapen},
+  {Leauthaud}, {Li}, {Lin}, {Maiolino}, {Malanushenko}, {Malanushenko}, {Mao},
+  {Maraston}, {McDermid}, {Merrifield}, {Nichol}, {Oravetz}, {Pan}, {Parejko},
+  {Sanchez}, {Schlegel}, {Simmons}, {Steele}, {Steinmetz}, {Thanjavur},
+  {Thompson}, {Tinker}, {van den Bosch}, {Westfall}, {Wilkinson}, {Wright},
+  {Xiao}, \& {Zhang}}]{Bundy:2015}
+{Bundy}, K., {Bershady}, M.~A., {Law}, D.~R., {et~al.} 2015, \apj, 798, 7
+
+\bibitem[{{Bustamante} {et~al.}(2020){Bustamante}, {Ellison}, {Patton}, \&
+  {Sparre}}]{Bustamante:2020}
+{Bustamante}, S., {Ellison}, S.~L., {Patton}, D.~R., \& {Sparre}, M. 2020,
+  \mnras, 494, 3469
+
+\bibitem[{{Capelo} {et~al.}(2017){Capelo}, {Dotti}, {Volonteri}, {Mayer},
+  {Bellovary}, \& {Shen}}]{Capelo:2017}
+{Capelo}, P.~R., {Dotti}, M., {Volonteri}, M., {et~al.} 2017, \mnras, 469, 4437
+
+\bibitem[{{Cappellari}(2017)}]{Cappellari:2017}
+{Cappellari}, M. 2017, \mnras, 466, 798
+
+\bibitem[{{Cardelli} {et~al.}(1989){Cardelli}, {Clayton}, \&
+  {Mathis}}]{Cardelli:1989}
+{Cardelli}, J.~A., {Clayton}, G.~C., \& {Mathis}, J.~S. 1989, \apj, 345, 245
+
+\bibitem[{{Cid Fernandes} {et~al.}(2011){Cid Fernandes}, {Stasi{\'n}ska},
+  {Mateus}, \& {Vale Asari}}]{Cid-Fernandes:2011}
+{Cid Fernandes}, R., {Stasi{\'n}ska}, G., {Mateus}, A., \& {Vale Asari}, N.
+  2011, \mnras, 413, 1687
+
+\bibitem[{{Cooray} \& {Sheth}(2002)}]{Cooray:2002}
+{Cooray}, A., \& {Sheth}, R. 2002, \physrep, 372, 1
+
+\bibitem[{{Drory} {et~al.}(2015){Drory}, {MacDonald}, {Bershady}, {Bundy},
+  {Gunn}, {Law}, {Smith}, {Stoll}, {Tremonti}, {Wake}, {Yan}, {Weijmans},
+  {Byler}, {Cherinka}, {Cope}, {Eigenbrot}, {Harding}, {Holder}, {Huehnerhoff},
+  {Jaehnig}, {Jansen}, {Klaene}, {Paat}, {Percival}, \& {Sayres}}]{Drory:2015}
+{Drory}, N., {MacDonald}, N., {Bershady}, M.~A., {et~al.} 2015, \aj, 149, 77
+
+\bibitem[{{Ellison} {et~al.}(2008){Ellison}, {Patton}, {Simard}, \&
+  {McConnachie}}]{Ellison:2008}
+{Ellison}, S.~L., {Patton}, D.~R., {Simard}, L., \& {McConnachie}, A.~W. 2008,
+  \aj, 135, 1877
+
+\bibitem[{{Fu} {et~al.}(2018){Fu}, {Steffen}, {Gross}, {Dai}, {Isbell}, {Lin},
+  {Wake}, {Xue}, {Bizyaev}, \& {Pan}}]{Fu:2018}
+{Fu}, H., {Steffen}, J.~L., {Gross}, A.~C., {et~al.} 2018, \apj, 856, 93
+
+\bibitem[{{Giovanelli} {et~al.}(1994){Giovanelli}, {Haynes}, {Salzer},
+  {Wegner}, {da Costa}, \& {Freudling}}]{Giovanelli:1994}
+{Giovanelli}, R., {Haynes}, M.~P., {Salzer}, J.~J., {et~al.} 1994, \aj, 107,
+  2036
+
+\bibitem[{{Kewley} {et~al.}(2001){Kewley}, {Dopita}, {Sutherland}, {Heisler},
+  \& {Trevena}}]{Kewley:2001}
+{Kewley}, L.~J., {Dopita}, M.~A., {Sutherland}, R.~S., {Heisler}, C.~A., \&
+  {Trevena}, J. 2001, \apj, 556, 121
+
+\bibitem[{{Lacerda} {et~al.}(2020){Lacerda}, {S{\'a}nchez}, {Cid Fernandes},
+  {L{\'o}pez-Cob{\'a}}, {Espinosa-Ponce}, \& {Galbany}}]{Lacerda:2020}
+{Lacerda}, E. A.~D., {S{\'a}nchez}, S.~F., {Cid Fernandes}, R., {et~al.} 2020,
+  \mnras, 492, 3073
+
+\bibitem[{{Larson} \& {Tinsley}(1978)}]{Larson:1978}
+{Larson}, R.~B., \& {Tinsley}, B.~M. 1978, \apj, 219, 46
+
+\bibitem[{{Law} {et~al.}(2015){Law}, {Yan}, {Bershady}, {Bundy}, {Cherinka},
+  {Drory}, {MacDonald}, {S{\'a}nchez-Gallego}, {Wake}, {Weijmans}, {Blanton},
+  {Klaene}, {Moran}, {Sanchez}, \& {Zhang}}]{Law:2015}
+{Law}, D.~R., {Yan}, R., {Bershady}, M.~A., {et~al.} 2015, \aj, 150, 19
+
+\bibitem[{Lawson \& Hanson(1974)}]{Lawson:1974}
+Lawson, C.~L., \& Hanson, R.~J. 1974, Solving least squares problems
+  (Prentice-Hall Series in Automatic Computation, Englewood Cliffs:
+  Prentice-Hall, 1974)
+
+\bibitem[{{Li} {et~al.}(2008){Li}, {Kauffmann}, {Heckman}, {Jing}, \&
+  {White}}]{Li:2008}
+{Li}, C., {Kauffmann}, G., {Heckman}, T.~M., {Jing}, Y.~P., \& {White}, S.
+  D.~M. 2008, \mnras, 385, 1903
+
+\bibitem[{Markwardt(2009)}]{Markwardt:2009}
+Markwardt, C.~B. 2009, in ASP Conference Series, Astronomical Data Analysis
+  Software and Systems XVIII, D. A. Bohlender, D. Durand, and P. Dowler, eds.,
+  Vol. 411, 251
+
+\bibitem[{{Mihos} \& {Hernquist}(1996)}]{Mihos:1996}
+{Mihos}, J.~C., \& {Hernquist}, L. 1996, \apj, 464, 641
+
+\bibitem[{{Moreno} {et~al.}(2015){Moreno}, {Torrey}, {Ellison}, {Patton},
+  {Bluck}, {Bansal}, \& {Hernquist}}]{Moreno:2015}
+{Moreno}, J., {Torrey}, P., {Ellison}, S.~L., {et~al.} 2015, \mnras, 448, 1107
+
+\bibitem[{{Moreno} {et~al.}(2020){Moreno}, {Torrey}, {Ellison}, {Patton},
+  {Bottrell}, {Bluck}, {Hani}, {Hayward}, {Bullock}, {Hopkins}, \&
+  {Hernquist}}]{Moreno:2020}
+---. 2020, \mnras, arXiv:2009.11289
+
+\bibitem[{{Murphy} {et~al.}(2011){Murphy}, {Condon}, {Schinnerer}, {Kennicutt},
+  {Calzetti}, {Armus}, {Helou}, {Turner}, {Aniano}, {Beir{\~a}o}, {Bolatto},
+  {Brandl}, {Croxall}, {Dale}, {Donovan Meyer}, {Draine}, {Engelbracht},
+  {Hunt}, {Hao}, {Koda}, {Roussel}, {Skibba}, \& {Smith}}]{Murphy:2011}
+{Murphy}, E.~J., {Condon}, J.~J., {Schinnerer}, E., {et~al.} 2011, \apj, 737,
+  67
+
+\bibitem[{{Noeske} {et~al.}(2007){Noeske}, {Weiner}, {Faber}, {Papovich},
+  {Koo}, {Somerville}, {Bundy}, {Conselice}, {Newman}, {Schiminovich}, {Le
+  Floc'h}, {Coil}, {Rieke}, {Lotz}, {Primack}, {Barmby}, {Cooper}, {Davis},
+  {Ellis}, {Fazio}, {Guhathakurta}, {Huang}, {Kassin}, {Martin}, {Phillips},
+  {Rich}, {Small}, {Willmer}, \& {Wilson}}]{Noeske:2007}
+{Noeske}, K.~G., {Weiner}, B.~J., {Faber}, S.~M., {et~al.} 2007, \apjl, 660,
+  L43
+
+\bibitem[{{O'Donnell}(1994)}]{ODonnell:1994}
+{O'Donnell}, J.~E. 1994, \apj, 422, 158
+
+\bibitem[{{Pan} {et~al.}(2019){Pan}, {Lin}, {Hsieh}, {Barrera-Ballesteros},
+  {S{\'a}nchez}, {Hsu}, {Keenan}, {Tissera}, {Boquien}, {Dai}, {Knapen},
+  {Riffel}, {Argudo-Fern{\'a}ndez}, {Xiao}, \& {Yuan}}]{Pan:2019}
+{Pan}, H.-A., {Lin}, L., {Hsieh}, B.-C., {et~al.} 2019, \apj, 881, 119
+
+\bibitem[{{Patton} {et~al.}(2013){Patton}, {Torrey}, {Ellison}, {Mendel}, \&
+  {Scudder}}]{Patton:2013}
+{Patton}, D.~R., {Torrey}, P., {Ellison}, S.~L., {Mendel}, J.~T., \& {Scudder},
+  J.~M. 2013, \mnras, 433, L59
+
+\bibitem[{{Patton} {et~al.}(2020){Patton}, {Wilson}, {Metrow}, {Ellison},
+  {Torrey}, {Brown}, {Hani}, {McAlpine}, {Moreno}, \& {Woo}}]{Patton:2020}
+{Patton}, D.~R., {Wilson}, K.~D., {Metrow}, C.~J., {et~al.} 2020, \mnras, 494,
+  4969
+
+\bibitem[{{Perez} {et~al.}(2011){Perez}, {Michel-Dansac}, \&
+  {Tissera}}]{Perez:2011}
+{Perez}, J., {Michel-Dansac}, L., \& {Tissera}, P.~B. 2011, \mnras, 417, 580
+
+\bibitem[{{Pillepich} {et~al.}(2018){Pillepich}, {Nelson}, {Hernquist},
+  {Springel}, {Pakmor}, {Torrey}, {Weinberger}, {Genel}, {Naiman}, {Marinacci},
+  \& {Vogelsberger}}]{Pillepich:2018}
+{Pillepich}, A., {Nelson}, D., {Hernquist}, L., {et~al.} 2018, \mnras, 475, 648
+
+\bibitem[{{Rodriguez-Gomez} {et~al.}(2016){Rodriguez-Gomez}, {Pillepich},
+  {Sales}, {Genel}, {Vogelsberger}, {Zhu}, {Wellons}, {Nelson}, {Torrey},
+  {Springel}, {Ma}, \& {Hernquist}}]{Rodriguez-Gomez:2016}
+{Rodriguez-Gomez}, V., {Pillepich}, A., {Sales}, L.~V., {et~al.} 2016, \mnras,
+  458, 2371
+
+\bibitem[{{Rupke} {et~al.}(2010){Rupke}, {Kewley}, \& {Chien}}]{Rupke:2010}
+{Rupke}, D. S.~N., {Kewley}, L.~J., \& {Chien}, L.~H. 2010, \apj, 723, 1255
+
+\bibitem[{{S{\'a}nchez} {et~al.}(2016{\natexlab{a}}){S{\'a}nchez}, {P{\'e}rez},
+  {S{\'a}nchez-Bl{\'a}zquez}, {Gonz{\'a}lez}, {Ros{\'a}les-Ortega},
+  {Cano-D{\'\i}az}, {L{\'o}pez-Cob{\'a}}, {Marino}, {Gil de Paz}, {Moll{\'a}},
+  {L{\'o}pez-S{\'a}nchez}, {Ascasibar}, \&
+  {Barrera-Ballesteros}}]{Sanchez:2016a}
+{S{\'a}nchez}, S.~F., {P{\'e}rez}, E., {S{\'a}nchez-Bl{\'a}zquez}, P., {et~al.}
+  2016{\natexlab{a}}, \rmxaa, 52, 21
+
+\bibitem[{{S{\'a}nchez} {et~al.}(2016{\natexlab{b}}){S{\'a}nchez}, {P{\'e}rez},
+  {S{\'a}nchez-Bl{\'a}zquez}, {Garc{\'\i}a-Benito}, {Ibarra-Mede},
+  {Gonz{\'a}lez}, {Rosales-Ortega}, {S{\'a}nchez-Menguiano}, {Ascasibar},
+  {Bitsakis}, {Law}, {Cano-D{\'\i}az}, {L{\'o}pez-Cob{\'a}}, {Marino}, {Gil de
+  Paz}, {L{\'o}pez-S{\'a}nchez}, {Barrera-Ballesteros}, {Galbany}, {Mast},
+  {Abril-Melgarejo}, \& {Roman-Lopes}}]{Sanchez:2016b}
+---. 2016{\natexlab{b}}, \rmxaa, 52, 171
+
+\bibitem[{{S{\'a}nchez} {et~al.}(2018){S{\'a}nchez}, {Avila-Reese},
+  {Hernandez-Toledo}, {Cortes-Su{\'a}rez}, {Rodr{\'\i}guez-Puebla},
+  {Ibarra-Medel}, {Cano-D{\'\i}az}, {Barrera-Ballesteros}, {Negrete},
+  {Calette}, {de Lorenzo-C{\'a}ceres}, {Ortega-Minakata}, {Aquino},
+  {Valenzuela}, {Clemente}, {Storchi-Bergmann}, {Riffel}, {Schimoia}, {Riffel},
+  {Rembold}, {Brownstein}, {Pan}, {Yates}, {Mallmann}, \&
+  {Bitsakis}}]{Sanchez:2018}
+{S{\'a}nchez}, S.~F., {Avila-Reese}, V., {Hernandez-Toledo}, H., {et~al.} 2018,
+  \rmxaa, 54, 217
+
+\bibitem[{{Scudder} {et~al.}(2012){Scudder}, {Ellison}, {Torrey}, {Patton}, \&
+  {Mendel}}]{Scudder:2012}
+{Scudder}, J.~M., {Ellison}, S.~L., {Torrey}, P., {Patton}, D.~R., \& {Mendel},
+  J.~T. 2012, \mnras, 426, 549
+
+\bibitem[{{Simard} {et~al.}(2011){Simard}, {Mendel}, {Patton}, {Ellison}, \&
+  {McConnachie}}]{Simard:2011}
+{Simard}, L., {Mendel}, J.~T., {Patton}, D.~R., {Ellison}, S.~L., \&
+  {McConnachie}, A.~W. 2011, \apjs, 196, 11
+
+\bibitem[{{Thorp} {et~al.}(2019){Thorp}, {Ellison}, {Simard}, {S{\'a}nchez}, \&
+  {Antonio}}]{Thorp:2019}
+{Thorp}, M.~D., {Ellison}, S.~L., {Simard}, L., {S{\'a}nchez}, S.~F., \&
+  {Antonio}, B. 2019, \mnras, 482, L55
+
+\bibitem[{{Toomre} \& {Toomre}(1972)}]{Toomre:1972}
+{Toomre}, A., \& {Toomre}, J. 1972, \apj, 178, 623
+
+\bibitem[{{van der Marel} \& {Franx}(1993)}]{van-der-Marel:1993}
+{van der Marel}, R.~P., \& {Franx}, M. 1993, \apj, 407, 525
+
+\bibitem[{{Vazdekis} {et~al.}(2012){Vazdekis}, {Ricciardelli}, {Cenarro},
+  {Rivero-Gonz{\'a}lez}, {D{\'\i}az-Garc{\'\i}a}, \&
+  {Falc{\'o}n-Barroso}}]{Vazdekis:2012}
+{Vazdekis}, A., {Ricciardelli}, E., {Cenarro}, A.~J., {et~al.} 2012, \mnras,
+  424, 157
+
+\bibitem[{{Wake} {et~al.}(2017){Wake}, {Bundy}, {Diamond-Stanic}, {Yan},
+  {Blanton}, {Bershady}, {S{\'a}nchez-Gallego}, {Drory}, {Jones}, {Kauffmann},
+  {Law}, {Li}, {MacDonald}, {Masters}, {Thomas}, {Tinker}, {Weijmans}, \&
+  {Brownstein}}]{Wake:2017}
+{Wake}, D.~A., {Bundy}, K., {Diamond-Stanic}, A.~M., {et~al.} 2017, \aj, 154,
+  86
+
+\bibitem[{{Zehavi} {et~al.}(2002){Zehavi}, {Blanton}, {Frieman}, {Weinberg},
+  {Mo}, {Strauss}, {Anderson}, {Annis}, {Bahcall}, {Bernardi}, {Briggs},
+  {Brinkmann}, {Burles}, {Carey}, {Castander}, {Connolly}, {Csabai},
+  {Dalcanton}, {Dodelson}, {Doi}, {Eisenstein}, {Evans}, {Finkbeiner},
+  {Friedman}, {Fukugita}, {Gunn}, {Hennessy}, {Hindsley}, {Ivezi{\'c}}, {Kent},
+  {Knapp}, {Kron}, {Kunszt}, {Lamb}, {Leger}, {Long}, {Loveday}, {Lupton},
+  {McKay}, {Meiksin}, {Merrelli}, {Munn}, {Narayanan}, {Newcomb}, {Nichol},
+  {Owen}, {Peoples}, {Pope}, {Rockosi}, {Schlegel}, {Schneider}, {Scoccimarro},
+  {Sheth}, {Siegmund}, {Smee}, {Snir}, {Stebbins}, {Stoughton}, {SubbaRao},
+  {Szalay}, {Szapudi}, {Tegmark}, {Tucker}, {Uomoto}, {Vanden Berk}, {Vogeley},
+  {Waddell}, {Yanny}, \& {York}}]{Zehavi:2002}
+{Zehavi}, I., {Blanton}, M.~R., {Frieman}, J.~A., {et~al.} 2002, \apj, 571, 172
+
+\end{thebibliography}
